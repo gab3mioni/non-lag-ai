@@ -1,0 +1,88 @@
+﻿l_english:
+ITA_expanded_corporatism_modifier_2: "Expanded Corporatism"
+SOV_has_early_war: "The [SOV.GetName] has declared war on another nation."
+FIN_desire_for_vengeance_2: "The Last Line"
+FIN_desire_for_vengeance_2_desc: "[SOV.GetLeader] will never let us live - they will never allow us an independence. Every Finns shall resist to the bitter end."
+mr_pact_fulfillment_threat_SOV_tt: "[POL.GetNameDef] capitulated to [SOV.GetNameDef]"
+usa_fascist_faction: "American Hemisphere"
+AUS_political_events.42.b: "Unfortunate, but anyway..."
+LN_league_of_nation_against_germany_tt: "The League of Nation Considers an Intervention"
+lsm_news.93.t: "The League of Nation"
+lsm_news_ENG_FRA.93.d: "Germany, the menace of the Great War, has declared war on a member state of the League of Nation. In response, [ENG.GetNameDef] and [FRA.GetNameDef] are now rallying to launch a military intervention to the peace found in the aftermath of the previous continental conflict. Only in hindsight might one tell whether Europe has made the correct decision."
+lsm_news_ENG_only.93.d: "Germany, the menace of the Great War, has declared war on a member state of the League of Nation. In response, [ENG.GetNameDef] is now rallying to launch a military intervention to the peace found in the aftermath of the previous continental conflict. Only in hindsight might one tell whether Europe has made the correct decision."
+lsm_news_FRA_only.93.d: "Germany, the menace of the Great War, has declared war on a member state of the League of Nation. In response, [FRA.GetNameDef] are now rallying to launch a military intervention to the peace found in the aftermath of the previous continental conflict. Only in hindsight might one tell whether Europe has made the correct decision."
+lsm_news_no_ENG_FRA.93.d: "Germany, the menace of the Great War, has declared war on a member state of the League of Nation. However, neither [ENG.GetNameDef] or [FRA.GetNameDef] has yet responded with a military intervention. Only in hindsight might one tell whether Europe has made the correct decision."
+lsm_news_GER_war.93.d: "In response to our declaration of war on a member of the League of Nations, western guarantors have retaliated and declared war on ourselves.\n\nOnly time may tell whether the Fuhrer has made a correct decision in rushing ahead with his plan for expansion... or perhaps [GER.GetNameDef] has been too eager, where they should have slowly expanded in peace and force ourselves on our weaker neighbors through diplomatic means..."
+lsm_news_GER_easy.93.d: "Germany, the menace of the Great War, has declared war on a member state of the League of Nation. However, neither [ENG.GetNameDef] or [FRA.GetNameDef] has yet responded with a military intervention. Only in hindsight might one tell whether Europe has made the correct decision."
+lsm_news.93.a: "Aren't we a member too?"
+lsm_news.93.b: "Interesting time."
+lsm_news.93.c: "Vermins!"
+lsm_news_93_tt: "The Fuhrer might have been too eager with his plan for expansion and overestimated his presence on the world stage... §RThe League of Nation is still effective§!"
+ENG_discuss_intervention_tt: "[ENG.GetNameDef] Discusses Global Intervention"
+ENG_discuss_intervention_stronger_tt: "[ENG.GetNameDef] Supports Global Intervention"
+USA_increase_building_slot_in_state: "State-wide Military-Industrial Complex Expansion"
+LSM_startup_78_c_tt: "\n\n§G+Factional civboosting will be enabled between potential allies§!\n"
+marshal_of_quanta_sponda: "Marshal of the Fourth Shore"
+governor_general_of_italian_libya: "Governor-General of Italian Libya"
+ASI_africa_settentrionale_italiana_idea: "Africa Settentrionale Italiana"
+colonial_government_in_north_africa: "Quanta Sponda"
+USA_champion_of_democracy: "Champion of Democracy"
+emergency_factory_conversion_USA: "Wartime Industrial Mobilisation"
+
+LSM_startup.11.aa: "Mass Assault Infantry (Bery Stronk)"
+startup_10d_tt: "§C---Lotta Infanterie Germany. Strength unclear. Is probably not very good---§!"
+
+SWE_cut_the_trade_to_allies: "Enact Preferential Trade Deal with [GER.GetNameDef]
+trade_preference_to_germany: "German-Dominated Trade Influence"
+trade_preference_to_soviet: "Soviet-Dominated Trade Influence"
+URG_emergency_factory_conversion_defensive: "Rural Industrialisation Appropriation"
+
+URG_the_plate_secession: "Federal League Proposition"
+
+LSM_new_world_diplomacy.41.t: "[URG.GetNameDef] proposes Federal Unification"
+LSM_new_world_diplomacy.41.d: "Our friend in South America, [URG.GetLeader], has proposed that we would secede territories formerly belonging to the Federal state which [URG.GetNameDef] has succeeded, hoping to bolster their dosmetic production and strengthen their economic integrity.\n\nOf course, [URG.GetLeader] has promised appropriate compensation for our government and agreed to grant dual citizenship to any citizen in the region."
+LSM_new_world_diplomacy.41.a: "Sure, why not?"
+LSM_new_world_diplomacy.41.b: "It is our land now"
+
+incredibly_funni_navy_stuffs: "Debugging AI Navy"
+incredibly_funni_navy_stuffs_2: "Debugging AI Navy"
+
+LSM_new_world_diplomacy.43.t: "Collapse of the Fourth Shore"
+LSM_new_world_diplomacy.42.t: "Collapse of the A.O.I"
+LSM_new_world_diplomacy.43.d: "The Libyan Military District can no longer resist the pressure at the frontline, with its chain of command having collapsed, and its entirety soon to be absorbed into our regular force once again."
+LSM_new_world_diplomacy.42.d: "Italian East African corp can no longer resist the pressure at the frontline, with its chain of command having collapsed, and its entirety soon to be absorbed into our regular force once again."
+LSM_new_world_diplomacy.42.a: "Minor Setback"
+LSM_new_world_diplomacy.43.a: "Unfortunate Setback" 
+
+ENG_USA_naval_tech_sharing_name: "Allied Naval Know-How"
+ENG_USA_naval_tech_sharing_desc: "Naval Tech Sharing"
+
+LSM_startup.117.b: "GBP Spacemarine (Need tester here)"
+startup_117b_tt: "Is fundamentally the same as 'that' build, but it is not entire the same either."
+
+idea_EGY_army_of_egypt: "Aloof Neutrality"
+idea_EGY_army_of_egypt_desc: "The leadership of Egypt is not supportive of Britain."
+
+LSM_new_world_diplomacy.44.t: "Suez Garrison accepts our protection"
+LSM_new_world_diplomacy.44.d: "Following the civil war in British home isles, the Suez garrison, now stranded amidst an ideological struggle, has surrendered the control of Suez at the demand of the [EGY.GetAdjective] government.\n\nOnce again, the Kingdom of Egypt is whole."
+LSM_new_world_diplomacy.44.a: "United at last"
+
+LSM_new_world_diplomacy.45.t: "Suez Garrison defects"
+LSM_new_world_diplomacy.45.d: "Communication, while incoherent and inconsistent, has pointed out that the Suez garrison has surrendered and defected to Egyptian control as of this morning, marking an end to British over the region as Egypt and other regional protectorates drifting away following news of our civil war."
+LSM_new_world_diplomacy.45.a: "Treacherous"
+
+LSM_new_world_diplomacy.46.t: "Suez Ultimatum"
+LSM_new_world_diplomacy.46.d: "The British government has issued an ultimatum over the control of the Suez channel - to either surrender or to perish."
+LSM_new_world_diplomacy.46.a: "We shall abide"
+LSM_new_world_diplomacy.46.b: "Arabians, unite!"
+
+LSM_new_world_diplomacy.47.t: "Treaty of Suez"
+LSM_new_world_diplomacy.47.d: "The Egyptian government has given in to our ultimatum and returned the control of the Suez channel to Britain, citing their desire for friendship and protection in the region, a point of which the British diplomats have agreed upon."
+LSM_new_world_diplomacy.47.a: "As should be"
+
+LSM_new_world_diplomacy.48.t: "Impasse at Suez"
+LSM_new_world_diplomacy.48.d: "The Egyptian government has ignored our ultimatum and subsequently expelled our diplomats from the negotiation table at Suez, an action in which their antagonistic diplomatic stance to Britain appeared evident.\n\nA call for war has been motioned in the parliament, with politicians and members of the military expecting a retaliating strike to be carried out within the coming days."
+LSM_new_world_diplomacy.48.a: "To war it is"
+
+uk_suez_retake_focus: "Suez Ultimatum"
+uk_suez_retake_focus_desc: "The control of Suez must be returned to Britain, whether by words and by swords."

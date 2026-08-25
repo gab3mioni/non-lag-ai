@@ -1,0 +1,1351 @@
+﻿l_english:
+
+LSM_US_guarantee: "Anglo-American Democratic Values"
+
+LSM_US_guarantee_desc: "A democratic United States under §CFranklin D. Roosevelt§! may intervene to support a democratic Britain during war, if Britain is under threat of a direct attack on their Home Island.\n\n§RCan be disabled in gamerule§!"
+
+RAJ_dominion_state: "Dominion of India"
+
+SSB_formation_of_the_saadabad_pact: "Formalising the Saadabad Pact"
+
+LSM_penal_battalion: "Penal Army"
+
+eco_banned: "Colonial Government"
+
+trade_relation_bonus_high_2: "Monroe Influence"
+
+endsieg_idea_member_2: "Endsieg - [Root.GetFactionName] Victory"
+
+LSM_the_beginning_of_the_end: "World Quest I: The Beginning of The End"
+
+LSM_the_beginning_of_the_end_desc: "The socialists seek to raze the established order and rebuild the world anew. The fate of mankind hangs in balance." 
+
+LSM_the_proclamation: "World Quest II: The Proclamation (Democracy)"
+
+LSM_the_denunciation: "World Quest III: The Denunciation (Communism)"
+
+LSM_twilight_of_the_gods: "World Quest IV: Twilight of The Gods"
+
+LSM_twilight_of_the_gods_desc: "And thus the world comes to an end."
+
+LSM_dawn_of_mankind: "World Quest V: The Dawn of Mankind"
+
+LSM_dawn_of_mankind_desc: "Prayers do not save worlds. Actions do.\n\nGods are dead. Mankind arises."
+
+aggression_rule_1tt: "\n§RTo avoid early apocalypse, major countries with this national spirit will follow these rules:§!\n\n§C1.As faction leader, they will not ally any country at war until June 1938 or above 60% world tension, unless themselves are at war or allowed by script§!\n\n§R2.They will not protect any neutral countries until June 1937 or above 30% world tension.§!\n\n"
+
+aggression_rule_2tt: "\n§RTo avoid early apocalypse, major countries with this national spirit will follow these rules:§!\n\n§C1.As faction leader, they will not ally any country at war until June 1939 or above 80% world tension, unless themselves are at war or allowed by script§!\n\n§R2.They will not protect any neutral countries until June 1938 or above 40% world tension.§!\n\n"
+
+aggression_rule_3tt: "\n§RTo avoid early apocalypse, major countries with this national spirit will follow these rules:§!\n\n§C1.As faction leader, they will not ally any country at war until world tension hits 100%, unless themselves are at war or allowed by script§!\n\n§R2.They will not protect any neutral countries until January 1939 or above 50% world tension.§!\n\n"
+
+ahistorical_major_rule_1: "Aggression Game Rules A (Testing)"
+
+ahistorical_major_rule_2: "Aggression Game Rules B (Testing)"
+
+ahistorical_major_rule_3: "Aggression Game Rules C (Testing)"
+
+LSM_POR_kingdom: "Point of Correction"
+
+gorbatov_unlock_tt: "Gorbatov has been released from Kolyma gold mines\n"
+LSM_startup.4.e: "SFP Mech (testing)"
+FIN_war_recovery: "Post-War Recovery Program"
+FIN_war_recovery_desc: "The Winter War is over, but its shadow over our nation cannot be cast away."
+FIN_desire_for_vengeance: "Desire for Vengeance"
+FIN_desire_for_vengeance_desc: "The people of Finland believe in our ultimate triumph over the Russian menace and a return to the old borders, if not beyond the boundary."
+FIN_mobilization_idea: "General Mobilisation"
+transatlantic_express: "Oceanworthy Maritime Transportation"
+delete_indochina: "Delete Indochina"
+delete_indochina_desc: "Indochina might be a little buggy on very unique occasions beyond my expectation. It was added in the same vein as Italian East Africa, actually. Deleting it should not cause any bug."
+diplomatic_disapproval: "Assisted Germany"
+resource_diplomatic_disapproval: "Assisted Germany"
+JAP_imperial_territory: "Imperial Treaty Territory"
+JAP_demand_puppet_manpower: "Demand Conscription from [FROM.GetNameDef]"
+JAP_demand_puppet_manpower_desc: "Where the Empire demands, her imperial subject must comply."
+LSM_equipment.29.t: "Japan demands our conscription"
+LSM_equipment.29.d: "Our overlord in Japan has demanded us to raise conscription for their war efforts. Considering our relationship, an appropriate respond must be made to this request in due time.
+LSM_equipment.29.a: "Their wish is our command"
+LSM_equipment.29.b: "We must accept for now"
+LSM_equipment.29.c: "They are being unreasonable!"
+LSM_equipment.29.e: "Enough is enough"
+JAP_puppet_of_japan_idea: "Colonial Army of Japan"
+JAP_puppet_of_japan_tt: "§CEvery month, if this subject has spare manpower,§!§R500 manpower§!§C will be deducted from them and §Gadded§!§C to Japanese manpower pool§!"
+AI_aggressive: "Allies think they need to fight"
+AI_aggressive_2: "Allies seriously think they need to fight"
+LSM_new_world_diplomacy.17.t: "[FROM.GetNameDef] has signed the Anti-Soviet Pact"
+LSM_new_world_diplomacy.17.d: "Reports from our network in the [FROM.GetAdjective] government have indicated the involvement of [FROM.GetNameDef] with the Anti-Soviet Pact recently signed by [GER.GetNameDef] and their ideological allies. While retaliating at their involvement might in fact reveal our awareness of the situation, it is clear that we should respond in kind to remind them of their position in the world."
+LSM_new_world_diplomacy.17.f: "Reports from our network in the [FROM.GetAdjective] government have indicated the involvement of [FROM.GetNameDef] with the Anti-Soviet Pact recently signed by [GER.GetNameDef] and their ideological allies."
+LSM_new_world_diplomacy.17.a: "Embargo them before they react"
+LSM_new_world_diplomacy.17.b: "Issue a lodge of warning"
+LSM_new_world_diplomacy.17.c: "Mere bluffs from our opponents"
+LSM_new_world_diplomacy.17.e: "So be it"
+anti_soviet_pact_2: "Anti-[SOV.GetAdjective] Pact Signatory"
+the_more_flavour_stuffs_decision: "Extra Flavour-ish Decision Menu"
+turn_on_the_flavour: "Toggle extra menu"
+santa_for_soviet_union: "Toggle minor Santa Claus event"
+SOV_formation_of_the_moscow_accords: "Formalize a Military Alliance in the East"
+EXILES_DEMOCRATIC: "Formation of the Russian Republic"
+RULE_EXILES_DEMOCRATIC: "Formation of the Russian Republic"
+RULE_OPTION_EXILES_DEMOCRATIC_SOV_AI_DESC: "The Russian Republic will be formed from the ashes of the White Russian civil war."
+GER_to_war_with_target_country: "Sever Diplomatic Relations with [FROM.GetName]"
+GER_communist_refugees_3: "Communist Refugees"
+GER_communist_refugees_2: "Collaboration with Communist Sympathizers"
+GER_HRE_reformation_frenzy: "An Empire Reborn"
+CZE_hijack_austria_hungary_empire: "Hijack the Empire"
+CZE_just_good_business: "Just Good Business"
+ahistorical_add_core_to_claim: "Integrate this state"
+claimed_occupation_law: "Integration"
+LSM_defeat_payment: "Foreign-Controlled Industry"
+LSM_defeat_payment2: "War Reparation"
+formation_of_the_empire: "Foundation of The Empire"
+ahistorical_return_state_system: "Return states to [FROM.GetNameDef]"
+ahistorical_puppet_system: "Release [FROM.GetNameDef] as puppet"
+event_505_tt: "Negotiation with [SOV.GetNameDef]"
+AOI_seat_of_ethiopian_governance: "An African Governance"
+AOI_seat_of_ethiopian_governance_2: "Weakening African Governance"
+AOI_seat_of_ethiopian_governance_tt: "[AOI.GetNameDef] will not surrender for as long as it controls the former capital of Ethiopia."
+LSM_startu2p.77.b: "Disabled for this country on historical"
+mol_rib_warning_1_tt: "§RThe allies of Poland will not take this very kindly and might consider a retaliation.§!"
+LSM_SOV_molotov_ribbentrop_is_important_3: "Fulfill the Pact of Molotov-Ribbentrop"
+LSM_SOV_molotov_ribbentrop_is_important_3_tt: "At most two weeks have passed since the declaration of war on Poland by Germany."
+LSM_GER_SOV.505.a: "The enemy of our enemy?"
+LSM_GER_SOV.505.b: "There shall be no friendship amongst us"
+LSM_GER_SOV.505.t: "Formation of the Berlin-Moscow Axis"
+LSM_GER_SOV.505.d: "In face of the diplomatical landscape having shifted since the beginning of the Second of World War, the mutual understanding of the Soviet Union and the German Reich 
+ENG_a_change_in_course_tt: "§RIncreased political power cost for national spirits and characters by 100%.§!\n\n§CThis effect will be removed when the UK is no longer democratic and replaced with a better modifier.§!"
+ENG_a_change_in_course_idea_2: "A Course Realigned"
+ENG_a_change_in_course_2_tt: "§CReduced political power cost for government ideas by §!§G-15%§!."
+LSM_startup.76.v: "(Test/Experimental) Perpetual Paranoia USSR"
+startup_76_tt_va: "The Soviet Union will embrace perpetual paranoia until very late into the game. In return, Baltic countries will turn communists, and Finland shall stay out of war for as long as the Soviet Union does not bother touching them."
+formation_of_the_reichspakt: "An Emergency Session in Central Europe"
+limit_collab_number: "Enforce limit on number of subjects for AI"
+GER_KR_enhanced: "Arms of the Greater Reich"
+LSM_alone_idea: "Limited Factional Interaction"
+CZE_deal_with_austria: "Deal with [AUS.GetNameDef]"
+CZE_deal_with_austria_desc: "The former crownlands of the since crumbled empire shall once again be united - this time under the protection of [CZE.GetNameDef]."
+endsieg_idea_member: "Endsieg - The Final Struggle"
+LSM_surrender_limit: "Shock of Defeat (Ally)"
+surrender_limit_tt: "\n§RThe duration will extend by 2 weeks if any other allied country with this national spirit capitulates.§!"
+SWI_frozen_assets_tt: "This national spirit will be removed as soon as Switzerland capitulates."
+HOL_relocated_resource_to_army: "Allocating Resources to Army Organisation"
+HOL_relocated_resource_to_technology: "Allocating Resources to Technological Improvement"
+ENG_alliance_with_nepal: "Alliance with [NEP.GetLeader]"
+ENG_alliance_with_nepal_desc: "The friendship between [NEP.GetNameDef] and [ENG.GetNameDef] has always been a historic aspect of the relationship between our nations. Their troops have fought amongst ours during World War I and the Indian Mutiny - it is time to request their asssistance once again."
+LSM_equipment.28.t: "Public Donation"
+LSM_equipment.28.d: "The patriots of the United States of America have donated a batch of rifle through the National Rifle Association. While most of which are old rifles, there is no doubt that this will contribute towards the effort of the United States in the ongoing conflict."
+LSM_equipment.28.a: "Freedom's Safest Place!"
+startup_10a_tt: "§G+Fast tanks go vrrooom vrrooom.§!\n\n§R-Weakest doctrine for Germany AI if you can solidly hold.§!\n§G+Strongest doctrine for Germany AI if you are falling apart§!"
+startup_10b_tt: "§CRecommend option:§!\n§G+Balanced and better overall performance for Germany AI.§!"
+startup_10c_tt: "§R---Filled with Blursed Germany build that might kill players sometimes---§!"
+startup_10d_tt: "§R---Light tanks Germany. If you are unworthy, you shall die very quickly---§!"
+startup_10e_tt: "§R---Spacemarine Germany. Very hard to tell whether it works---§!"
+startup_10g_tt: "§R---Vrroooomm Vrroooommmm VRRROOOOMMMMMMMM---§!"
+startup_1a_tt: "§CRecommend option:§!\n§G+Balanced and better overall performance for Soviet AI.§!"
+startup_1b_tt: "§GWeaker overall Soviet AI, might be good for newcomers.§!"
+startup_1c_tt: "§C---Either you kill them quick or you might actually die later.---§!"
+startup_1d_tt: "§R---Filled with Blursed Soviet build that might kill players sometimes---§!"
+AI_send_infantry_equipment_to_soviets: "Support [SOV.GetNameDef]"
+startup_76_tt_e2: "§CAlso affects: Japan will not make any unexpected move against the Soviet Union if the Far-eastern borders are unguarded.§!"
+LSM_new_world_diplomacy.14.t: "Minor border crash with Japan"
+LSM_new_world_diplomacy.14.d: "Report has shown that the Japanese army has increased their presence at our borders in the Far-East. It is strongly urged that we monitor the situation to prepare for any possible incursion from the Empire of Japan, lest our weaker flank be exploited in moments of weakness."
+LSM_new_world_diplomacy.14.a: "Send more troops into the region"
+LSM_new_world_diplomacy_14_a_tt: "§CChain event for Khalkhin Gol border conflict, but I have not completed it yet.§!\n\n§RBe mindful that you should still put troops against Japan in case I forget to update this tooltip. Something like§! §C8 divisions in Vladivostok§! §Rwill do.§!"
+LSM_new_world_diplomacy.14.b: "Do not be provoked"
+GER_KR_limit: "German puppet states"
+GER_KR_limit_desc: "This regime is considered illegitimate by its own people."
+GER_KR_limit_2: "German puppet states"
+GER_KR_limit_2_desc: "This regime is considered illegitimate by its own people."
+LSM_france_intervention_scw_tt: "§RTaking this focus will drag [FRA.GetNameDef] into the Spanish Civil War immediately, be prepared.§!\n"
+winter_war_ns_tt: "Losing any core states while this national spirit is active will incur §R-10% war support§! and §R-10% stability§! if Finland has not formed a Military Government.\n\nRetaking lost cores will recover the lost stability and war support."
+USA_tora_tora_tora_idea: "Lima Charlie! Lima Delta!"
+USA_tora_tora_tora_idea_desc: "The United States of America has seized the initiative in the war in the Pacific, thoroughly exploiting the unpreparedness of Japan to execute a series of attack across the islands."
+lsm_news.1115.t: "Lima Charlie! Lima Delta!"
+lsm_news.1115.d: "With the fleets of the Empire of Japan now in full throttle against the British, the United States of America has seized the initiative to escalate the war in the Pacific, thoroughly exploiting the unpreparedness of Japan to execute a series of attack across the region. Despite the waning war support from the Home Front, president [USA.GetLeader] has called for national unity and a united front against the rising threat of extremism both from Europe and from Asia.\n\nThere will be no further discussion, no further debates - the United States of America will bear its might upon those evildoers that have threatened democracy!"
+lsm_news.1115.a: "Treacherous!"
+lsm_news.1115.b: "And so it begins."
+LSM_new_world_diplomacy.12.t: "The War in Asia-Pacific"
+LSM_new_world_diplomacy.12.d: "The Empire of Japan has declared war on Britain, threatening the sovereignty of our democratic bastion in Europe. The War Department has presented the president with a war plan against Japan, which the War Plan division has drafted as a back up in preparation for the state of Emergency."
+LSM_new_world_diplomacy.12.a: "Intervention in the Pacific"
+LSM_new_world_diplomacy.12.b: "Not our problem"
+LSM_new_world_diplomacy.13.t: "The Day of Dignity"
+LSM_new_world_diplomacy.13.d: "The Arsenal of Democracy arouses, its infurating indignation stirred, the full might of the United States wakes up at last.\nThe time for war has begun."
+LSM_new_world_diplomacy.13.a: "For Democracy!"
+LSM_new_world_diplomacy.13.b: "The Giant Wakes"
+LSM_new_world_diplomacy.13.c: "Let's call it off"
+LSM_startup.76.gg: "China is truly China"
+startup_76_tt_gg: "China will make pure meat stacks"
+SOV_early_dev: "Technological Advance"
+LSM_equipment.23.t: "The United States delivered old rifles"
+LSM_equipment.23.d: "Our valuable ally, [FROM.GetNameDef] has delivered a massive shipment of equipment to contribute to our war effort."
+LSM_equipment.23.a: "Bestie forever"
+LSM_equipment.23.b: "Old rifles?? What a joke!"
+LSM_startup.76.m: "Make my life better please"
+startup_76_tt_v: "\n§CThe following effects will be applied:§!\n1. Swiss Gold will be provided to both Italy and Germany when WW2 begins.\n2. Once Yugoslavia completes Unite the Kingdom, all foreign guarantees will be removed."
+AI_FRA_SOV_HT_licensing: "Joint Armour Development with [SOV.GetNameDef]"
+AI_plane_licensing_GER_ITA: "Finalise Aircraft Licensing"
+AI_plane_licensing_ENG_Allies: "Finalise Aircraft Coordination"
+lsm_news.1114.t: "Operational Berlinossa"
+lsm_news.1114.d: "This morning, under the direct command of [SOV.GetLeader], Operation Berlinossa was commenced across the [SOV.GetAdjective]-[GER.GetAdjective] borders. \n\nIn the official war declaration, the [SOV.GetAdjective] government has outlined the three keypoints of the Gateway to Peace, highlighting the total capitulation of the Central European menace, a complete demilitarisation, and the liberation of the various states across Europe.\n\nWith the entrance of the [SOV.GetNameDef] into the Second World War, the end to war might be closer than ever."
+lsm_news.1114.a: "For the liberation of Europe!"
+lsm_news.1114.b: "May war end at last."
+every_man_a_soldier: "Every Man a Soldier"
+every_man_a_soldier_desc: "In time of need, every man shall fight, whether with stick, with stone, or even their bare fists. In time of struggle, every man shall fight to their last breath!"
+a_society_at_war: "A Society at War"
+a_society_at_war_desc: "In time of need, even children shall fight, whether with stick, with stone, or even their bare fists. In time of struggle, everybody shall fight to their last breath!"
+LSM_equipment.22.t: "A Country at War!"
+LSM_equipment.22.d: "China is under attack, her sovereignty and freedom is being threatened by the tyranny of Japan. With little time we have left to mobilise for our confrontation, we must decide the path for China to go forward.\n\nLi Zongren, the architect of our defense, suggests a radical social mobilisation to bolster our military production, while the Generalissimo's vision is to reform our bureaucratic measures to strengthen our army."
+LSM_equipment.22.a: "Bolster our production"
+LSM_equipment.22.b: "Strengthen our army"
+SOV_into_the_summer: "Renewed [SOV.GetAdjective] Offensive"
+SOV_into_the_summer_desc: "Just as the [SOV.GetAdjective] Army is adapting to the harsh environment, summer begins to approach Finland and the snow begins to clear, the time for a renewed offensive is dawning upon the Finnish defenders."
+BUL_due_compensation: "Industrial Agreement with Italy"
+CHL_align_america_democratic: "Continental Political Alignment"
+CHL_align_america_nonaligned: "Continental Political Alignment"
+CHL_align_america_fascism: "Continental Political Alignment"
+CHL_align_america_communism: "Continental Political Alignment"
+speed_optimization: "Offload some useless AI countries"
+dead_country: "Dead Country"
+dead_country_desc: "Any war declaration on these countries from players will incur -100% stability and -100% war support."
+CAN_ENG_british_exodus: "British Exodus"
+chief_or_artillery_1: "Chief of Artillery"
+chief_or_artillery_2: "Marshal of Artillery "
+chief_or_artillery_3: "Artillery Academy President"
+SOV_nikolay_nikolayevich_voronov: "Nikolay Voronov"
+chief_or_artillery_tt_2: "\n\nWill be §Ypermanently upgraded§! to §YArtillery Attack§!: §G+20.0%§! and §YArtillery Defense§!: §G+10.0%§! after §R10,000§! artillery pieces have been deployed\n"
+chief_or_artillery_tt_1: "\nWill be §Ypermanently upgraded§! to §YArtillery Attack§!: §G+25.0%§! and §YArtillery Defense§!: §G+15.0%§! after §R20,000§! artillery pieces have been deployed\n"
+
+decision_cost_d_day_convoy_cp: "£GFX_topbar_convoys §Y50§!  £command_power §Y10§!"
+decision_cost_d_day_convoy_cp_blocked: "£GFX_topbar_convoys §R50§!  £command_power §R10§!"
+
+d_day_preparation_state_decision: "Military Preparation in [FROM.GetName]"
+d_day_preparation_state_decision_desc: "Strengthening the supply lines and stockpiles at the starting point will greatly enhance our combat effectiveness at the destination"
+
+d_day_preparation_state_modifier: "Military Preparation"
+
+CAN_ENG_british_exodus_desc: "With the Home Front in chaos from political turmoil, thousands upon thousands of Britons flee to [CAN.GetNameDef], hoping to find a new life beyond the wretched state of their Home Island."
+
+LSM_equipment.21.t: "[CAN.GetNameDef] seizes Newfoundland"
+
+LSM_equipment.21.d: "This early morning, the Canadian army has moved to secure our territories in Newfoundland under the policy of protection for Canadian and British citizens who seek refugees from the political turmoil in [ENG.GetNameDef]. Their treacherous act has been carried out in our moment of weakness, where our attention was focused on our own political struggle."
+
+LSM_equipment.21.a: "It is what it is"
+
+LSM_equipment.21.b: "They owe their existence to us!"
+
+LSM_prepare_for_war_2: "Emergency Training Program"
+
+ENG_english_electric_organization: "English Electric"
+
+FRA_mas_support_organization: "MAS Electronic Division"
+
+training_is_good: "AI is at peace"
+
+training_is_alright: "AI is at war"
+
+training_is_goodmm: "AI is at peace"
+
+training_is_alrightmm: "AI is at war"
+
+FRA_intervene_in_spain: "Intervene in Spain"
+
+LSM_startup.76.n: "Hyper-Ultra France"
+
+LSM_startup.76.p: "Standard France"
+
+startup_76_tt_m: "§RMeet France, your supermajor neighbor (unless they die early heh)§!"
+
+startup_76_tt_p: "Classic France, nothing to too serious"
+
+d_day_launch_tt_a: "§RDue to an insufficient preparation, this hastily and violented executed plan will yield less immediate bonus under a lack of coordination between Allied nations§!\nGive the Allies at least 180 days to receive the full effect of D-Day bonuses."
+
+d_day_launch_trigger_tt_a: "\nEither the United Kingdom or the United States have launched their plan."
+
+d_day_launch_trigger_tt_b: "\nAt least 240 days of preparation has been carried out."
+
+d_day_launch_trigger_tt_c: "\nAt least 120 days of preparation has been carried out."
+
+lsm_news.1112.t: "The Beginning of The End?"
+
+lsm_news.1112.d: "This morning, leaders of global leading countries have convened in the absence of §R[FROM.GetNameDef]§!, discussing the rising tension caused by a single nation in Europe and the possibility of a coming world war, as well as the possibility of an international effort to contain the coming threat.\n\nWhile little is known of the details, there is no voice of condemnation from any parliament with regards to the commitment of their respective head of state towards [FROM.GetNameDef], which has by now already extended its influence across Europe and all over the world."
+
+lsm_news.1112.a: "So be it."
+
+lsm_news.1112_a_tt: "You have caused too much world tension and threatened the sovereignty of Europe, forcing other nations to band together under one banner to contain the rising threat.\nNow you may enjoy your game of Ragnarok."
+
+lsm_news.1112.b: "To the defense of global freedom."
+
+lsm_news.1112.c: "Here comes a rising tension..."
+
+RAJ_developing_state_1: "Developing State"
+
+RAJ_developing_state_2: "Developed State"
+
+RAJ_developing_state_3: "Modernized State"
+
+RAJ_unlock_tata_steel_tt: "\nDecisions to expand Tata Steel will be available after researching Excavation III."
+
+expand_tata_steel: "Expand Tata Steel"
+
+d_day_preparation_tt: "\n§CD-Day preparation will be underway, and the following effects will be implemented:§!\n\n§G+ Allied minors will begin to stack up their troops around Europe to assist with the landing§!\n§G+ Allied majors will begin the naval invasion preparation§!\n§G+ Gain 300% research bonuses on Landing Craft technology§!\n§G+ If at peace with players and at war with Germany, AI [SOV.GetNameDef] will be signaled for Bagration§!\n§R- Forced naval invasion preparation time to increase until D-Day commences§!\n\nAfter §R120 days§!, player US/UK will be able to signal every Allied AI to commence D-Day, after §R240 days§! otherwise, actual time may vary depending on the initiator/war situation, but §Rwill not§! be any later than January 1944.\n\nSelect it with care."
+
+equipment_20_tt_a: "\n§YAll Artillery§!:§G+200% Soft Attack§! & §R-50% Breakthrough§!\n§YAll Divisions§!:§G+20% Coordination§! & §R-6% Reinforce Rate§!"
+
+equipment_20_tt_b: "\n§YAll Flame Tank§!:§G+10%§! to §G+50%§! Terrain Bonuses & §RIncrease experience losses and reduce trickleback§!"
+
+LSM_equipment.20.c: "How about more nuclear weapons?"
+
+ITA_integrate_the_north_african_government: "Absorb the [LBA.GetAdjective] Military District"
+
+ITA_integrate_the_north_african_government_desc: "The government of [LBA.GetNameDef] has outlived their purpose. It is time to reintegrate the administration into our system."
+
+LSM_new_world_diplomacy.6.g: "Integrate Manchu and Form China"
+
+HOL_forming_the_benelux: "A New Treaty of Benelux Cooperation"
+
+china_to_other_chinas: "Nationalist Government Research Program"
+
+AI_aa_licensing: "Coordinate Anti-Air Production"
+
+AI_aa2_licensing: "Coordinate Anti-Air Production"
+
+AI_aa3_licensing: "Coordinate Anti-Air Production"
+
+ITA_interventionism: "Italian Interventionism"
+
+AI_plane_licensing_nd2: "Coordinate Fighter Research"
+
+AI_plane_licensing_nd1: "Coordinate Fighter Research"
+
+LSM_startup.1.f: "Mobile Warfare"
+
+LSM_startup.82.a: "New Test Build"
+
+LSM_startup.82.aa: "New Test Build 2"
+
+LSM_startup_82_a_tt: "Large infantry, higher aggressiveness.\n\n§CMight be a potent test build§!\n\n§GTry your best.§!"
+
+LSM_startup_82_aa_tt: "Large infantry, high aggressiveness, but less airforce than the other one.\n\n§CMight be a potent test build§!\n\n§GTry your best.§!"
+
+LSM_startup.82.b: "Mecha Warfare"
+
+AI_arty1_licensing: "Coordinate Artillery Production"
+
+AI_arty2_licensing: "Coordinate Artillery Production"
+
+AI_arty3_licensing: "Coordinate Artillery Production"
+
+AI_gun1_licensing: "Coordinate Rifle Production"
+
+AI_plane_licensing_backlog: "Plane Licensing"
+russo_pusso: "Ichi-Go"
+anti_soviet_separatism_0: "Nationalist Anti-Russian Separatism"
+
+anti_soviet_separatism_0_desc: "The population of this region has grown distrustful towards the [SOV.GetAdjective] regime, and their recent reintegration into [SOV.GetNameDef] has been a distasteful endeavour, causing its people to resist this process of reintegration.\n\n§CThis state will be automatically reintegrated into the Soviet Union once the separatism tires out, becoming a core territory of [SOV.GetNameDef] if it has previously been claimed.§!"
+
+SOV_recovery_from_the_shock: "Recovery from the Initial Distrust"
+
+SOV_recovery_from_the_shock_desc: "While several sectors amongst the population has grown supportive of the present separatist sentiment across the various integrated SSR in Eastern Europe due to the initial stance of the [SOV.GetAdjective] army, as well as their ability in defending the population from the invaders, trust may gradually be earnt again as they organise themselves to resist the ongoing aggression.\n\n§C[SOV.GetNameDef] will gain 1% stability and 1% war support on monthly basis to counteract the current losses of trust.§!"
+
+anti_soviet_separatism_3: "Rampant Nationalist Anti-Russian Separatism"
+
+anti_soviet_separatism_2: "Significant Nationalist Anti-Russian Separatism"
+
+anti_soviet_separatism_2a: "Moderate Nationalist Anti-Russian Separatism"
+
+anti_soviet_separatism_1: "Weak Nationalist Anti-Russian Separatism"
+
+pro_soviet_sentiment_1: "Pro-government Ideological Strongholds"
+
+anti_soviet_separatism_3_desc: "The [SOV.GetAdjective] army has poorly guarded these territories, or might have even treated the populace as outsiders not worthy of protection. As a consequence, rampant separatism from the local nationalists has broken out in favour of the German aggressors.\n\n§RThis rampant distrust has caused a loss of 1% stability and 1% war support.§!"
+
+anti_soviet_separatism_2_desc: "The [SOV.GetAdjective] army has withdrawn and given up on these territories without any significant resistance. As a consequence, significant separatism from the local nationalists has arisen in favour of the German aggressors.\n\n§RThis significant distrust has caused a loss of 1% stability and 1% war support.§!""
+
+anti_soviet_separatism_2a_desc: "While certain amount of resistance persisted, the [SOV.GetAdjective] army has withdrawn and given up on these territories without effective defence. As a consequence, moderate separatism from the local nationalists has arisen in favour of the German aggressors."
+
+anti_soviet_separatism_1_desc: "The [SOV.GetAdjective] army has been forced to withdrawn from these regions due to circumstance of war. While separatist sentiment cannot be denied in these regions, the strong presence of the Soviet army has bolster the populace and prevented large scale separatism."
+
+pro_soviet_sentiment_1_desc: "The [SOV.GetAdjective] army has defended these territories to the last men. Their bravery has inspired the populace to take up arms against the aggressors.\n\n§RFor this example of gallantry, [SOV.GetNameDef] gains 1% war support.§!"
+
+train_train_train: "AI controlled nation"
+
+train_train_train_2: "Player-controlled nation"
+
+LSM_GER_SOV_santa_GER_tt_1: "§RThis path comes with both benefits and risks§!"
+
+LSM_GER_SOV_santa_GER_tt_2: "§CThis is the appropriate choice§!"
+
+SOV_unprepared_offensive: "Underprepared Large-scale Offensive"
+
+BLITZKRIEG_DESC_2: "§RNot actually recommended because I am not done with it at all. I would greatly appreciate it if somebody could help me matching data by AI from a 1939 save into the start date but let's not bother with it, honestly.§!"
+
+disable_churchill: "Prevent Churchill from fleeing the United Kingdom and prolong the war"
+
+disable_churchill_desc: "In case you really hate to continue the war with the Allies into the New World"
+
+LSM_equipment.10.t: "Military Attache Request"
+
+LSM_equipment.10.d: "The [FROM.GetAdjective] government is requesting our government to approve a military observation mission with regards to our ongoing conflict. Of course, while our government has no obligation to agree, there is always something to gain from this exchange between our nations"
+
+LSM_equipment.10.a: "Yes"
+
+LSM_equipment.10.b: "No"
+
+LSM_equipment.10.c: "Never"
+
+LSM_equipment.20.t: "The Final Resistance"
+
+LSM_equipment.20.d: "[JAP.GetNameDef] has launched a bold campaign of utilizing lunge mines where their soldiers would charge at our vehicles in a suicide attack, exploiting the chaotic frontline to their advantage.\n\nIn light of the rising casualties, the high command has been given no choice but to concentrate their effort on honing the most important weapons in the battlefield, hoping to save more lives than we have lost."
+
+LSM_equipment.20.a: "We need better flamethrower"
+
+LSM_equipment.20.b: "We will annihilate them from afar"
+
+ETH_join_the_allies: "Join the Allies"
+
+beacon_of_reform_1: "Reforms and Reorganisation"
+
+AI_plane_licensing_CAN_US: "Plane Licensing"
+
+booming_international_trade: "Booming International Trade and Commerce"
+
+training_is_good: "Deployment Training Priority"
+
+AI_plane_licensing_ENG_SOV: "Plane Licensing"
+
+LSM_neutrality_idea: "Neutral Nations"
+
+LSM_neutrality_idea_desc: "These countries will try their best to stay neutral, away from the ongoing conflict, and will only ever actively drop their neutral stance at the conclusion of war, unless §Rattacked§!, or §Yneutrality stance is no longer respected§!, or §Git has become clear that a hegemony in Europe has been established§!.\n\n§GSeriously, don't attack the neutral European countries on historical if you don't want the rest to join the other side.§!"
+
+evacuation_from_france: "Emergency Evacuation"
+
+natural_heat_acclimatization: "Tropical Affinity"
+
+natural_heat_acclimatization_2: "Tropical Habitants"
+
+natural_winter_acclimatization: "Winter Affinity"
+
+natural_winter_acclimatization_2: "Winter Habitants"
+
+SOV_diversify_special_forces: "Diversify Special Force"
+
+GER_ally_border_ignore: "Remove support request to allied nations"
+
+SOV_retrain_paratrooper: "Retrain Paratrooper Units"
+
+SOV_convert_paratrooper_to_elite_guard: "Convert Paratroopers into Elite Guards"
+
+GER_ally_border_defense: "Request emergency support from allied nations"
+
+GER_ally_border_defense_tt: "Friendly nations will try their best to intervene in the current situations and aid Germany with the emerging crisis"
+
+LSM_GER_SOV.99.t: "The Soviet Union seized Baltic states"
+
+FRA_france_undividable_2: "One Union Indivisible"
+
+LSM_GER_SOV.99.d: "Following our withdrawal after the secession of the Eastern Polish states, the Soviet Union has quickly moved in to seize the rest of the Baltic states which had previously been under our protection. While this motion may have appeared unexpected, it was only reasonable for the Soviet Union given that we are not in the position to defend the states of which they themselves have claimed under the their sphere of influence.\n\nPerhaps all we can do for now is to bear with this."
+
+LSM_GER_SOV.99.a: "Not much we can do"
+
+organise_legion_volunteer: "Organise Expeditionary Force"
+
+makeshift_construction: "Rapid Air Deployment"
+
+LSM_production_licensing_idea2: "Improved Production Tooling"
+
+SWE_ball_bearing_idea_a: "Ball Bearing Trade with Sweden"
+
+LSM_equipment.1.t: "Infantry equipment shipment from [FROM.GetNameDef]"
+
+LSM_equipment.2.t: "Artillery equipment shipment from [FROM.GetNameDef]"
+
+LSM_equipment.3.t: "Support equipment shipment from [FROM.GetNameDef]"
+
+LSM_equipment.4.t: "Anti-tank equipment shipment from [FROM.GetNameDef]"
+
+LSM_equipment.5.t: "Anti-air equipment shipment from [FROM.GetNameDef]"
+
+LSM_equipment.6.t: "Truck shipment from [FROM.GetNameDef]"
+
+LSM_equipment.7.t: "Half track shipment from [FROM.GetNameDef]"
+
+LSM_equipment.8.t: "Equipment shipment from [FROM.GetNameDef]"
+
+LSM_equipment.9.t: "Expeditionary force from [FROM.GetNameDef]"
+
+LSM_equipment.9.d: "Our valuable ally, [FROM.GetNameDef] has organised a special military group to join our armed force and to fight alongside at the frontline."
+
+LSM_equipment.11.t: "Technological Advance from [FROM.GetNameDef]"
+
+LSM_equipment.11.d: "[FROM.GetNameDef] wishes to notify that they have finished researching a marvelous technology that we do not yet possess, suggesting that we should perhaps take advantage of this endeavour to align the scientific interest between our nations."
+
+LSM_equipment.11.a: "Okay"
+
+LSM_equipment.1.d: "Our valuable ally, [FROM.GetNameDef] has delivered a massive shipment of equipment to contribute to our arsenal."
+
+LSM_equipment.1.a: "Thank you, my friend."
+
+LSM_startup.77.t: "Friendly AI Capabilities"
+
+LSM_startup.77.d: "This event enables the selection for the usefulness of friendly AI for Germany. The bare minimum of scripted logic will be upheld; however, a limit may be imposed on certain aspects of their general performance.\n\nHover on each option for tooltips."
+
+LSM_startup.78.d: "This event enables the selection for the usefulness of friendly AI for the Soviet Union. The bare minimum of scripted logic will be upheld; however, a limit may be imposed on certain aspects of their general performance.\n\nHover on each option for tooltips."
+
+LSM_startup.79.d: "This event enables the selection for the usefulness of friendly AI for France. The bare minimum of scripted logic will be upheld; however, a limit may be imposed on certain aspects of their general performance.\n\nHover on each option for tooltips."
+
+LSM_startup.77.a: "Weaken friendly AI logic"
+
+LSM_startup.77.b: "Strengthen friendly AI logic"
+
+LSM_startup.77.c: "Slightly enhance friendly AI logic"
+
+LSM_startup.80.d: "This event enables the selection for the usefulness of friendly AI. The bare minimum of scripted logic will be upheld; however, a limit may be imposed on certain aspects of their general performance.\n\nHover on each option for tooltips."
+
+startup_76_tt_a: "\n\n§C-France will remain relatively historical in terms of combat power and industry§!\n"
+
+startup_76_tt_aa: "\n\n§GAI will remain largely in-line with their best effort in the first option§!\nExcept:\n§C-Instead of fighting in mainland Europe, the Allies will be more willing to yield mainland Europe in accordance with history.§!\n\n§RWarning§!-Might §RNOT§! actually be easier for Axis, but that is why it is being tested."
+
+startup_76_tt_c: "\n\n§RWarning§!: May plummet Axis performance\n\n§C-Every nation will stick more closely to vanilla focus sequence§!\n§C-Counter Barbarossa will be disabled for the Soviet Union§!\n§C-The United Kingdom and Winston Churchill will not continue the war from Canada should Britain capitulate early§!\n§C-D-Day and some other events on the timeline will be delayed closer to their historical dates§!\n§R-Friendly AI will no longer mechanically bolster German industry through trading (override AI usefulness event)§!\n§R-Switzerland will not trade gold with Germany until the outbreak of World War 2§!\n"
+
+startup_76_tt_d: "\n\n§RWarning§!: May plummet Axis performance\n\n§C-Every nation will stick more closely to vanilla focus sequence§! \n§C-Counter Barbarossa will be disabled for the Soviet Union§!\n"
+
+startup_76_tt_e: "\n\n§C-Weaken Germany and Axis industrial power as well as disabling certain faction interaction§!\n"
+
+startup_76_tt_b: "\n\n§C-Limit will not be imposed on France and Balkan nations§! \n§C-The Soviet Union may retaliate if Molotov Ribbentrop has not been signed after World War 2 has begun§! \n§C-Certain Allied AI behaviours are also modified§!\n"
+
+LSM_startup_80_a_tt: "\n\n§R-AI may try to sabotage the players§!\n"
+
+LSM_startup_80_b_tt: "\n\n§G+Players will be notified of certain things§! \n§G+Players will be civboosted by AI as long as a friendly relation is maintained§!"
+
+LSM_startup_77_a_tt: "\n\n§R-Factional civboosting will be disabled§! \n§R-Swiss Trade Agreements will not be accessible until certain date§! \n§R-Players will not be notified of AI technology progress§! \n§R-Mass mob minors will deploy less troops§! \n§R-Equipment funnelling between AI to players will be disabled§! \n§R-Players can no longer ask for license ahead of time from non-faction members§R\n"
+
+LSM_startup_77_b_tt: "\n\n§G+Factional civboosting will be enabled between potential allies and certain majors§! \n§G+Players will be notified of certain things§!\n"
+
+LSM_startup_77_c_tt: "\n\n§G+Factional civboosting will be enabled between potential allies and certain majors§! \n§G+No particular effect will be imposed§!\n"
+
+LSM_startup.80.b: "Standard friendly AI logic"
+
+LSM_startup_77_d_tt: "\n\n§CNo particular effect will be imposed on players or AI§!\n"
+
+LSM_startup_78_a_tt: "\n\n§R-Potential allies may actively screw you up§! \n§R-Factional civboosting will be disabled§! \n§R-Swiss Trade Agreements will not be accessible until certain date§! \n§R-Players will not be notified of AI technology progress§! \n§R-Mass mob minors will deploy less troops§! \n§R-Equipment funnelling between AI to players will be disabled§! \n§R-Players can no longer ask for license ahead of time from non-faction members§R \n"
+
+LSM_startup_78_b_tt: "\n\n§G+Factional civboosting will be enabled between potential allies and certain majors§! \n§G+Players will be notified of certain things§! \n§G+Potential allies may try not to actively screw you up§! \n"
+
+reduced_food_consumption: "Extensive Rationing"
+
+vanilla_navy: "Naval Construction Effort"
+
+idea_JUNO_truck_production_cost_b: "Mechanization Effort"
+
+LSM_prepare_for_war: "War Preparation"
+
+LSM_new_world_diplomacy.11.t: "European Economic Recovery Plan"
+
+LSM_new_world_diplomacy.11.d: "Now that the war in Europe is over, the whole continent lies tattered and in ruins. While many other economic recovery plans are in place, without the tremendous wealth of the United States, the recovery of Europe will be a long and difficult process. One may only hope that one day, the Old World would be restored to its pre-war beauty and glory."
+
+LSM_GER_SOV.201.t: "The Collapse of Mainland European Democracies"
+
+LSM_GER_SOV.201.d: "Following the collapse of democratic states in Western Europe, it is now evident that the next step for the Reich is sweep through the remaining states in Europe. As it stands, Germany has today issued their so-called willingness to protect Poland from the Communist menace as well as offering us the technological advances of the Axis best and brightest. Of course, [GER.GetLeader], who has been very happy with the previous Treaty of Danzig, sees this as an opportunity for Poland to integrate itself into a new future for Europe, and to that end, [POL.GetLeader] will have to give a response.\n\nIt is always better if we answer in a timely manner to the benefactor of our current state of Poland, however damned they may be."
+
+LSM_GER_SOV.201.a: "Seek protection from [GER.GetNameDef]"
+
+LSM_GER_SOV.201.b: "Embrace our own destiny"
+
+LSM_GER_SOV.201.c: "Seek a peace negotiation through [SOV.GetNameDef]"
+
+LSM_GER_SOV.201.e: "Seek protection from [SOV.GetNameDef]"
+
+LSM_prepare_for_WW2: "The Looming Threat of World War"
+
+LSM_new_world_diplomacy.11.a: "Good idea"
+
+LSM_new_world_diplomacy.11.c: "Extend the offer to Soviet Bloc"
+
+LSM_new_world_diplomacy.11.b: "We have no reasons to do it"
+
+marshall_plan_allies: "Marshall Plan Recipient"
+
+marshall_plan: "Marshall Plan"
+
+marshall_plan_b: "Marshall Plan"
+
+marshall_plan_soviet: "Marshall Plan"
+
+SOV_construction_workers: "For Every Hit of Hammer"
+
+SOV_to_the_last_man: "The Will of The People"
+
+SOV_for_the_motherland_1: "The Motherland Calls"
+
+SOV_for_the_motherland_2: "The Motherland Calls"
+
+SOV_for_the_motherland_3: "The Motherland Calls"
+
+SOV_for_the_motherland_4: "The Motherland Calls"
+
+LSM_GER_SOV.200.t: "A Word of Warning from the General Staff"
+
+LSM_GER_SOV.200.d: "Concerned with the current diplomatic circumstance, the General Staff has presented to [GER.GetLeader] a proposal today, alongside a warning of the possibility of a two-front wars, provided that the [SOV.GetNameDef] may turn into a potential hostile force. Of course, while their concern is not entirely unfounded, it is clear that the [SOV.GetNameDef] is in no position to wage war at the moment; as such, it is entirely possible whatever diplomatic stance of theirs may turn out to be a complete bluff.\n\nHowever, given that our objective may align for the time being, it should perhaps be considered that a non-aggression treaty between the two nations may be of the best interest."
+
+LSM_GER_SOV.200.a: "Why not focus on the war first?"
+
+LSM_GER_SOV.200.c: "We have other obligations to fulfill"
+
+LSM_GER_SOV.200.b: "What can those Slavic even do?"
+
+pushing_the_general_staff: "Encouraged the General Staff"
+
+pushing_the_general_staff_2: "Greatly Empowered General Staff"
+
+pushing_the_general_staff_2_desc: "We have dedicated every ounce of effort into our war in the West to quickly stomp out any opposition."
+
+pushing_the_general_staff_3: "Complete Disarray Amongst the General Staff"
+
+pushing_the_general_staff_3_desc: "Whether our great leader has planned for this all along, the sudden war with the Soviet Union has caught the General Staff, which had until then been focusing its effort on the war elsewhere, causing the whole structure to collapse into chaos and disarray. It will take time to recover."
+
+challenged_by_the_general_staff: "Concern by the General Staff"
+
+JAP_nuke_3: "Has executed the third nuclear strike against [JAP.GetNameDef]"
+
+JAP_nuke_4: "Has executed the fourth nuclear strike against [JAP.GetNameDef]"
+
+JAP_nuke_5: "Has executed the fifth nuclear strike against [JAP.GetNameDef]"
+
+convoy_panic: "Emergency Evacuation"
+
+fuel_sharing: "Fuel Sharing Program"
+
+JAP_for_the_emperor_ns: "Emergency Training Program"
+
+JAP_emergency_training_program: "Enact Emergency Army Conscription"
+
+EU_formation_of_european_union: "Formation of the European Union"
+
+GER_mol_rib_warning_tt: "\n\n§CWithout a non-aggression pact between the German Reich and the Soviet Union, the possibility of Soviet aggression cannot be dismissed!§! \n\n"
+
+ENG_imperial_federation_is_real: "Formation of the Imperial Federation"
+
+war_time_infrastructure: "Extra Infrastructure Effort"
+
+peacetime_infrastructure: "Transitional Infrastructure Effort"
+
+low_tension_wargoal_justification: "Diplomatic Sanction"
+
+FRA_french_union_tech_sharing_name: "French Union Academic Scholarship"
+
+FRA_french_union_tech_sharing_desc: "Transnational policies designed to promote scientific development within the Francosphere"
+
+SOV_comecon_techslot: "Consolidate the Best and Brightest Mind of the Soviet Union"
+
+SOV_doomsday_anti_air: "Emergency Anti-Air Construction"
+
+GER_doomsday_air_base_3: "Clearing Land for Air-Bases"
+
+GER_doomsday_air_base_2: "Clearing Land for Air-Bases"
+
+GER_doomsday_air_base: "Clearing Land for Air-Bases"
+
+FRA_extra_research_slot_3: "Intellectuals of the French Union"
+
+natural_state_check: "Highlight the Mother Nature states"
+
+natural_state_check_cat: "Highlight the Mother Nature states"
+
+natural_state_check_enable: "Show the states"
+
+natural_state_check_disable: "Hide the states"
+
+LSM_GER_TUR_friendship: "Treaty of Ankara"
+
+LSM_GER_SPR_friendship: "Pact of Steel with [SPR.GetNameDef]"
+
+LSM_GER_POR_friendship: "Treaty of Porto"
+
+POL_emergency_war_measures: "Emergency War Measures"
+
+allies_in_asia: "Shifting our focus onto the Pacific"
+
+LSM_the_scramble_for_america: "The Scramble for the Americas"
+
+LSM_the_scramble_for_south_asia: "Sweeping up the South Asian states"
+
+LSM_the_scramble_for_middle_east: "Clearing out the Islamic corridor"
+
+LSM_the_scramble_for_africa: "The Second Scramble for Africa"
+
+LSM_demand_bessarabia: "Claim on Bessarabia"
+
+UK_US_invade_vichy_france: "Sweeping Down The Corridor"
+
+LSM_chinese_civil_war_intervention: "Soviet Intervention in Chinese Civil War"
+
+korean_civil_war_democratic_side: "Seek help from the Allied powers"
+
+korean_civil_war_communist_side: "Seek help from the Soviet Bloc"
+
+CHI_morale_loss_613: "Morale Loss (Nanjing)"
+
+CHI_morale_loss_605: "Morale Loss (Chongqing)"
+
+CHI_morale_loss_608: "Morale Loss (Beijing)"
+
+CHI_morale_loss_716: "Morale Loss (Shenyang)"
+
+allies_naval_landing_preparation: "D-Day Preparation"
+
+allies_naval_landing_d_day_launch: "D-Day"
+
+d_day_preparation_1: "D-Day Preparation"
+
+d_day_preparation_2: "D-Day Execution"
+
+d_day_preparation_3: "Onwards to Victory"
+
+korean_civil_war_idea: "Korean Civil War"
+
+korean_civil_war_idea_desc: "§RShould this national spirit expires while the source country is at war, a white peace will take place.§!"
+
+trade_relation_bonus_high: "Economic Coordination"
+
+JAP_devastation: "Post-War Devastation"
+
+JAP_devastation_2: "Post-War Devastation"
+
+JAP_devastation_3: "Initial Signs of Economic Recovery"
+
+JAP_devastation_4: "Growing Economic Recovery"
+
+JAP_devastation_5: "A Revitalised Japanese Economy"
+
+JAP_economic_boom_1: "Economic Boom"
+
+JAP_economic_boom_2: "Workhorse of the East"
+
+JAP_economic_boom_3: "Japanese Economy on the World Stage"
+
+JAP_demobilisation: "Demobilisation of the Military"
+
+JAP_instability: "Social Instability"
+
+AI_plane_licensing: "Coordinate Plane Production Plan"
+
+AI_mech_licensing: "Coordinate Mech Production Plan"
+
+AI_CAN_USA_mech_licensing: "Coordinate Mech Production Plan"
+
+AI_ARG_VEN_GER_gun3_licensing: "Coordinate Axis Rifle Production"
+
+AI_gun2_licensing: "Coordinate Rifle Production"
+
+AI_gun3_licensing: "Coordinate Rifle Production"
+
+hub_construction_project: "Supply Hub Construction Project"
+
+trade_relation_bonus_high_1: "Factional Economic Coordination"
+
+trade_relation_bonus_high_3: "Factional Trade Integration"
+
+trade_relation_bonus_high_4: "Mutual Economic Treaty"
+
+trade_relation_bonus_high_5: "Long-term Trade Partners"
+
+trade_relation_non_faction: "Non-faction Economic Avoidance"
+
+AI_plane_licensing: "Airplane Licensing"
+
+AI_mech_licensing: "Mech Licensing"
+
+AI_gun2_licensing: "Infantry Weapon Licensing II"
+
+AI_gun3_licensing: "Infantry Weapon Licensing III"
+
+destroyer_of_world: "Head of the Anti-Exploiter Committee"
+
+lsm_remove_militia: "Disband militia"
+
+SOV_terra_formar: "Political Commissariat of Internal Affairs"
+
+generic_economic_mobilisation: "Economic Mobilisation"
+
+SOV_elite_difficulty: "Elite Difficulty for AI"
+
+SOV_elite_difficulty_desc: "Soviet AI shall now feel the struggle"
+
+SOV_elite_difficulty_moment: "Soviet AI getting choked real bad"
+
+news.200.b.tt: "Unlock §CNew Occupation Law§! against §RBritain§!. Resistance movement will be §Odestroyed§! if resistance strength in every ENG core states drop below 10%."
+
+ENG_brutally_oppressive_occupation: "Annihilation"
+
+LSM_the_final_push: "Endsieg - The Final Push"
+
+LSM_the_final_push_desc: "One Final Battle, One Final Year. Onwards, to Victory!!!"
+
+LSM_the_final_push_success: "Endsieg - [Root.GetFactionName] Victory"
+
+LSM_the_final_push_failure: "Endsieg - [GER.GetFactionName] Victory"
+
+LSM_the_final_push_success_desc: "The Germans are still in places resisting the Russian troops, but should they continue to do so after midnight they will, of course, deprive themselves of the protection of the laws of war, and will be attacked from all quarters by the Allied troops. Finally, almost the whole world was combined against the evil-doers, who are now prostrate before us!"
+
+LSM_the_final_push_failure_desc: "Despite our effort, the German war machine could not be brought an end. However, those evildoers shall never elude justice. We must go forward if we are to secure the ultimate victory!"
+
+LSM_the_final_push_failure_GER: "Defeat in World War II"
+
+LSM_the_final_push_failure_GER_desc: "Here in Berlin, where the war of annihilation was conceived and from where it was unleashed, and whither it returned with the full force of destruction – we had planned to commemorate this day jointly with others. I ask all Germans to remember silently the victims of the war and the victims of National Socialism. Wherever your roots may lie, take a moment to revisit your memories, your family’s memories, the history of the country in which we all live. Think what the liberation means for your life and your actions."
+
+LSM_the_final_push_success_GER: "Our Ultimate Victory under [GER.GetLeader]"
+
+LSM_the_final_push_success_GER_desc: "Therefore I expect every German to do his duty to the last and that he be willing to take upon himself every sacrifice he will be asked to make; I expect every able-bodied German to fight with the complete disregard for his personal safety; I expect the sick and the weak or those otherwise unavailable for military duty to work with their last strength; I expect city dwellers to forge the weapons for this struggle and I expect the farmer to supply the bread for the soldiers and workers of this struggle by imposing restrictions upon himself; I expect all women and girls to continue supporting this struggle with utmost fanaticism."
+
+endsieg_idea: "Endsieg - The Ultimate Victory"
+
+endsieg_idea_desc: "I ask you: Do you want the total war?! Do you want it, if necessary, more total and radical than anything that we can yet today even conceive?! Nun, Volk, steh auf, und Sturm, brich los! Now, people, rise up, and storm, break loose!\n\n§RA favourable outcome for [GER.GetNameDef] at the conclusion of Endsieg will greatly boost German morale!§!"
+
+LSM_victory_in_europe: "Victory in Europe"
+
+LSM_victory_in_europe_desc: "The German war is therefore at an end. After years of intense preparation, Germany hurled herself on Poland at the beginning of September, 1939; and, in pursuance of our guarantee to Poland and in agreement with the French Republic, Great Britain, the British Empire and Commonwealth of Nations, declared war upon this foul aggression. After gallant France had been struck down we, from this Island and from our united Empire, maintained the struggle single-handed for a whole year until we were joined by the military might of Soviet Russia, and later by the overwhelming power and resources of the United States of America."
+
+LSM_the_final_push_decision: "Downfall of the Reich"
+
+we_shall_fight_on_the_hill: "We Shall Fight on The Hill"
+
+SOV_prepare_for_barbarossa: "Prepare for War"
+
+GER_prepare_for_barbarossa: "Prepare for War"
+
+SOV_post_barb_clarity: "In the Chaos"
+
+fallback_modifier: "Combat Unpreparedness"
+
+defense_modifier: "Interior Fallback Line"
+
+anti_collab_mechanic_1: "Strong Resistance to Collaborationists"
+
+anti_collab_mechanic_2: "Weak Resistance to Collaborationists"
+
+anti_collab_mechanic_3: "No Resistance to Collaborationists"
+
+anti_collab_mechanic_4: "Weak Support for Collaborationists"
+
+anti_collab_mechanic_5: "Strong Support for Collaborationists"
+
+GER_soviet_military_exercises_LSM: "Military Exercise"
+
+GER_soviet_military_exercises_LSM_desc: "The [SOV.GetAdjective] government is greatly concerned about the war circumstance of its outstanding neighbor, [GER.GetNameDef], and it of course wishes only the best for peace in Europe. However, given the diplomatic stance between [GER.GetAdjective] government and [SOV.GetAdjective] government, it is probable that §Conly a pact of non-aggression§! between [SOV.GetNameDef] and [GER.GetNameDef] may assure [SOV.GetLeader] that there is nothing to worry about."
+
+GER_soviet_protect_our_sphere_LSM: "Protecting Our Sphere of Influence"
+
+GER_soviet_protect_our_sphere_LSM_desc: "The [SOV.GetAdjective] government is §Rextremely§! concerned about the war circumstance of its outstanding neighbor, [GER.GetNameDef], and most importantly its stubborn diplomatic stance between towards the [SOV.GetAdjective] government. As it stands, §Ronly a pact of non-aggression§! between [SOV.GetNameDef] and [GER.GetNameDef] may assure [SOV.GetLeader] that there is nothing to worry about."
+
+LSM_collab_GER: "Collaborationist in [SOV.GetNameDef]"
+
+LSM_anti_collab_SOV: "Collaborationist in [SOV.GetNameDef]"
+
+USA_new_world_diplomacy: "American Summit for Every American Nations"
+
+ENG_homeland_resistance_unorganised_1: "Unorganised Militia Resistance"
+
+ENG_homeland_resistance_unorganised_2: "Unorganised Militia Resistance"
+
+ENG_homeland_resistance_unorganised_3: "§YUnorganised Militia Resistance§!"
+
+ENG_homeland_resistance_unorganised_4: "§YUnorganised Militia Resistance§!"
+
+ENG_homeland_resistance_unorganised_5: "§YUnorganised Militia Resistance§!"
+
+ENG_homeland_resistance_organised_1: "§RForeign-Backed Militia Resistance§!"
+
+ENG_homeland_resistance_organised_2: "§RWidespread Civilian Resistance§!"
+
+ENG_homeland_resistance_organised_3: "§RCountrywide Civilian Warfare§!"
+
+ENG_homeland_resistance_organised_4: "§RA Spark of Revolution§!"
+
+ENG_homeland_resistance_organised_5: "§RThe Calm Before The Storm§!"
+
+clash_with_british_militia:0 "Brutalised British Resistance"
+
+militia_clash_resistance:0 "A Few Thousand Britons Found Dead"
+
+ENG_clash_with_militia: "Clashes with Armed Resistance"
+
+ENG_clash_with_militia_desc: "The State is being §RCleansed§! of Militia Resistance"
+
+ENG_homeland_resistance_organised_6: "§RThere'll Always Be A Britain§!"
+
+ENG_homeland_resistance_organised_7: "§RResistance exhausted§!"
+
+ENG_unimaginable_destruction: "Unimaginable Civilian Annihilation"
+
+ENG_unimaginable_destruction_desc: "The population and infrastructure of this region has been annihilated following a series of unfathomable atrocities"
+
+ENG_unimaginable_destruction_vengeance: "Unimaginable Revenge of Britain"
+
+ENG_unimaginable_destruction_vengeance_desc: "As an act of vengeance, this region has been destroyed and its people brutally punished"
+
+recovery_decision: "Extensive Recovery and Reconstruction Effort"
+
+LSM_displaced_population: "Displaced Population"
+
+DPP_increase_displacement: "Coordinate more effort on displaced population"
+
+DPP_allow_refugee_and_immigrant: "Open Border Policy towards War Refugees"
+
+DPP_chase_refugee_and_immigrant: "Closed Border Policy towards War Refugees"
+
+DPP_decrease_displacement: "Lessen the policy on displacement"
+
+LSM_displaced_population_debug_gain: "Debug - Gained Population"
+
+LSM_displaced_population_debug_lost: "Debug - Lost Population" 
+
+LSM_displaced_population_debug_gain_desc: "Does not have any effect. Only for documentation."
+
+LSM_displaced_population_debug_los_desct: "Does not have any effect. Only for documentation."
+
+GER_build_me_some_boats: "Operation Sea Lion"
+
+preparing_for_the_weltkrieg: "Legacy of the Weltkrieg"
+
+the_second_weltkrieg: "The Second Weltkrieg"
+
+second_weltkrieg: "Can we bring back trench warfare?"
+
+SOV_patriotic_offensive_0: "The Perpetual Offensive"
+
+SOV_patriotic_offensive_0_desc: "Has no effect, is just to tell you SOV is doing perpetual offensive"
+
+ENG_victor_of_world_war_ii: "War Reparation from Britain"
+
+ENG_defeat_in_world_war_ii: "Paying War Reparation"
+
+population_boom_minor: "Post-war population boom"
+
+LSM_war_support_disable: "Disable war support bypass"
+
+LSM_war_support_enable: "Enable war support bypass"
+
+wheelchair_warfare: "Desperate defence"
+
+JAP_for_the_emperor_tech: "Tennouheika Banzai!"
+
+crossing_the_atlantic_idea: "Crossing the Atlantic"
+
+LSM_the_fight_for_the_home_island_ENG: "Home Island Mobilisation"
+
+LSM_the_fight_for_the_home_island_JAP: "Total War Mobilisation"
+
+the_new_world_surrender: "Treaty of America"
+
+stronger_soviet_union: "Glory to the Soviet Union"
+
+stronger_soviet_union_2: "For the Motherland, charge!!"
+
+crossing_the_pacific_idea: "Crossing the Pacific"
+
+crossing_the_atlantic_decision: "Crossing the Atlantic"
+
+SOV_production_front_1: "Soldiers of the Motherland"
+
+SOV_production_front_2: "Soldiers of the Motherland"
+
+SOV_production_front_3: "Soldiers of the Motherland"
+
+SOV_production_front_4: "Heroes of the Motherland"
+
+SOV_production_front_5: "Heroes of the Motherland"
+
+SOV_production_front_6: "Heroes of the Motherland"
+
+SOV_production_front_7: "Martyrs of the Motherland"
+
+SOV_production_front_8: "Martyrs of the Motherland"
+
+SOV_production_front_9: "Martyrs of the Motherland"
+
+SOV_production_front_10: "Martyrs of the Motherland"
+
+crossing_the_pacific_decision: "Crossing the Pacific"
+
+human_wave_offensive_2: "Human Wave Offensive"
+
+human_wave_offensive_1: "Rapid Industrialisation"
+
+LSM_military_attache_to_spain_SOV:"Military Attache Sent"
+
+LSM_military_attache_to_soviet: "Military Attache Sent"
+
+LSM_military_attache_to_britain: "Military Attache Sent"
+
+LSM_military_attache_to_germany: "Military Attache Sent"
+
+LSM_military_attache_to_china:"Military Attache Sent"
+
+LSM_military_attache_to_japan:"Military Attache Sent"
+
+LSM_military_attache_to_spain_SPR: "Received Attache"
+
+LSM_military_attache_to_china_desc:"Fake attache idea that the AI has to pay for with political power"
+
+LSM_military_attache_to_japan_desc:"Fake attache idea that the AI has to pay for with political power"
+
+LSM_military_attache_to_spain_SOV_desc: "Fake attache idea that the Soviet Union has to pay for with political power in order to go War Economy"
+
+LSM_military_attache_to_spain_SPR_desc: "Fake attache idea for Soviet purposes"
+
+stronger_soviet_union_3: "Return to peace"
+
+the_final_bastion_idea: "Defence of The New World"
+
+LSM_new_world_diplomacy.1: "American Continental Summit"
+
+defeat_in_the_second_world_war_idea: "Defeat in the Second world War"
+
+LSM_new_world_diplomacy.1.t: "The Darkest Hours"
+
+LSM_new_world_diplomacy.1.d: "Darkness has triumphed in every other corners of the world. Now confronted with few options, leaders in American continent have met together to discuss a continental defence policy. Our time is running short, we must make haste."
+
+LSM_new_world_diplomacy.1.a: "The war is already lost"
+
+LSM_new_world_diplomacy.2.a: "It is not our business, really"
+
+LSM_new_world_diplomacy.3.a: "Pack up for the Summit"
+
+LSM_new_world_diplomacy.4.a: "Let's support the other side"
+
+the_battle_for_the_new_world_decision: "The Battle for the New World"
+
+the_summit_of_the_new_world_decision: "Summit of the New World"
+
+peace_time_prosperity_neutral: "Country is at peace"
+
+peace_time_prosperity: "It's time for the world to heal"
+
+peace_time_prosperity_desc: "Years have gone by and few have by then come to live without knowing the many to have died - nevertheless, peace has returned to the world at last."
+
+eligible_for_last_stand: "The people of [FROM.GetName] can still be mobilised"
+
+eligible_for_endsieg: "The people are ready to fight til the bitter end"
+
+does_not_have_existing_modifier: "The people of [FROM.GetName] can still be mobilised"
+
+does_not_have_existing_home_island_modifier: "The people of [FROM.GetName] can still be mobilised"
+
+eligible_for_last_stand_proximity: "Threat is coming closer"
+
+eligible_for_last_stand_enclave: "Either here or never"
+
+eligible_for_last_stand_home_island: "Homeland under threat"
+
+eligible_for_last_stand_isolation: "Either now or never"
+
+i_want_to_lag_like_ai_too: "I am not eligible for the mod?"
+
+i_want_to_lag_like_ai_too_desc: "Well, now you are"
+
+i_hate_supply_problem: "Supply system is stupid"
+
+i_hate_supply_problem_desc: "Nah, it isn't actually stupid, we are just too bad to deal with it. But perhaps by generating more supply nodes on the map, it will work. Frankly though, it is going to help the fascists massively"
+
+last_stand_decision: "War Plan Directorate"
+
+endsieg_decision: "The Ultimate Victory"
+
+endsieg_decision_desc: "Trained in the great lessons of history, educated in the spirit of National Socialism, with the example of our fathers before our eyes, we accept the struggle for our existence. In the end it will open the way for us to the future. With such a Führer as we have and such a people as we are and always want to be, who can doubt our victory! What we won in the first half of this war by bravery we must defend with stubbornness in its second half. That we will do with all the strength of our heart. There is none among us who does not know why."
+
+LSM_last_stand_modifier: "Last Stand"
+
+LSM_enclave_last_stand_modifier: "The Final Bastion of Our Kins"
+
+LSM_dont_starve_modifier: "Mobilisation of Food and Supply"
+
+LSM_enclave_dont_starve_modifier: "Everything for the State"
+
+LSM_there_is_no_food_left_modifier: "Temporary Food Shortage"
+
+LSM_there_is_no_food_left_modifier_desc: "Everything, from fermented milk to carcasses of dogs and cats, have been mobilised to serve the military, yet there is never enough for us all"
+
+LSM_recency_modifier: "Recent Mobilisation"
+ 
+LSM_island_recency_modifier: "Recent Mobilisation"
+
+LSM_enclave_recency_modifier: "Recent Mobilisation"
+
+LSM_get_them_off_our_islands_modifier: "The Survival of our Homeland"
+
+more_building_slot: "Everybody gets richer, everybody will!"
+
+more_resource: "Someone gets richer, someone will..."
+
+LSM_gunning_our_way_modifier: "WE HAVE GUNS WE HAVE GUUNNNNSSS"
+
+LSM_gunning_our_way_modifier_desc: "Those with a gun shall fight with a gun. And every Americans have guns."
+
+LSM_no_cheesing_modifier: "Militia Resistance"
+
+LSM_endsieg_modifier: "Endsieg"
+
+LSM_endsieg_modifier_desc: "Nun, Volk, steh auf, und Sturm, brich los!"
+
+LSM_counterattack_modifier: "The Rush Ashore"
+
+LSM_counterattack_modifier_desc: "We must act swiftly and decisively before the enemies can entrench!"
+
+LSM_banzai_modifier: "Tennouheika, Banzai!!!"
+
+LSM_banzai_modifier_desc: "We are at the final act in the Pacific theatre. There can only be one victor"
+
+
+
+lsm_news.3.t: "American Treaty Organisation Summit"
+
+lsm_news.3.d: "This evening, [From.GetNameDef] has issued a joint defense statement to address the rising threat from Europe and from Asia, and to respond to any possible invasion from those threats by bolstering the production front, the construction of naval warships, as well as a general conscription.\n\nRushing down upon the strained and tedious maritime routes are now the mighty fleets of the Old World, armed and ready for the decisive confrontation, and on the other side of the Atlantic, millions upon millions of troops await their moment to set foot onto the New. From this point onwards, only through a devotion to duty and a steadfast attitude towards foreign imperialism may the New World of America hope to survive the ruthless onslaught."
+
+lsm_news.3.a: "God blesses them"
+
+lsm_news.3.b: "Onto the New World!"
+
+lsm_news.3.c: "For Democracy and Freedom!"
+
+
+lsm_news.4.t: "[From.GetNonIdeologyName] to Cross The Atlantic"
+
+lsm_news.4.d: ""One battle, one will, one goal: Victory at any cost!"- [FROM.GetLeader] has announced, pointing towards the drydocks and the factories as a plan for the construction of tens of thousands new navy vessels had been drafted in minute details, in order to cross the Atlantic. Spectators hold their breathe, however, at the sight of the new mighty battleship. War has begun between the Old World and the New - but only time may tell which side will truly emerge victors."
+
+lsm_news.4.a: "Good luck then"
+
+lsm_news.4.b: "Onto the New World!"
+
+
+lsm_news.5.t: "[From.GetNonIdeologyName] to Cross The Pacific"
+
+lsm_news.5.d: ""One battle, one will, one goal: Victory at any cost!"- [FROM.GetLeader] has announced, pointing towards the drydocks and the factories as a plan for the construction of tens of thousands new navy vessels had been drafted in minute details, in order to cross the Pacific. Spectators hold their breathe, however, at the sight of the new mighty aircraft carrier fleet. Hell has now been let loose over the islands and the calm seas, but only time may tell which side will truly emerge victors."
+
+lsm_news.5.a: "Good luck then"
+
+lsm_news.5.b: "Onto the New World!"
+
+
+
+#UK event section
+
+britain_surrender: "Treaty of London"
+
+LSM_british_exodus: "British Exodus"
+
+LSM_british_migration: "British Immigration"
+
+LSM_british_migration_2: "Commonwealth Immigration Policies"
+
+lsm_news.1.t: "Winston Churchill Announced His Plan"
+
+lsm_news.1.d: "This morning, in a broadcast from [ENG.Capital.GetCapitalVictoryPointName], the Prime Minister of the United Kingdom and the British Empire has given a speech to his citizens, to those living the now subjugated islands, those beyond the seas and oceans, beyond the storm and blizzard, or in the heat of the mighty desert to its tropical forests and jungles, to every subjects of the vast empire. Little may anybody recall what he said, only a single quote - we shall go onto the end, we shall never surrender!\n\nWith that, the British government has now retreated to overseas territories in Canada and in South Africa, seeking refugee away from Europe with the hope to continue their war effort from abroad."
+
+lsm_news.1.a: "Everywhere I go... I see his face"
+
+lsm_news.1.b: "Curse you, Churchill the Prime Minister!"
+
+lsm_news.1.c: "We have to prepare"
+
+lsm_news.2.t: "[FROM.GetLeader] Announced His Plan"
+
+lsm_news.2.d: "This morning, from the cabinet room in Downing Street, the Prime Minister of the United Kingdom and the British Empire has given a speech to his citizens, announcing his concession to foreign governments, including the surrender of the majority of the Empire's colonies and subjects, barring the dominions.\n\nIn return, they have been given a guarantee not to interfere with British politics for as long as war reparations are regularly paid. It was a bitter defeat for the British government to announce such concession; however, the United Kingdom and her dominions may live on."
+
+lsm_news.2.a: "God blesses the King..."
+
+lsm_news.2.b: "Pathetic, much to our liking"
+
+lsm_news.2.c: "Democracy has fallen"
+
+LSM_ENG_churchill.1.t: "We shall go onto the end"
+
+LSM_ENG_churchill.1.d: "We shall never surrender, and even if this island is subjugated, then our Empire beyond the seas, armed and guarded by the British Fleet, would carry on the struggle, until, in God’s good time, the New World, with all its power and might, steps forth to the rescue and the liberation of the old."
+
+LSM_ENG_churchill.1.a: "The Empire holds on"
+
+LSM_ENG_churchill.1.b: "We have been defeated"
+
+LSM_ENG_churchill.10.t: "Britain approaches us"
+
+LSM_ENG_churchill.10.d: "With the defeat of Britain looming over our fate, our citizens must now prepare to face an even greater struggle than before. Onto the beaches, soldiers and sailors! We shall not surrender!"
+
+LSM_ENG_churchill.10.a: "For the Empire"
+
+LSM_ENG_churchill.10.b: "For the Empire"
+
+LSM_ENG_churchill.10.c: "Fuck off"
+
+LSM_ENG_churchill.20.t: "Britain approaches us"
+
+LSM_ENG_churchill.20.d: "With the defeat of Britain looming over our fate, our citizens must now prepare to face an even greater struggle than before. To the desert and the jungles, my friends! The legendary epic of Africa has yet to begin!"
+
+LSM_ENG_churchill.20.a: "For the Empire"
+
+LSM_ENG_churchill.20.b: "For the Empire"
+
+LSM_ENG_churchill.20.c: "Fuck off"
+
+LSM_ENG_churchill.30.t: "Britain approaches us"
+
+LSM_ENG_churchill.30.d: "With the defeat of Britain looming over our fate, our citizens must now prepare to face an even greater struggle than before. To the islands, to the shore! Our time is now!"
+
+LSM_ENG_churchill.30.a: "For the Empire"
+
+LSM_ENG_churchill.30.b: "For the Empire"
+
+LSM_ENG_churchill.30.c: "Fuck off"
+
+LSM_ENG_churchill.40.t: "Britain approaches us"
+
+LSM_ENG_churchill.40.d: "With the defeat of Britain looming over our fate, our citizens must now prepare to face an even greater struggle than before. The Indian people rally along the strong arms of the Commonwealth Nations!"
+
+LSM_ENG_churchill.40.a: "For the Empire"
+
+LSM_ENG_churchill.40.b: "For the Empire"
+
+LSM_ENG_churchill.40.c: "Fuck off"
+
+LSM_ENG_churchill.50.t: "Britain approaches us"
+
+LSM_ENG_churchill.50.d: "With the defeat of Britain looming over our fate, our citizens must now prepare to face an even greater struggle than before. Ey mate! Ay sleeping aint ya?! Its foking time to shine, mate!"
+
+LSM_ENG_churchill.50.a: "For the Empire"
+
+LSM_ENG_churchill.50.b: "For the Empire"
+
+LSM_ENG_churchill.50.c: "Fuck off"
+
+LSM_ENG_churchill.60.t: "Britain approaches us"
+
+LSM_ENG_churchill.60.d: "Our greatest ally will soon fall under the menacious tyranny from Europe. Many members of our surviving cabinet suggests that we should form an Union with the crumbling Empire, one that will perhaps endure for the challenging time to come, and even beyond those darkness, so that one day our children may return home, that one day this shadow may thus be repelled by the will of those few men who have decided never to surrender."
+
+LSM_ENG_churchill.60.a: "Together for Victory"
+
+LSM_ENG_churchill.60.b: "We will eventually go separate ways anyways"
+
+LSM_ENG_churchill.100.t: "Britain approaches us"
+
+LSM_ENG_churchill.100.d: "We have received a communication from the British government this morning to express their desire to surrender colonies belonging to the Empire and renounce any existing alliance with other enemies of ours. Taking this offer will free up our forces and lessen the burden on our garrison effort, but we will also renounce all claims on the surviving states for the time being."
+
+LSM_ENG_churchill.100.a: "Well, why not?"
+
+LSM_ENG_churchill.100.b: "Go big or go home"
+
+ENG_churchill_plan: "Case Winston"
+
+
+#SOV section
+
+lsm_news.1000.t: "Order 227"
+
+lsm_news.1000.d: "Not one step back! - [SOV.GetLeader] addressed the few and the many standing before him, with no less than a tormented grunt that himself may hardly stomach. Stressful news from the frontline flooded his desk, with reports of the [SOV.GetAdjective] army falling apart and on the verge of collapse.\n\nHe knew, [SOV.GetNameDef] knew, however, that a great sacrifice had to be made, that thousands would choke in their own pool of blood in a bottomless pit of desparation, under what may have been the greatest menace in all history. And [SOV.GetLeader] knew, with every ounce of confidence in his heart - that no army is ever invincible."
+
+lsm_news.1000.a: "Good luck"
+
+lsm_news.1000.b: "Delusional Fool"
+
+lsm_news.1000.c: "Soldiers, charge!"
+
+lsm_news.200.t: "Homefront"
+
+lsm_news.200.d: "Then there comes a whisper in the dark, a rumour in the wind. A lie, perhaps! Or a disguise, as mere hearsays circulate beyond what was once a web of otherwise infinitesimally insignificant individuals, those who bear but one goal in mind - the freedom of Britain, the freedom of the democratic world of Europe!\n\nThe occupiers understand the truth very well, naught has escaped their watchful gaze as though the light of God has granted them guidance on this sinful path - yet for every ray of light, so cast forth a layer of shade.\n\nBritain shall never surrender."
+
+lsm_news.200.a: "Worrying development"
+
+lsm_news.200.b: "Send in the army!"
+
+lsm_news.200.c: "God blesses them"
+
+lsm_news.200.e: "There'll Always Be A Britain"
+
+lsm_news.201.t: "Britons, awake!"
+
+lsm_news.201.d: "I give you a toast, ladies and gentlemen. May this fair dear land we love so well. In dignity and freedom dwell, though worlds may change and go awry, while there is still one voice to cry. There'll always be a Britain, while there's a country lane, wherever there's a cottage small, beside a field of grain.\nThere'll always be a Britain, while there's a busy street, wherever there's a turning wheel, a million marching feet. Red, white and blue! What does it mean to you? Surely you're proud, shout it aloud, if Britain means as much to you, as Britain means to me."
+
+lsm_news.201.a: "May there be peace"
+
+lsm_news.201.b: "Send in the tanks!"
+
+lsm_news.201.c: "God blesses us all!"
+
+lsm_news.201.e: "Britons, awake!"
+
+LSM_ENG_churchill.665.t: "The Calm Before The Storm"
+
+LSM_ENG_churchill.665.d: "With frequent riots and outbreak of violence in the Western Europe, it has become increasingly concerning that the possibility of a major uprising may occur in near future. While this matter seems unlikely to affect our current war plan elsewhere, it is now a matter of fact that we must move quick to ensure our security in the region, lest every ounce of our effort during this war collapses overnight."
+
+LSM_ENG_churchill.665.a: "Send in the army then"
+
+LSM_ENG_churchill.665.b: "What may those peasants do?"
+
+LSM_ENG_churchill.666.t: "Britons, arise!"
+
+LSM_ENG_churchill.666.d: "Every now and then, I recall the face of my then... ugh, then young nephews, those who have sacrificed themselves to buy time for our cabinet to escape. Frankly, I may hardly even remember how they looked like... But I remember those smiles, brimming with hope, confidence, and perhaps with a touch of our stoicism that has triumphed over time. And I know, with all my heart, that those finest young men did not think twice before throwing themselves into the damn bloody battles... they sure did not."
+
+LSM_ENG_churchill.666.a: "Never surrender!"
+
+LSM_ENG_churchill.667.t: "Militia Resistance Destroyed"
+
+LSM_ENG_churchill.667.d: "After a long period of constant clashes with militias in Britain and in France, we have finally been able to destroy the root of the problem and completely annihilated any possible dissent towards our occupations. Of course, it was not without cost. Factories are destroyed, thousands upon thousands of Britons were put to trial or to the firing squad, with many others starved into submission before being hanged for the public to understand their place in the world. Nonetheless, the war of resistance in Western Europe is over."
+
+LSM_ENG_churchill.667.a: "Finally some rest..."
+
+LSM_ENG_churchill.668.t: "Militia Resistance Destroyed"
+
+LSM_ENG_churchill.668.d: "Oh how I shed a tear of sadness! For my kins may arise no longer, for blood has dyed this river red, for this sorrow has dyed our sky grey! Oh, Britain, we shall never give up! We shall never falter, we shall always fight! Oh Britain, my beautiful homeland, oh Britain, my beautiful dream. I will meet you there, friends of mine in heaven, for I will follow you, on this path to liberation!"
+
+LSM_ENG_churchill.668.a: "Britain, I will return!"
+
+LSM_new_world_diplomacy.5.t: "Korean Civil War"
+
+LSM_new_world_diplomacy.5.d: "The time has come, comrades, to cast the old shackles placed upon us by the vile imperialists of the world! Behind us rallies the power of socialist brotherhood, those who have expressed solely their interest in that our peninsula remains unified and prosperous. Comrade, the time has come! To war!"
+
+LSM_new_world_diplomacy.5.a: "To War!!"
+
+infantry_equipment_production_1: "Mass Production of Infantry Equipment"
+
+infantry_equipment_production_2: "Mass Production of Infantry Equipment"
+
+infantry_equipment_production_3: "Mass Production of Infantry Equipment"
+
+artillery_equipment_production_3: "Mass Production of Artillery Equipment"
+
+anti_tank_equipment_production_3: "Mass Production of Anti-Tank Equipment"
+
+anti_air_equipment_production_3: "Mass Production of Anti-Air Equipment"
+
+ROM_oil_for_economic_investment: "Exchange Oil for Economic Investment"
+
+ROM_oil_for_economic_investment_desc: "Thorough prospecting of resources in Muntenia has reached the conclusion that only our German ally might possess the necessary equipment and technology to develop and extort the soil to its fullest. In return, perhaps we can request substantial industrial investment from Germany to further strengthen our economy."
+
+ROM_GER_economic_development: "Investment in Romania"
+
+ROM_ROM_economic_development: "Investment from Germany"
+
+LSM_equipment.24.t: "A proposal from Romania"
+
+LSM_equipment.24.d: "Romania has offered us the full access to the oil reserves in Muntenia in exchange for economic support and industrial investment. Of course, while Germany has no reason to oblige to such request, this might prove to be a great fortune in our favour."
+
+LSM_equipment.24.a: "Agree to the proposal"
+
+LSM_equipment.24.b: "Their demand is out of hand"
+
+LSM_equipment.25.t: "Germany accepts the proposal"
+
+LSM_equipment.25.d: "Having concluded that their benefits outweighed their cost, the [GER.GetAdjective] government has accepted our proposal with a welcoming hand. The era of prosperity for Romania may now truly begin."
+
+LSM_equipment.25.a: "Together for victory"
+
+LSM_equipment.26.t: "Germany rejects the proposal"
+
+LSM_equipment.26.d: "Having concluded that their costs outweighed their benefits, the [GER.GetAdjective] government has rejected our proposal without a second thought. The prosperity of Romania may have to wait a while longer."
+
+LSM_equipment.26.a: "A missed opportunity"
+
+ROM_oil_for_economic_investment_tech: "Romanian-German Technological Exchange"
+
+GER_ROM_dev_tt: "§CConstruction project will begin for Germany for the next 180 days, once it has concluded, Romania will receive 4 civilian factories and 4 military factories.§!"
+
+LSM_equipment.27.t: "Romanian-German Construction Project Completion"
+
+LSM_equipment.27.d: "After 6 months of hardwork, the historic agreement between Romania and Germany has culminated into an economic and industrial leap for our nation. May this strong bond foster even better future opportunities for the benefits of our two nations."
+
+LSM_equipment.27.a: "Together for Victory"

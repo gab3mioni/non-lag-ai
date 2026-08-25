@@ -1,0 +1,869 @@
+﻿l_english:
+
+LSM_new_world_diplomacy.35.t: "The League of Nations"
+
+LSM_new_world_diplomacy.35.d: "Germany, the menace of the Great War that plunged the world into discord and razed Belgium in an act of terror, has at once declared war on a member of the League of Nations. In return, the League of Nations is considering an intervention, which is in effect a retaliation against Germany to stamp out this threat for the good of the world."
+
+LSM_new_world_diplomacy.35.a: "The League remains in effect!"
+
+LSM_new_world_diplomacy.35.b: "The League has no sway..."
+
+JAP_imperial_territory_2: "Imperial Treaty Territory"
+
+LSM_GER_SOV.506.t: "The Threat of Communism"
+
+LSM_GER_SOV.506.d: "The Rising Threat of Communism from the recent expansion by [SOV.GetNameDef] has caused widespread concern amongst the Japanese populace and administration, many of whom are now suggesting a formal alliance with [GER.GetNameDef] and [CHI.GetNameDef] to solve prioritize tackle the threat of communism over our claims against western imperialism."
+
+LSM_GER_SOV.506.a: "Send a letter to [GER.GetLeader]..."
+
+LSM_GER_SOV.506.b: "...but make it a birthday card"
+
+LSM_GER_SOV.507.t: "The Threat of Communism"
+
+LSM_GER_SOV.507.d: "The Rising Threat of Communism from the recent expansion by [SOV.GetNameDef] has caused widespread concern amongst the Japanese populace and administration, many of whom are now suggesting a formal alliance with [GER.GetNameDef]. Towards that end, the [JAP.GetAdjective] government has extended an offer with us to formalize a treaty of prosperity between [CHI.GetAdjective] and [JAP.GetAdjective], with the aim to organize a military alliance with [GER.GetNameDef]."
+
+LSM_GER_SOV.507.a: "Send a letter to [JAP.GetLeader]..."
+
+LSM_GER_SOV.507.b: "...and say no."
+
+LSM_GER_SOV_506_a_tt: "If both China and Japan agree for a peace: \n\n1. Japan will get concession over Northern China.\n\n2. China will lose claims over Japanese sphere of now-former Chinese territories."
+
+LSM_GER_SOV_506_b_tt: "Nothing will happen for now, but China might still ally with Germany later."
+
+oberste_xp_gain_tt: "§CIncrease Unit/Army/Navy/Air Experience Gain by §! §G25%§!"
+
+oberste_cheaper_command_tt: "§CReduce political power cost for high commands by§! §G25%§!"
+
+RULE_OPTION_KAISERREICH: "Military Dictatorship"
+
+RULE_KAISERREICH_GER_AI_DESC: "The military shall seize control of the government following the German civil war, plunging the German Kaiserreich into an European conflict that would sweep across the continent."
+
+SOV_219_lw_facility_tt: "If there are no other §YExperimental Facilities§! in §Y[219.GetName]§!, we will gain §G1§! §YLand Warfare Facility§! in §Y[219.GetName]§!."
+
+test_FYP_tt: "AI Germany will proceed with Four Year Plan instead of PEG"
+
+wuw_GER_diplomacy.56.b: "All the better"
+
+wuw_GER_civil_war.3.c: "The worker volunteers form the paramilitary"
+
+GER_socialist_front_idea: "Worker Volunteers"
+
+GER_socialist_front_idea_weakened: "Worker Volunteers"
+
+BEL_CONGO_soldier: "Congolese-Belgian Legion"
+
+CONGO_BEL_soldier: "Supporting the Belgian Legion"
+
+ww_BEL_event_political.3.c: "...but the Rexist's hold was only temporary"
+
+FIN_winter_war_has_happened_tt: "Winter War has happened"
+
+SOV_truly_a_president_of_democracy: "The President of Russia"
+
+SOV_bastion_of_eastern_democracy: "Bastion of Eastern Democracy"
+
+SOV_bastion_of_eastern_democracy_desc: "Having taken the mantle of democracy as the new protector of Eurasia, [SOV.GetNameDef] shall never fall to extremism once again."
+
+SOV_undemocratic_figure_removal: "Proving to the People"
+
+SOV_leader_by_pure_luck_removal: "Proving to the Military"
+
+SOV_white_terror_removal: "No longer a Terrorist"
+
+SOV_controversial_leader_removal: "As Time Provides Another Chance"
+
+SOV_permanently_interim_removal: "As a Man Proves His Worth"
+
+SOV_lack_of_military_backing_removal: "As a Nation Bands Together"
+
+SOV_unpopular_monarchist_removal: "An Unfamiliar Man at the Helm"
+
+SOV_inexperienced_leader_removal: "A New Face for a New Republic"
+
+SOV_legacy_of_the_tsar_removal: "Not a Child of the Damned Tsar"
+
+SOV_socialist_background_removal: "Only Time May Prove One's Alignment"
+
+SOV_popular_amongst_workers_removal: "For the Survival of Socialism"
+
+SOV_disliked_by_the_military_removal: "Tomsky: Beyond the Bickering"
+
+
+SOV_undemocratic_figure: "Undemocratic Figure"
+
+SOV_white_russia: "Reformer of the Russian Army"
+
+SOV_leader_by_pure_luck: "Leader by Pure Luck"
+
+SOV_white_terror: "A History of White Terror"
+
+SOV_controversial_leader: "Controversial Figure"
+
+SOV_permanently_interim: "A Fragile Position"
+
+SOV_desire_to_be_good: "The Second Chance"
+
+SOV_lack_of_military_backing: "Lack of Military Backing"
+
+SOV_unpopular_monarchist: "Unpopular Figure"
+
+SOV_inexperienced_leader: "Inexperienced Leader"
+
+SOV_legacy_of_the_tsar: "Legacy of Nicholas II"
+
+SOV_democratic_tsar: "A Democratic Tsar"
+
+SOV_trade_unionist_champion: "Trade Unionist Champion"
+
+SOV_socialist_background: "Socialist Background"
+
+SOV_popular_amongst_workers: "Popular amongst Workers"
+
+SOV_popular_amongst_everyone: "The People's President"
+
+SOV_disliked_by_the_military: "Disliked by the Military"
+
+LSM_new_world_diplomacy.15.t: "[SOV.GetAdjective] Election of [?global.year|0]"
+
+LSM_new_world_diplomacy.15.d: "With the political turmoil in Russia having finally settled, and an interim government has been formed, the next step for our nation is to hold our first democratic election since the 1917 Russian Constituent Assembly election.\n\nThis election shall represent a new era for Russia, putting an end to the threat of communism as well as signaling the finale on the stage of history for autocratic imperialism in Russia. Nonetheless, despite the fervent calls for democratic elections, the truth remains that the coming election in Russia is "democratically" planned and agreed upon by all parties.\n\nBut perhaps in time, Russia may truly be democratic at last."
+
+LSM_new_world_diplomacy.15.a: "The triumph of White Russian"
+
+LSM_new_world_diplomacy.15.b: "Kerensky forms the government"
+
+LSM_new_world_diplomacy.15.c: "Unity under a constitutional monarchy"
+
+LSM_new_world_diplomacy.15.e: "Democracy in Socialism"
+
+czech.37.t: "A Greater Entente for the Greater Good?"
+
+czech.37.d: "Our ally in [YUG.GetNameDef] has proposed a greater united front in order to confront the coming threat from around the European continent. It is our hounor and duty to provide them with an appropriate answer."
+
+czech.37.a: "No longer little!"
+
+czech.37.b: "No compromise with the communists!"
+
+czech.38.t: "Failure of the Greater Entente proposal"
+
+czech.38.d: "Our former ally in [CZE.GetNameDef] has rejected our proposal for a greater united front. It is perhaps time for our nation to embark on our own journey beyond any fragile alliance with those mongrels!"
+
+czech.38.a: "Pan-Slavic Worker Congress!"
+
+LSM_czech.34.a: "Isn't that unfortunate?"
+
+LSM_czech.34.b: "Rather unfortunate"
+
+startup_76_tt_g: "§RFrance will embrace the dark path to become the strongest Allied nation§!"
+
+lsm_news.120.e: "Survival for the Fittest!"
+
+lsm_news.120.f: "We must prepare..."
+
+LSM_startup.76.f: "Slight Axis nerf"
+
+LSM_startup.4.c: "Mech Tank Test"
+
+santa_winter_debuff: "Despised by Winter"
+
+santa_winter_buff: "Blessed by Santa Klaus"
+
+SWE_cut_the_trade: "Terminate Trade Agreement with Germany"
+
+FRA_research_boost: "Contacts from France"
+
+FRA_research_boost_desc: "Our contacts from France has been extracted alongside documents of the highest classification from captured [GER.GetAdjective] stockpile during the war.\n\nIt is only fortunate that our §Cfriendly relationship with [FRA.GetNameDef]§! has enabled this exchange."
+
+LSM_new_world_diplomacy.7.t: "Vasterbotten Crisis"
+
+LSM_GER_SOV.473.t: "A cargo from France"
+
+LSM_GER_SOV.473.d: "Following the collapse of French government, countless documents of the highest classification have been evacuated, many of which had fallen into the hands of contacts in France, and in certain cases, willingly provided by the French research department. Considering the rapid development on the battlefield, the [SOV.GetAdjective] government has been urged to act with prudence and utmost urgency within the due respect that the secretive nature of this exchange may require."
+
+LSM_GER_SOV.473.a: "Unpack The Secret"
+
+LSM_new_world_diplomacy.7.d: "This morning, telegram from our consulate in Sweden has delivered the news that the Swedish government has seized the Vasterbotten mines, which they had previously ceded the access right to Germany, and applied a diplomatic sanction on our diplomats. This action by the Swedish government has violated our previous terms, and has certainly impeded the diplomatic proceedings between our nations. Nonetheless, as it now stands that the government of Sweden has no longer any interest in further business dealings with us, it is perhaps called for that we take drastic measures to enforce our rights."
+
+LSM_new_world_diplomacy.7.a: "It is what it is"
+
+LSM_new_world_diplomacy.7.b: "We demand what is right!"
+
+manchurian_lease: "Japanese lease of Chinese territories"
+
+manchurian_lease_desc: "The Japanese government believes certain regions of China is within their own interest to control and to develop for the next five years to utilize for the war effort. When the lease expires, every Chinese territories under Japanese control will be returned to [MAN.GetNameDef]."
+
+manchurian_lease_not_hidden: "Japanese lease of Chinese territories"
+
+manchurian_lease_not_hidden_desc: "The Japanese government believes certain regions of China is within their own interest to control and to develop for the next five years to utilize for the war effort. When the lease expires, every Chinese territories under Japanese control will be returned to [MAN.GetNameDef]."
+
+manchurian_integration: "Japanese Integration of Chinese Territories"
+
+manchurian_integration_2: "Japanese Integration of Chinese Territories"
+
+LSM_chinese_civil_war: "Chinese Civil War"
+
+paranoia_idea: "Paranoia in the Soviet Union"
+
+paranoia_idea_desc: "Without a clear political direction in the Soviet Union while its leader, Joseph Stalin, raises suspicion over every men and women, or perhaps by engaging in the very political impossibility that Joseph Stalin despises and suspects, the politics of the Soviet Union remain partially paralysed.\n\n§RAny drastic course of action by the Soviet Union in this period of time will have dire consequences!§!"
+
+generic_economic_mobilisation_rich: "Total War Economic Mobilisation"
+
+LSM_coordinate_rearmament: "Coordinate Production"
+
+generic_economic_mobilisation_rich_desc: "Demobilisation is expected after the war - not that it really matters but hey, it's peace time anyway"
+
+GER_economic_mobilisation: "German War Economy"
+
+USA_economic_mobilisation: "Giant of The New World"
+
+LSM_production_licensing_idea: "Production Under Licensing"
+
+LSM_startup.1.t: "Soviet infantry"
+
+LSM_startup.1.d: "Actually a debug event I use to test Soviet performance with different doctrine. Since mod is WIP, may as well do it. However, currently AI only runs a single streamlined template for simplicity so I have not yet added options and weight for them to do separate templates for defending and attacking.\n\n§ROther Test Builds:§! Roach infantry, pure infantry + air (might need somebody to test against it, or just an unholy amount of tanks (might bug)."
+
+LSM_startup.1.a: "Superior Firepower (Easy)"
+
+LSM_startup.1.b: "Grand Battleplan (Easy)"
+
+LSM_startup.1.c: "Mass Assault (Default)"
+
+LSM_startup.12.a: "Let the nature flow as it wishes"
+
+LSM_startup.12.b: "An Instinctual Annihilation"
+
+LSM_startup.12.c: "An Order of the Knight"
+
+LSM_startup.100.t: "Default Setting"
+
+LSM_startup.100.d: "Would you like to toggle on militia spawns and stuffs? It will enable various decisions for AI and players such as economic mobilisation buffs, increase militia spawns during Endsieg, change the way some AIs act to a certain degree and depends on the specific situation, the USSR will receive buffs.\n\nWill make the game harder for some AI as well, Japan AI might not be able to kill China at all, for example.\n\nThis can still be toggled off through decision system later.\n\n\n\n§RGermany will receive massive decayable buff at the start of World War if this is enabled at the time of war.§!\n\nSeriously lmao, just pick Off so you guys can die without much excuse.\n\nFFS I will remove it soon - which I did! Will be brought back every now and then for people to try until people understand that the mod is easier with this toggled ON."
+
+LSM_startup.100.a: "Off (Default)"
+
+LSM_startup.100.b: "On (NOT recommended)"
+
+LSM_startup.101.t: "Experimental Armor Meme for Germany"
+
+LSM_startup.101.d: "Debug event to see if Germany can eventually convert to armor meme later for Barb since they struggle to kill SOV AI otherwise."
+
+LSM_startup.101.a: "Off (Default)"
+
+LSM_startup.101.b: "On (Might not work, but well)"
+
+LSM_startup.10.t: "German doctrine"
+
+LSM_startup.10.d: "Actually a debug event I use to test German AI performance with different doctrine. Since mod is WIP, may as well do it.\n\n§RSpacemarine GER AI is in Mass Assault group.§!"
+
+LSM_startup.10.a: "Mobile Warfare (Easy)"
+
+LSM_startup.10.b: "Superior Firepower (Need testers here)"
+
+LSM_startup.10.c: "Grand Battleplan (New build here)"
+
+LSM_startup.10.e: "Mass Assault (Need testers here)"
+
+LSM_startup.10.f: "Spacemarine"
+
+LSM_startup.11.a: "Derp Battle (Need testers here)"
+
+LSM_startup.11.b: "Mass Mob"
+
+LSM_startup.11.g: "Machine God"
+
+LSM_startup.3.t: "Soviet infantry"
+
+LSM_startup.3.d: "Actually a debug event I use to test Soviet performance with different doctrine. Since mod is WIP, may as well do it. However, currently AI only runs a single streamlined template for simplicity so I have not yet added options and weight for them to do separate templates for defending and attacking."
+
+LSM_startup.3.a: "Large Infantry balanced playstyle"
+
+LSM_startup.3.b: "Meatwall Infantry defense"
+
+LSM_startup.3.e: "Mechanized-focused defense"
+
+LSM_startup.4.a: "Go low (6/1) + Tank"
+
+LSM_startup.4.b: "Go high (10/5) + Tank"
+
+LSM_startup.5.a: "Go balanced (12/2) + Tank"
+
+LSM_startup.5.b: "Artillery, fireeeee (10/5)"
+
+LSM_startup.5.c: "15w + tank"
+
+LSM_startup.76.t: "Should AI try their best?"
+
+LSM_startup.34.a: "Mobile Warfare roaches 1"
+
+LSM_startup.34.b: "3/0 infantry roach"
+
+LSM_startup.1.e: "Mobile Warfare (Test Only)"
+
+LSM_startup.76.d: "§RReady carefully before starting the round:§! \n\n§RStandard France§!: Prevent only France from doing factory exploit against a Germany players (option visible only to Germany). \n\n§RAI tries its best§!: There will no be any limitation on any AI countries whatsoever.\n§RVanilla History§!: hover on event option to check the list of AI limitations."
+
+LSM_startup.76.a: "AI try its best (§CDefault§!)"
+
+LSM_startup.76.b: "Vanilla History (Experimental)"
+
+LSM_startup.76.aa: "Special Test (§GNew§!, Experimental)"
+
+LSM_startup.76.c: "Temporarily Disabled unless you are Germany"
+
+LSM_startup.76.e: "Super-France (Not Recommended)"
+
+SOV_t34_mass_production_1: "Early Adoption of T-34"
+
+SOV_t34_mass_production_2: "Early Adoption of T-34"
+
+SOV_t34_mass_production_3: "Early Adoption of T-34"
+
+SOV_t34_mass_production_4: "Formation of T-34 Assembly Line"
+
+SOV_t34_mass_production_5: "Formation of T-34 Assembly Line"
+
+SOV_t34_mass_production_6: "Formation of T-34 Assembly Line"
+
+SOV_t34_mass_production_7: "Increased Production of T-34"
+
+SOV_t34_mass_production_8: "Increased Production of T-34"
+
+SOV_t34_mass_production_9: "Increased Production of T-34"
+
+SOV_t34_mass_production_10: "Mass Production of T-34"
+
+SOV_t34_mass_production_1_desc: "The current cost of T-34 is 269,500 Rbls"
+
+SOV_t34_mass_production_2_desc: "The current cost of T-34 is 255,500 Rbls"
+
+SOV_t34_mass_production_3_desc: "The current cost of T-34 is 241,800 Rbls"
+
+SOV_t34_mass_production_4_desc: "The current cost of T-34 is 215,200 Rbls"
+
+SOV_t34_mass_production_5_desc: "The current cost of T-34 is 201,800 Rbls"
+
+SOV_t34_mass_production_6_desc: "The current cost of T-34 is 193,000 Rbls"
+
+SOV_t34_mass_production_7_desc: "The current cost of T-34 is 161,900 Rbls"
+
+SOV_t34_mass_production_8_desc: "The current cost of T-34 is 168,200 Rbls"
+
+SOV_t34_mass_production_9_desc: "The current cost of T-34 is 135,000 Rbls"
+
+SOV_t34_mass_production_10_desc: "The current cost of T-34 is 135,000 Rbls"
+
+GER_total_war_production_1: "Wartime Mobilisation of Supply and Material"
+
+GER_total_war_production_2: "Wartime Economic Mobilisation"
+
+GER_total_war_production_3: "Wartime Industrial Mobilisation"
+
+GER_total_war_production_4: "Total War Industrial Mobilisation"
+
+GER_total_war_production_5: "Desperation, Deprivation, and Pies in the Sky"
+
+USA_total_war_production_1: "Wartime Production"
+
+USA_total_war_production_2: "Wartime Mobilisation"
+
+USA_total_war_production_3: "Homefront"
+
+USA_total_war_production_4: "A World War Economy"
+
+USA_total_war_production_5: "Medal of Honor"
+
+USA_total_war_production_5_desc: "Over there, over there! Send the word, send the word over there! That the Yanks are coming, the Yanks are coming! The drums rum-tumming everywhere!"
+
+LSM_startup.2.t: "Cursed Map"
+
+LSM_startup.2.d: "Somebody told me in 1941, Churchill was begging Stalin to join the war because Hitler was so close to destroying the US army. So I am making it real"
+
+LSM_startup.2.a: "Hell yeah, what is bug?"
+
+LSM_startup.2.b: "No lol"
+
+lsm_news.1999.t: "The Plot in Africa"
+
+lsm_news.1999.d: "This morning, the [ITA.GetAdjective] government has announced the total capitulation of Ethiopia as well as the full annexation of their government for plot purposes (either because Soviet volunteers killed them or because Ethiopia would become a huge PITA later). As a compensation, any countries that have supported Ethiopia will receive some manpower, equipment, army experience, and hopefully that may soothe the rage of the players. Hopefully, copefully so."
+
+lsm_news.1999.a: "Who cares"
+
+lsm_news.1999.b: "Compensation is good"
+
+lsm_news.1999.c: "Nah, release Ethiopia, they have won"
+
+lsm_news.300.t: "Endsieg!"
+
+lsm_news.300.d: "I ask you: Do you want the total war?! Do you want it, if necessary, more total and radical than anything that we can yet today even conceive?! Nun, Volk, steh auf, und Sturm, brich los! Now, people, rise up, and storm, break loose!\n\nI expect every German to do his duty to the last and that he be willing to take upon himself every sacrifice he will be asked to make; I expect every able-bodied German to fight with the complete disregard for his personal safety; I expect the sick and the weak or those otherwise unavailable for military duty to work with their last strength; I expect all women and girls to continue supporting this struggle with utmost fanaticism!"
+
+lsm_news.300.a: "Interesting development"
+
+lsm_news.300.b: "For the Liberation of Europe!"
+
+lsm_news.300.c: "To the Defence of the Reich!"
+
+GER_doomsday_barbarossa: "Fall Barbarossa"
+
+LSM_great_patriotic_war_decision: "War on the Eastern Front"
+
+lsm_news.1101.t: "The War in Europe"
+
+lsm_news.1101.d: "Communication has broken down between [GER.GetNameDef] and [SOV.GetNameDef], with armies amassing at the border as the polars prepare for the continental confrontation that will decide the fate of Europe.\n\nAt this stage, it is too early to tell who may emerge victors from this conflict; however, one thing is clear, whatever the outcome may be, it will perhaps be the peace of Europe - for no other challengers may threaten the hegemony once the dust has settled."
+
+lsm_news.1101.a: "Uraaaah!"
+
+lsm_news.1101.b: "For our great leader [GER.GetLeader]!!"
+
+lsm_news.1101.c: "Worrying development"
+
+lsm_news.1200.t: "The Next Morning in Europe"
+
+lsm_news.1200.d: "Today, history has observed what was thought to be impossible.\n\nAfter several rounds of negotiation, [GER.GetNameDef] and [SOV.GetNameDef] have formalized a pact of non-aggression and non-intervention in continental Europe to ensure the peace of every of its citizens and the future of the Old World. While it is still early to tell what the plans may be for each side who are know fully unoccupied by the brickering between one another, a fact is clear - The New World is now in danger."
+
+lsm_news.1200.a: "They had good beer"
+
+lsm_news.1200.b: "They had good bears"
+
+lsm_news.1200.c: "Worrying development?"
+
+lsm_news.1300.t: "The Next Morning in Europe"
+
+lsm_news.1300.d: "Today, history has observed what was not even imaginable.\n\nMerely overnight, [GER.GetNameDef] and [SOV.GetNameDef] have formalized an alliance, with [GER.GetLeader] and [SOV.GetLeader] sharing a dinner as well as an announcement of brotherhood between whom they called "like-minded". Only time may tell where the ambition of these two men may steer the world towards."
+
+lsm_news.1300.a: "A new friend, indeed!"
+
+lsm_news.1300.b: "A new friend, perhaps!"
+
+lsm_news.1300.c: "Impossible!"
+
+lsm_news.1110.t: "Tension in Eastern Europe"
+
+lsm_news.1110.d: "Despite the renewed friendship treaty and brotherhood between the two leaders, [GER.GetLeader] and [SOV.GetLeader], the circumstances have only fueled the call for war between [SOV.GetNameDef] and [GER.GetNameDef]. With every communication broken down between [GER.GetNameDef] and [SOV.GetNameDef], and their armies now amassing at the border, there is no doubt that this continental confrontation that will decide the fate of Europe.\n\nWhoever emerges victor will perhaps be the new Master of the World."
+
+lsm_news.1110.a: "Damned Germans!"
+
+lsm_news.1110.b: "Damned Slavs!"
+
+lsm_news.1110.c: "Told them it was stupid"
+
+lsm_news.1110.e: "Unsurprisingly predictable"
+
+lsm_news.1111.t: "One Step Forward"
+
+lsm_news.1111.d: "This morning, [SOV.GetAdjective] army and airforce has crossed the borders between [SOV.GetNameDef] and [GER.GetNameDef], initiating a large scale invasion from the eastern flank of the rising power in Central Europe. This unexpected move has caught spectators in shock, most of whom failed to even imagine the sheer mass of the invading forces. However, in [SOV.GetNameDef], the narrative could not have been any clearer:\n\nThe only possibility for [SOV.GetNameDef] to defend themselves from future aggression is by taking One Step Forward."
+
+lsm_news.1111.a: "To Berlin!"
+
+lsm_news.1111.b: "For the Vaterland!"
+
+lsm_news.1111.c: "Dangerous time"
+
+lsm_news.1111.e: "To the aid of our allies!"
+
+doomed_by_hitler_stalin_pact: "Failure of the Pact"
+
+doomed_by_hitler_stalin_pact_2: "Failure of the Pact - Aggressor"
+
+GER_SOV_hitler_stalin_pact: "[GER.GetLeader] - [SOV.GetLeader] Pact of Friendship"
+
+GER_SOV_hitler_stalin_pact_desc: "Breaking the pact will cause severe consequences."
+
+SOV_patriotic_offensive_1: "The Great Counter-offensive - First Stage"
+
+SOV_patriotic_offensive_2: "The Great Counter-offensive - Second Stage"
+
+SOV_patriotic_offensive_3: "The Great Counter-offensive - Third Stage"
+
+SOV_patriotic_offensive_4: "The Great Counter-offensive - Fourth Stage"
+
+SOV_patriotic_offensive_5: "The Great Counter-offensive - Final Stage"
+
+GER_barbarossa_offensive_1: "Conducting Large Scale Offensive"
+
+GER_barbarossa_offensive_2: "Conducting Large Scale Offensive"
+
+GER_barbarossa_offensive_3: "Conducting Large Scale Offensive"
+
+GER_barbarossa_offensive_4: "Conducting Large Scale Offensive"
+
+GER_barbarossa_offensive_5: "Conducting Large Scale Offensive"
+
+SOV_barbarossa_retreat: "Army in Chaos"
+
+SOV_barbarossa_retreat_2: "Army in Chaos"
+
+SOV_barbarossa_retreat_3: "Army in Chaos"
+
+SOV_barbarossa_retreat_4: "Recovering Army"
+
+SOV_barbarossa_retreat_5: "Recovering Army"
+
+SOV_barbarossa_retreat_6: "Recovering Army"
+
+SOV_barbarossa_retreat_7: "Recovering Army"
+
+SOV_barbarossa_retreat_8: "Recovering Army"
+
+SOV_barbarossa_retreat_9: "Reorganised Army"
+
+SOV_barbarossa_retreat_10: "Reorganised Army"
+
+SOV_barbarossa_no_retreat: "Not One Step Back!"
+
+LSM_patriotic_war_sabotage_pact: "Let's reconsider our pact with [GER.GetNameDef]"
+
+LSM_patriotic_war_one_step_forward: "War with [GER.GetNameDef]"
+
+LSM_GER_SOV.1.t: "Crossroad of Destiny"
+
+LSM_GER_SOV.1.d: "Our Great Nation is now stranded between a sea of choice, each and every weights in just as much pain and sacrifice as another. From the east, lies the sleeping bear, one that may either be a great ally or yet our greatest nemesis. Beyond the seas, lies the wealth of the New World and its despicable regimes led by [ENG.GetLeader] and [USA.GetLeader], where as days pass by, they plot to return to Europe. A decision has to be made.\n\nWhere will the destiny of [GER.GetNameDef] lie?"
+
+LSM_GER_SOV.1.a: "The Western Shores"
+
+LSM_GER_SOV.1.b: "The Eastern Front"
+
+LSM_GER_SOV.2.t: "Telegraph from Berlin"
+
+LSM_GER_SOV.2.d: "This morning, we have received a written message from an agent dispatched by [GER.GetNameDef], and with a formal request from their government to enter discussion with regards to the future of Europe. While this development is not wholeheartedly unexpected, given the state of the German economy, and most importantly, the current state of war in relation to other belligerents, who have now entrenched beyond their reach, there is no doubt that whatever we must prepare for whatever fate may have in stone for [SOV.GetNameDef]"
+
+LSM_GER_SOV.2.a: "Where do we meet this time?"
+
+LSM_GER_SOV.2.b: "Not of our interest"
+
+LSM_GER_SOV.3.t: "They are interested in our offer"
+
+LSM_GER_SOV.3.d: "Immediately after approaching the [SOV.GetAdjective] government, our agent was swiftly handed another message, one that reads "[SOV.GetLeader] would love to enter a round of negotiation with the [GER.GetNameDef] government in [GER.Capital.GetCapitalVictoryPointName]. Their diplomats are already en route at this very moment. Perhaps we should consider a party to celebrate this occasion!"
+
+LSM_GER_SOV.3.a: "A small party will suffice"
+
+LSM_GER_SOV.3.b: "Brilliant! Bring out the beer!"
+
+LSM_GER_SOV.4.t: "They have rejected our offer"
+
+LSM_GER_SOV.4.d: "Immediately after approaching the [SOV.GetAdjective] government, our agent was swiftly apprehended and brought to the firing squad, where he met his untimely end with an ultimate sacrifice. Through his noble duty, however, we can now confirm that [SOV.GetNameDef] harbours another ambition towards Europe, one that may perhaps threaten our sovereignty, at the very least."
+
+LSM_GER_SOV.4.a: "Barbarossa, it is"
+
+LSM_GER_SOV.6.t: "They offer us an alliance"
+
+LSM_GER_SOV.6.d: "At the lavious party personally attended by [GER.GetLeader], our diplomats were approached by a shocking offer that they felt compelled to request time for consideration and to consult [SOV.GetLeader]'s opinion. Now that our nation sits at our own crossroad of destiny, we have to approach this matter carefully and thoroughly."
+
+LSM_GER_SOV.6.a: "[SOV.GetLeader] joins the party"
+
+LSM_GER_SOV.6.b: "We have a better plan"
+
+LSM_GER_SOV.5.t: "[GER.GetLeader] offers us a friendship"
+
+LSM_GER_SOV.5.d: "At the party attended by high ranking members of the [GER.GetAdjective] government, our diplomats were approached by a predictable offer that has fallen neatly between every predictions from [SOV.GetLeader]. Of course, not every friendship is unilateral nor without benefit. Now that our nation has a good hand on the table, we ought to play this game with thorough insight."
+
+LSM_GER_SOV.5.a: "Agree to the pact..."
+
+LSM_GER_SOV.5.b: "...but only with conditions"
+
+LSM_GER_SOV.8.t: "[SOV.GetLeader] agrees to the new treaty"
+
+LSM_GER_SOV.8.d: "Immediately after approaching the [SOV.GetAdjective] diplomats, our government was responded with a pleased expression by the [SOV.GetNameDef] that our two nations would unconditionally enter a pact of nonaggression, effective as soon as both sides could settle with their signatures. [SOV.GetLeader] has even personally contacted [GER.GetLeader] for a round of applaud and congratulation, expressing his genuine interest in the prosperity of Europe, of [GER.GetNameDef] and of [SOV.GetNameDef]."
+
+LSM_GER_SOV.8.a: "Can always count on them!"
+
+LSM_GER_SOV.9.t: "[SOV.GetLeader] makes a counteroffer"
+
+LSM_GER_SOV.9.d: "Immediately after approaching the [SOV.GetAdjective] diplomats, our government was responded with a troubled expression by the [SOV.GetNameDef], alongside a formal interest in their personal matters, some of which they believe only [GER.GetLeader] could perhaps provide them with - the former being the recognition of internation claim by [SOV.GetNameDef] that are either under the protection of [GER.GetNameDef], while the latter being our valuable experience during the war in Europe. We could always appeal to their demand and secure this treaty, or perhaps we are back on track with our original strategy."
+
+LSM_GER_SOV.9.a: "Recognize their claims"
+
+LSM_GER_SOV.9.b: "Modernize their military"
+
+LSM_GER_SOV.9.c: "No deal"
+
+LSM_GER_SOV.18.t: "[GER.GetLeader] recognizes our claims"
+
+LSM_GER_SOV.18.d: "Shortly after our counteroffer, our diplomats were responded with a joyous news - [GER.GetNameDef] will agree to any claims or demands [SOV.GetNameDef] may have over international borders, and will without doubt see to the best of their abilities to ensure it happens, as well as aiding in our pacification effort of those regions if need be.\n\nPerhaps it is time for us to finish whatever business we have left within Europe."
+
+LSM_GER_SOV.18.a: "Now we are talking"
+
+LSM_GER_SOV.19.t: "They will dispatch their best advisors"
+
+LSM_GER_SOV.19.d: "Shortly after our counteroffer, our diplomats were responded with a joyous news - [GER.GetNameDef] shares any military experience from the war in Europe that we are interested in alongside programs for new academies, military advisors, wargaming, as well as the opportunity for our military attaches to partake in their military exercise or at the frontline."
+
+LSM_GER_SOV.19.a: "Now we are talking"
+
+LSM_GER_SOV.10.t: "[GER.GetLeader] fires the first shot!"
+
+LSM_GER_SOV.10.d: "Communication has broken down! Negotiation has failed! Our diplomats as well as high ranking officers currently in [GER.GetNameDef] have been ruthlessly killed without any warning.\n\n[SOV.GetLeader] was right! [GER.GetNameDef] should never be trusted! Those vile serpents that seek to swallow the world entire must be struck down before their fangs poison the next generation!"
+
+LSM_GER_SOV.10.a: "Unfortunate, but war it is"
+
+LSM_GER_SOV.150.t: "War on the Eastern Front"
+
+LSM_GER_SOV.150.d: "Communication has broken down. Negotiation has failed. [GER.GetLeader] was right! [SOV.GetNameDef] should never be trusted! For the future of our generations, we must secure a complete victory and destroy any threat from the communists!\n\nHans, get ze Flammenwerfer!"
+
+LSM_GER_SOV.150.a: "Unfortunate, but war it is"
+
+LSM_GER_SOV.27.t: "Disturbing Mobilisation on our Eastern Border!"
+
+LSM_GER_SOV.27.d: "Behind our back, the [SOV.GetAdjective] government is now mobilising millions of troops at our borders, communication lines have gone dark and our military advisors in [SOV.GetNameDef] has gone complete silence. Did we expect this? Perhaps yes, perhaps not."
+
+LSM_GER_SOV.27.a: "Our time is running short! We must make haste!"
+
+LSM_GER_SOV.101.t: "The Ribbentrop Telegram"
+
+LSM_GER_SOV.101.d: "Canada, just like much of the Commonwealth of Nations, is beyond our reach for the time being. [USA.GetNameDef], however, sits close and tightly interwined with our path, bearing mere steps away from Ottawa, where [ENG.GetLeader]'s cabinet resides. Perhaps we can talk this out."
+
+LSM_GER_SOV.101.a: "Talk to [USA.GetLeader]"
+
+LSM_GER_SOV.101.b: "Nonsense"
+
+LSM_GER_SOV.102.t: "The Ribbentrop Telegram"
+
+LSM_GER_SOV.102.d: "Those rascals from the Old World have sent us a telegram this morning, expressing a formal concern over our policies in America and hope that we may perhaps... do them a favour by conquering their remaining enemies. On one hand, this offers us a perfect opportunity to expand beyond our borders and to end British imperialism - on the other hand, we will be lending a hand to a potential enemy in the future. We have to consider this matter carefully."
+
+LSM_GER_SOV.102.a: "Good idea"
+
+LSM_GER_SOV.102.b: "Nuts"
+
+LSM_GER_SOV.102.c: "I have a better idea"
+
+LSM_GER_SOV.26.t: "The Ribbentrop Telegram"
+
+LSM_GER_SOV.26.d: "Unsurprisingly, or perhaps precisely so,[USA.GetLeader] has rejected our offer and proceeded to seek diplomatic relation with the [CAN.GetAdjective] government instead. While this political maneuvre has indeed resulted in a setback for our nation, such circumstance has otherwise no impact on our policy. With the European continent already in our grasp, who dares say we aren't yet the masters of the world?"
+
+LSM_GER_SOV.26.a: "Can't be helped"
+
+lsm_news.1103.t: "The Ribbentrop Telegram"
+
+lsm_news.1103.d: "For some unknown reasons and through unknown means, the [GER.GetAdjective] government has contacted [USA.GetLeader] this early morning to request an intervention in Canada - however insane that may have sounded.\nOf course, [USA.GetLeader], then enjoying his breakfast and some hot chocolate, paid no heed to the pitiful pleas of the deprived soul from [GER.Capital.GetCapitalVictoryPointName] and continued with his meal as though little had happened - though not after he had given the instruction to his government to announce his plan for Europe and for America, as well as a little slip of the tongue as to the fact the [GER.GetAdjective] government even had the audacity to contact him in the first place."
+
+lsm_news.1103.a: "Told you it was a bad idea!"
+
+lsm_news.1103.b: "Convenient in every ways"
+
+lsm_news.1103.c: "Lmao, seriously?"
+
+economic_mobilisation_cat: "Economic Mobilisation"
+
+lsm_news.120.t: "Japanese Victory in China"
+
+lsm_news.120.d: "Under the leadership of [JAP.GetLeader], Japan has embarked on an ambitious journey: the invasion of the Republic of China. Today, the [JAP.GetAdjective] government and its cabinet has announced that Japan has prevailed at last.\n\nNow longer occupied by the war with China, Japan leaves the world pondering over their next move. Nonetheless, whether the ambition of Japan lies in Russia or in the southern colonies of the Western powers, the world knows for a fact that Japan is inevitable."
+
+lsm_news.120.g: "Tennouheika, Banzai!!"
+
+lsm_news.120.m: "Nippon Banzai!!"
+
+lsm_news.120.a: "Congratulation"
+
+lsm_news.120.b: "Dangerous times"
+
+lsm_news.120.c: "They are coming"
+
+LSM_GER_SOV.472.t: "Intervention in China"
+
+LSM_GER_SOV.472.d: "Now that the threat from Europe has been destroyed, our nation once again finds itself under some pressure, or as one may say - opportunity, to partake in the war in Asia in accordance with the treaty stipulation as signed at the Yalta Conference with the leader of the Allies. Of course, it is not an obligation per se, for our nation has found itself rather severely affected by the war in Europe; nonetheless, an opportunity is an opportunity indeed.\n\nWe would be madmen to refuse such a rewarding endeavour."
+
+LSM_GER_SOV.472.a: "Uraaaah!"
+
+LSM_GER_SOV.472.b: "We can't afford it"
+
+lsm_news.121.t: "The Unification of China"
+
+lsm_news.121.d: "After months of constant civil war, the Republic of China has today been forced to withdraw to Taiwan, signifying the end to bloodshed in China. Resistance, while persists in remote areas, has failed to amount to any significant threat, and without further Western backing, it seems clear to any observer that there will soon be a complete transition of power into the hand of the communist victors.\n\nWhile many are still left shocked with this terrible news, for the Chinese people, whether or not this means a change in their way of life, the Chinese Civil War has truly come to an end at last."
+
+lsm_news.127.d: "After months of constant civil war, the Republic of China has today surrendered to [PRC.GetNameDef], signifying the end to bloodshed in China. Resistance, while persists in remote areas, has failed to amount to any significant threat, and without further Western backing, it seems clear to any observer that there will soon be a complete transition of power into the hand of the communist victors.\n\nWhile many are still left shocked with this terrible news, for the Chinese people, whether or not this means a change in their way of life, the Chinese Civil War has truly come to an end at last."
+
+lsm_news.121.a: "Congratulation"
+
+lsm_news.121.b: "What may this mean to us?"
+
+lsm_news.122.t: "Second Chinese Civil War"
+
+lsm_news.122.d: "So they whisper, and so they say. For the long since postponed conflict has resumed at last.\n\nToday, at dawnbreak, [ROOT.GetAdjective] forces have launched a massive invasion across the river after ignoring the warning issued by their Western allies not to initiate another conflict in the region. It is, of course, far from the eventuality of which observers had not foreseen, as it had appeared abundantly clear that the former alliance between the Chinese nations was merely temporary and conditional, that once the major threat to Chinese sovereignty has been curled, the threat of civil war would once again rear its head."
+
+lsm_news.122.a: "Good luck, comrades!"
+
+lsm_news.122.b: "But the civilians..."
+
+lsm_news.123.t: "Korean Civil War"
+
+lsm_news.123.d: "Today, twenty divisions of North Korean infantry invaded South Korea.\n\nIn its narrowest sense, the invasion marked the beginning of a civil war between peoples of a divided country. In a far larger sense, it represented a break in tensions between the two dominant power blocs that had emerged from the Second World War. Unlike before, however, with the entrance of nuclear weapon into the world, one may only hope there is a shred of restraints in the conscience of both parties."
+
+lsm_news.123.a: "For the Unification of Korea"
+
+lsm_news.123.b: "May Freedom prevail"
+
+lsm_news.124.t: "U.S. Intervention in Korean Civil War"
+
+lsm_news.124.d: "The U.S. has taken each steps with its eyes open. It knew the war was spreading when [USA.GetLeader] sent ships and planes, when later he ordered the bombing of the home bases of the Communist invaders in North Korea. And when the U.S. troops rushed to take over from routed South Koreans, American felt the anxiety that preceded Bataan. It also knew the alternative - watching free nations topple on by one.\n\nFew voices were raised in protest to the decisions of an awesome week."
+
+lsm_news.124.a: "Vile capitalists!"
+
+lsm_news.124.b: "Here comes Democracy!"
+
+lsm_news.125.t: "Enter China!"
+
+lsm_news.125.d: "Threats of a general war in the Far East grew as perhaps 250,000 Chinese Communists jumped into the battle for Northwest Korea; at best, their intervention meant a winter campaign in the mountains; at worst, a world war.\n\nThe world could only hold its breath."
+
+lsm_news.125.a: "Victory for Socialism!"
+
+lsm_news.125.b: "Lawless bastards!"
+
+lsm_news.126.t: "Truce in Korea"
+
+lsm_news.126.d: "While the fighting raged on the central front the negotiators at Panmunjom rapidly approached an agreement on armistice terms. The [?global.year|0] agreement was reached on all points by both sides. The next day liaison and staff officers began the task of drawing up the boundaries of the demilitarized zone... At 1100 hours today, Lieutenant General William K Harrison, Jr., the senior United Nations delegate to the armistice negotiations, signed the armistice papers. At the same time the senior North Korean delegate, General Nam Il, placed his signature on the documents."
+
+lsm_news.126.a: "Finally an end to war..."
+
+lsm_news.126.b: "...may peace prosper"
+
+lsm_news.128.t: "Unification of Korean Peninsula"
+
+lsm_news.128.d: "With the final pocket of resistance neutralised at last, the [?global.year|0] agreement was reached on all points by both sides. The next day liaison and staff officers began the task of negotiating for the exchange of prisoners of war as well as the recovery of casualties. At 1100 hours today, Lieutenant General William K Harrison, Jr., the senior United Nations delegate to the peace negotiations, signed the treaty stipulations. At the same time the senior North Korean delegate, General Nam Il, placed his signature on the documents."
+
+lsm_news.128.a: "Finally an end to war..."
+
+lsm_news.128.b: "...may peace prosper"
+
+LSM_new_world_diplomacy.6.t: "Treaty of Nanjing"
+
+LSM_new_world_diplomacy.6.d: "Now that we have conquered China, there are struggles ahead of ourselves as to the administration of the region. Of course, between the options we are provided with, or are able to provide to our allies, there is always some merit in considering the future of ourselves and of our imperial subjects. On one hand, the management of China might be better left in the hand of the Chinese leadership under Puyi; on the other hand, there is Wang Jingwei, but there is always the option of taking everything for ourselves."
+
+LSM_new_world_diplomacy.6.a: "Split China with the Manchus"
+
+LSM_new_world_diplomacy.6.b: "Restore the Qing Emperor"
+
+LSM_new_world_diplomacy.6.c: "We cannot trust the Manchus"
+
+LSM_new_world_diplomacy.6.e: "There is no error with the map"
+
+LSM_new_world_diplomacy.6.f: "Wang Jingwei leadership"
+
+LSM_GER_SOV.474.t: "A Suspicious Man Captured"
+
+LSM_GER_SOV.474.d: "This morning at 0600 hours, this individual entered Russian aerospace, west of [217.GetCapitalVictoryPointName] close to Kazahkstan border, where he was shot down in his suspicious-looking aircraft. While he had pleaded his case that he had urgent business to care for, and wished nothing to do with us, he was originally found attempting to hide in a chimney."
+
+LSM_GER_SOV.474.a: "Gulag is the answer"
+
+LSM_GER_SOV.474.b: "Let him go"
+
+LSM_GER_SOV.474.c: "Isn't the man exhausted? Let him rest"
+
+LSM_GER_SOV.474.e: "Interrogate him first"
+
+LSM_GER_SOV.475.t: "A Shipment of Coal?"
+
+LSM_GER_SOV.475.d: "This morning, a massive pile of coal was on the streets of [ROOT.Capital.GetCapitalVictoryPointName], alongside a note written in what appears to be the languages of the far-north republics of [SOV.GetNameDef]. Of course, when inquired of this matter, there was no witnesses or passers-by who had any knowledge of this unprecedented event. Either case, whoever this anonymous individual may be, their support has only demonstrated the will of the people!"
+
+LSM_GER_SOV.475.a: "Let's put the coal to work!"
+
+LSM_GER_SOV.475.b: "There is much less coal this year?"
+
+LSM_GER_SOV.476.t: "The Suspicious Man"
+
+LSM_GER_SOV.476.d: "Earlier last night, after being escorted to an accomodation alongside his personal belonging, the man was soon found attempting to bypass our guards and infiltrated a nearby village, where a number of children were apparently... waiting for him? While the man did not appear to be engaging in any shady dealing or attempting to kidnap the children, his behaviour remains largely unexplained and thus requires our attention."
+
+LSM_GER_SOV.476.a: "Better be safe than be sorry."
+
+LSM_GER_SOV.476.b: "Perhaps he just wants to play with the kids."
+
+LSM_GER_SOV.477.t: "The Suspicious Man Reveals His Identity"
+
+LSM_GER_SOV.477.d: "Upon returning to our base for dinner, the man gazed at the list of names of which he had carried alongside himself, speaking little of what he wished to do beyond expressing his eagerness in sharing dinner with us. Nonetheless, once everybody was ready to dine, the man revealed his identity.\n\n'My name is Santa Claus, I am father Christmas.'\n\nThe diners were baffled."
+
+LSM_GER_SOV.477.a: "He is an infiltrator against our cause!"
+
+LSM_GER_SOV.477.b: "Welcome him to the Soviet Union."
+
+LSM_GER_SOV.477.c: "[SOV.GetLeader] notices the incident"
+
+LSM_GER_SOV.478.t: "Santa Claus bids farewell"
+
+LSM_GER_SOV.478.d: "'Ho ho ho!'\n\nWith his laughter in the air, Santa Claus departs from the village in the cheering of the kids. While Santa appeared visibly troubled by his damaged sleigh, he was nonetheless happy that his reindeers were unharmed.\n\nOf course, the Soviet Union feels obliged to warn him not to cross the aerospace unless absolutely necessary, but given that the man lives in somewhere in the north pole, it is likely we will cross path when winter arrives once again."
+
+LSM_GER_SOV.478.a: "The Blessing of Santa Claus"
+
+LSM_GER_SOV.479.t: "The Interrogation Pt.1 - The List"
+
+LSM_GER_SOV.479.d: "We have found a list of names! They must be spies from those Capitalist pigs and the vile Nazis! The man will have a long explanation to do, either that, or he will be sent to the gulag to pay for his crime of espionage against the Soviet Union!"
+
+LSM_GER_SOV.479.a: "Who is Little Baby Jessica!!"
+
+LSM_GER_SOV.479.b: "There is also a second list"
+
+reduced_xp_gain: "Country is at peace"
+
+increased_xp_gain: "Country is at war"
+
+LSM_GER_SOV.480.t: "The Interrogation Pt.2 - The Communication"
+
+LSM_GER_SOV.480.d: "We have found another list of names, but this individual threatens us not to get our names on this list of his? Is this target for assassination?\n\nA parchment in his pocket reads:\n\n'Dear Santa. I have been a good girl. I work like a Silvanian Family Cosy Cottage Starter Home.'"
+
+LSM_GER_SOV.480.a: "This is clearly code!"
+
+LSM_GER_SOV.480.b: "Who is Santa!?"
+
+LSM_GER_SOV.481.t: "The Interrogation Pt.3 - The Spy Plane"
+
+LSM_GER_SOV.481.d: "The man was found with a fighter plane, one that did not appear on radar. It did not have wingspans or a propeller, but was caught at a speed just as fast as the latest fighter plane of the Soviet Union. The man did not provide a clear answer; furthermore, our intimidation appeared futile against this man, who seemed to personally know the children of the commander of the base!?"
+
+LSM_GER_SOV.481.a: "Why do you know Tatanya and Vasilli!"
+
+LSM_GER_SOV.481.b: "What are you doing in the Soviet Union?"
+
+LSM_GER_SOV.482.t: "The Interrogation Pt.4 - The Present"
+
+LSM_GER_SOV.482.d: "'Present! I deliver presents!' The man who called himself Santa pleaded his case, claiming it was the work of his life to deliver presents to every children in the world, in return for nothing? How could it be possible such a man exist?"
+
+LSM_GER_SOV.482.a: "Nonsense! Jail him!"
+
+LSM_GER_SOV.482.b: "So you are a communist?"
+
+LSM_GER_SOV.483.t: "Santa Claus the Communist?"
+
+LSM_GER_SOV.483.d: "'Da! Why do you think I wear red, comrade?'\n\nNow that the man has said as such, we can know for sure that this is a fellow man of our common cause! Who else could be so kind and so faithful to the society than another communist?"
+
+LSM_GER_SOV.483.a: "Comrade. Two vodka, one cookies and milk."
+
+LSM_GER_SOV.500.t: "A Suspicious Man Captured"
+
+LSM_GER_SOV.500.d: "This morning at 0400 hours, this individual entered German aerospace, east of [GER.Capital.GetCapitalVictoryPointName], where he was shot down in his suspicious-looking aircraft. hile he had pleaded his case that he had urgent business to care for, and wished nothing to do with us, he was originally found attempting to hide in a chimney."
+
+LSM_GER_SOV.500.a: "A firing squad for a spy, that is"
+
+LSM_GER_SOV.500.b: "Let him go"
+
+LSM_GER_SOV.500.c: "Isn't the man exhausted? Let him rest"
+
+
+LSM_GER_SOV.501.t: "A Dinner with [SOV.GetLeader]"
+
+LSM_GER_SOV.501.d: "Contrary to the previous expectation, [SOV.GetLeader] was incredibly warm and welcoming to this individual whose stature was essentially against everything the Soviet Union represented, and these two strangers started off on a very cozy friendship that by the evening had already developed into comradeship as Santa Claus made an offer to prepare dinner for our leader. Of course, the NKVD maintained its standing that this interaction could prove far too risky as this man might be plotting to assassinate [SOV.GetLeader].\n\nWhat should the NKVD do?\n\nShould Santa Claus be allowed to prepare dinner?"
+
+LSM_GER_SOV.501.a: "For the good of Stalin!"
+
+LSM_GER_SOV.501.b: "Let him cook"
+
+
+LSM_GER_SOV.502.t: "The Best Meal Ever!"
+
+LSM_GER_SOV.502.d: "Cheering loudly as he announces the new best chef of [SOV.GetNameDef], [SOV.GetLeader] and Santa Claus dances and drinks for the whole night, neither have expected to find kindred spirit in such vast world. At the very least, for [SOV.GetLeader]. this is the best meal he ever had since the day he was born. The food was good, the food was awesome, the food was more than anything he could have wished for! If only there could be another serving!"
+
+LSM_GER_SOV.502.a: "[SOV.GetLeader] is full"
+
+LSM_GER_SOV.502.b: "Another serving!"
+
+
+LSM_GER_SOV.503.t: "The Death of [SOV.GetLeader]"
+
+LSM_GER_SOV.503.d: "[SOV.GetLeader] has consumed too much food, more than his body could ever hope to handle, and it has broken him so thoroughly as he choked on the very wishes he had made. As the dusk of his life begins to approach, [SOV.GetLeader] whispers on the death bed. His voice seems flail at first, but the determination and resolution is evident."
+
+LSM_GER_SOV.503.a: "Stalin appoints Santa as he draws the last breath"
+
+LSM_GER_SOV.503.b: "Comrade Stalin survives the ordeal"
+
+SOV_santa_claus: "Santa Claus"
+
+father_christmas: "Father Christmas"
+
+LSM_GER_SOV.504.t: "Santa Claus: The Final Judgment"
+
+LSM_GER_SOV.504.d: "Now accused of plotting the assassination of [SOV.GetLeader], Santa Claus has to face justice. Of course, while comrade [SOV.GetLeader] insisted on acquitting the accused of all charges, the NKVD seems fearful that letting such person go would only allow future danger to threaten his safety, but whose voice will [SOV.GetLeader] listen to? The pleas of Santa Claus and his inner temptation to forgive a friend, or to ensure that his own personal safety will be protected and this individual sent to the gulag to pay for their crime against him?"
+
+LSM_GER_SOV.504.a: "To the Gulag!"
+
+LSM_GER_SOV.504.b: "Innocent on all charges"

@@ -1,0 +1,307 @@
+﻿l_english:
+
+ITA_divisioni_alpine_tt: "\n§COnce reforms have been implemented, the Alpine elites will be integrated into our school of thoughts for every future wars.§!"
+
+ITA_second_italo_ethiopian_war_army_bonus: "Second Italo-Ethiopian Conflict"
+
+ITA_second_italo_ethiopian_war_army_bonus_desc: "With the escalating conflict in East Africa seemingly without a conclusive end, it is only natural that the Italian government sees no options but to urge the military high command to increase the pressure on military advancement"
+
+ITA_exchange: "Exchanged African Holdings"
+
+ITA_negotiate_with_ethiopia: "East Africa for Prisoners of War"
+
+warning_about_defeat_tt:0 "§RA defeat in Ethiopia will significantly affect the resulting process of military-industry development and hinder our army reforms for at least one to two years. \n\n§!"
+
+LSM_technological_advance_idea: "Rapid Technological Advance"
+
+ITA_reforming_italy_armor: "Reorganizing Armored Vehicle Production"
+
+ITA_reforming_italy_armor_desc: "While our production lines are being reorganised, we have to expect a drastic loss in production output, but it is a necessary sacrifice. Only after this may our armor vehicle production hopes to catch up with the world."
+
+ITA_reforming_italy_armor2: "Reorganized Heavy Military Industry"
+
+ITA_reforming_italy_armor2_desc: "Now that our production lines have been improved, new, world-class firms have begun to emerge to bolster our production power in face of the increasing tension around the world"
+
+ITA_better_stronger_gun: "Artillery Manufacturers Under Scrutiny"
+
+ITA_better_stronger_gun_desc: "Our defeat in Ethiopia has taught us where we were lacking, one of which was the field of artillery design and manufacturing. Our new policies will be effective immediately to boost our immense potential in this increasingly vital industry."
+
+ITA_better_stronger_gun1: "Improved Heavy Munitions"
+
+ITA_better_stronger_gun1a: "Improved Artillery Production"
+
+ITA_better_stronger_gun1_desc: "Quality is quality and nothing less - we shall best our opponents with superior engineering"
+
+ITA_better_stronger_gun1a_desc: "Quantity is a quality of its own - we shall overwhelm our opponents with superior numbers"
+
+ITA_purge_leadership: "A Purge in the Leadership"
+
+ITA_purge_leadership_desc: "Our army is now undergoing extensive review with the hope that once this blunder is recovered from, we will be able to make up for the mistakes that the previous leadership has committed under their incompetency"
+
+ITA_reforming_the_mountaineer: "Reforming Our Special Forces"
+
+ITA_reforming_the_mountaineer_desc: "Our special forces will undergo a new rigorous training program to reinvent themselves as an elite force far stronger than the previous failure in the administration. Our mistake must be rewritten, and our legacy must carry on in a better light." 
+
+ITA_a_meeting_at_the_high_table: "From the failure in Ethiopia..."
+
+ITA_a_meeting_at_the_high_table_desc: "While every defeat is bitter, our defeat was humiliating. There is a long journey awaits."
+
+ITA_a_meeting_at_the_high_table2: "...to the high table in Roma"
+
+ITA_a_meeting_at_the_high_table2_desc: "Under the leadership of [ITA.GetLeader], the council convenes once again, hoping to find the errors that has carried through and damaged our war effort in Ethiopia."
+
+ITA_a_meeting_at_the_high_table3: "A Renewed Determination"
+
+ITA_a_meeting_at_the_high_table3_desc: "There is long road ahead for our army, our military industry, our very existence. But we know what we have to do now. We need to root out the fools from in our leadership, the industrial firms that have failed us, and bolster the most elite force of our ranks, all before the dust has settled and thus sealing our effort away in yet another whirlwind of harmful habits."
+
+ITA_a_meeting_at_the_high_table4: "The Culmination of Effort"
+
+ITA_a_meeting_at_the_high_table4_desc: "We have gone far, and we have gone strong. There is no longer a shame in our defeat. It was a lesson, and that lesson has made us far stronger than before. The [ITA.GetAdjective] army has now emerged a far greater force, backed by superior industry and engineering. This victory is the fruit of our determination."
+
+ITA_the_end_of_fiat: "The Disastrous Outcome of Fiat-Ansaldo Duopoly"
+
+ITA_the_end_of_fiat_desc: "Once again, we review the administration of Fiat and Ansaldo. This time however, we have destroyed the very resistance against changes and development that these firms have brought forth in order to maintain their profitability. The damage may be staggering, but we know our economy will recover and improve far stronger than before."
+
+ITA_a_new_ansaldo: "Toppling the Castle"
+
+ITA_a_new_ansaldo_desc: "Ansaldo has far more potential than they may have seen at first. Now that they are in a precarious situation and no longer able to resist our pressure, it is clear that they have to submit to our will. It is time to put this firm under a new administration, perhaps directly under our military to align our best interests."
+
+
+
+ITA_army_primacy_bba_b:0 "[GetArmyPrimacyName]"
+
+ITA_army_primacy_bba_b_default:0 "Army Primacy"
+
+ITA_army_primacy_bba_b_alt:0 "Yet Another Defeat in Ethiopia"
+
+ITA_army_primacy_bba_b_desc:0 "[GetArmyPrimacyDesc]"
+
+ITA_army_primacy_bba_b_desc_default:0 "In the last and final instance, a war is won by putting soldiers onto enemy soil and taking the things the enemy needs to wage war. While the Navy and the Airforce are doubtlessly useful organizations, it is the Army that will win the war."
+
+ITA_army_primacy_bba_b_desc_alt:0 "Everybody has by now understood it would eventually be the Army that would win any war, not the Navy, not the Airforce, and not even the production front itself. Every war needs to be manned with the brave and courageous, yet it only appeared that we have failed to even do as much."
+
+
+ITA_preserve_army_traditions_b:0 "[GetPreserveArmyName]"
+
+ITA_preserve_army_traditions_b_default:0 "Preserve Army Tradition"
+
+ITA_preserve_army_traditions_b_alt:0 "One Tradition, Revision and Reform"
+
+ITA_preserve_army_traditions_b_desc:0 "[GetPreserveArmyDesc]"
+
+ITA_preserve_army_traditions_b_desc_default:0 "There are many ideas floating around these days about new ways to wage war. While some of these probably have some merit, the foundation of any successful army has not changed since the days of Caesar: Discipline, individual courage, and capable leadership."
+
+ITA_preserve_army_traditions_b_desc_alt:0 "Despite our eventual defeat, we had indeed achieved successes in this conflict at the initial stage, that the enemies were weaker and were easily repelled. While many would argue we would have to seek new options and explore the potential of our army, the foundation of any successful army has never changed from the days of Caesar: Discipline, individual courage, and capable leadership."
+
+ITA_preserve_army_traditions_re_b_tt:0 "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$ \n$MODIFIER_ARMY_ORG$: §G+15.0%§! \n$MODIFIER_COMMAND_POWER_GAIN_MULT$: §G+15.0%§! \n\n"
+
+
+
+ITA_a_bandits_war_b:0 "[GetBanditName]"
+
+ITA_a_bandits_war_b_default:0 "A Bandit's War"
+
+ITA_a_bandits_war_b_alt:0 "Exploring A New Path"
+
+ITA_a_bandits_war_b_desc:0 "[GetBanditDesc]"
+
+ITA_a_bandits_war_b_desc_default:0 "The old ways of waging war should have died in the trenches on the Isonzo. Some of our old generals still believe that modern war can be won by throwing masses of soldiers into the meatgrinder. We know better now: modern war is won by fast maneuvers and flexible organizations that can react quickly. We must prepare our army for this kind of war."
+
+ITA_a_bandits_war_b_desc_alt:0 "At the gate to Addis Abba, we have learnt from the brutal battle that a successful army in this era needs more than just the old and reliable infantry. Our defeat was bitter, but we know much better now: modern war is won by fast maneuvers and flexible organizations that can react quickly. We must prepare our army for this kind of war."
+
+ITA_a_bandits_war_re_b_tt:0 "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$ \n$MODIFIER_MOTORIZED_ATTACK_FACTOR$: §G+10.0%§! \n$MODIFIER_MECHANIZED_ATTACK_FACTOR$: §G+10.0%§! \n$MODIFIER_ARMY_SPEED_FACTOR$: §G+10.00%§! \n$MODIFIERS_ARMY_ARMOR_ATTACK_FACTOR$: §G+10.0%§! \n\n"
+
+
+ITA_army_leaders_b:0 "[GetLeaderName]"
+
+ITA_army_leaders_b_default:0 "Army Leaders"
+
+ITA_army_leaders_b_alt:0 "A Purge in The Leadership"
+
+ITA_army_leaders_b_desc:0 "[GetLeaderDesc]"
+
+ITA_army_leaders_b_desc_default:0 "Our armies must always be led by the most capable officers available. It is imperative that we create a steady flow of new and competent officers to maintain the advantage."
+
+ITA_army_leaders_b_desc_alt:0 "No more fools, no more weakness, no more incapable leaderships - it is time for us to rid ourselves of the old and questionable fools that have championed our defeat in Ethiopia."
+
+
+ITA_superesercito_b:0 "[GetSuperName]"
+
+ITA_superesercito_b_default:0 "Superesercito"
+
+ITA_superesercito_b_alt:0 "A Reformed [ITA.GetAdjective] Army"
+
+ITA_superesercito_b_desc:0 "[GetSuperDesc]"
+
+ITA_superesercito_b_desc_default:0 "Coordinating a large army is not an easy undertaking. We need to create a structure for a supreme command, which can guide and support the forces in the field."
+
+ITA_superesercito_b_desc_alt:0 "Here in Roma at last, the bitterness of defeat lingers as ever, but the pain is now long gone - there is only the burning desire to be better than we have ever been."
+
+ITA_superesercito_re_a_tt: "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$ \n$modifier_army_sub_unit_militia_max_org_factor$: §G+10.0%§! \n$modifier_army_sub_unit_militia_attack_factor$: §G+10.0%§! \n$modifier_army_sub_unit_militia_defence_factor$: §G+10.00%§! \n$modifier_army_sub_unit_militia_speed_factor$: §G+10.00%§! \n$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: §G+25.00%§! \n\n"
+
+ITA_superesercito_re_b_tt: "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$ \n$MODIFIER_COMMAND_POWER_GAIN_MULT$: §G+30.0%§! \n$MODIFIER_MAX_COMMAND_POWER_MULT$: §G+15.0%§! \n$MODIFIER_SPECIAL_FORCES_CAP$: §G+5.00%§! \n$MODIFIER_SPECIAL_FORCES_DEFENCE_FACTOR$: §G+5.0%§! \n$MODIFIER_SPECIAL_FORCES_ATTACK_FACTOR$: §G+5.0%§! \n\n"
+
+ITA_superesercito_re_c_tt: "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$ \n$MODIFIER_MAX_DIG_IN$: §G+20.0%§! \n$MODIFIERS_ARMY_ATTACK_FACTOR$: §G+5.0%§! \n$MODIFIER_SUPPLY_CONSUMPTION_FACTOR$: §G-20.00%§! \n\n"
+
+ITA_superesercito_re_d_tt: "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$ \n$MODIFIER_ARMY_SPEED_FACTOR$: §G+15.0%§! \n$MODIFIER_ORG_LOSS_WHEN_MOVING$: §G-15.0%§! \n$MODIFIER_ARMY_ORG$: §G+5.00%§! \n$MODIFIERS_ARMY_ARMOR_ATTACK_FACTOR$: §G+5.0%§! \n\n"
+
+
+ITA_italian_tankettes_b:0 "[GetTanketteName]"
+
+ITA_italian_tankettes_b_default:0 "Italian Tankette"
+
+ITA_italian_tankettes_b_alt:0 "A Brand-New Italian War-machine"
+
+ITA_italian_tankettes_b_desc:0 "[GetTanketteDesc]"
+
+ITA_italian_tankettes_b_desc_default:0 "While other countries might develop ever larger and ever heavier tanks in search of the super-tank that will render all other tanks obsolete, we know that the best tank is a tank that is actually on the field. A tank must be fast enough to go wherever it is needed in time, and it really only needs armor heavy enough to withstand rifles. Such a vehicle would be cheap and quick to produce."
+
+ITA_italian_tankettes_b_desc_alt:0 "Despite our initial perception that a tank has to be mobile and cheap, the rapid technological advance and sheer determination has allowed Ethiopia to halt our tracks. A cheap and fast tank will matter no longer. We need only the best of them all."
+
+
+ITA_divisioni_alpine_b:0 "[GetAlpineName]"
+
+ITA_divisioni_alpine_b_default:0 "Divisioni Alpine"
+
+ITA_divisioni_alpine_b_alt:0 "The Cream of The Crop"
+
+ITA_divisioni_alpine_b_desc:0 "[GetAlpineDesc]"
+
+ITA_divisioni_alpine_b_desc_default:0 "Our memory of the Great War will forever include the brutal fighting in the high alps. If we ever have to defend our country against a foreign invasion again, it will certainly come from the north, and require more fighting in inhospitable mountains. We must have soldiers capable of fighting effectively in that terrain."
+
+ITA_divisioni_alpine_b_desc_alt:0 "In spite of our defeat, some sectors had experienced frequent glories in the battlefield. Those were the men who had trained under the best of a generation long gone in the Great War. We should strive to reform our elite forces into this model of effective mountain combat experts."
+
+
+ITA_self_propelled_guns_b:0 "[GetPropelledName]"
+
+ITA_self_propelled_guns_b_default:0 "Self-propelled Guns"
+
+ITA_self_propelled_guns_b_alt:0 "The God in The Battlefield"
+
+ITA_self_propelled_guns_b_desc:0 "[GetPropelledDesc]"
+
+ITA_self_propelled_guns_b_desc_default:0 "The tank may have revolutionized warfare, but in many ways the self-propelled gun the is the most valuable vehicle on the battlefield. The fire support offered by comparatively cheap and simple vehicles is invaluable when it comes to fighting through fortifications or against enemy tanks."
+
+ITA_self_propelled_guns_b_desc_alt:0 "There are expensive tanks with incredible armor which could easily withstand a barrage of infantry anti-tank or even close air support. However, we have seen better - nothing would put fear into them than a mobile anti-tank mechanism capable of unleashing the heaviest and more accurate of armor-piercing shells. That, or they would deliver a rain of explosive barrage beyond anything our enemies may anticipate."
+
+
+ITA_end_fiat_ansaldo_duopoly_b:0 "Pinning The Blame on Fiat-Ansaldo Duopoly"
+
+ITA_end_fiat_ansaldo_duopoly_b_desc:0 "Where it had mattered the most, it was this relationship between Fiat and Ansaldo as well as their duopoly that prevented the development of the more effective machineries to serve our war effort. We have to expand our options, to strengthen our hands, and in order to achieve that outcome, we must first break this duopoly and reform our market into the most desirable form."
+
+ITA_modernize_ansaldo_facilities_b:0 "New Management in Ansaldo"
+
+ITA_modernize_ansaldo_facilities_b_desc:0 "The economic downturn following the Great War plunged Ansaldo into such financial difficulties that they have largely been unable to properly modernize their factories. Only their elevated status has saved them from bankruptcy. Despite this weakness, or perhaps precisely because of it, their damage to our war effort was undeniable."
+
+
+LSM_ITA_defeat.1.t: "Rapid Industrial Development"
+
+LSM_ITA_defeat.1.d: "Merely months after the duopoly of Fiat-Ansaldo came to an end, our industry has seen firms emerging from the ashes of our defeat in Ethiopia. [ITA.GetNameDef] is now vastly different from the shadow of the past, and it will only improve as eras advance. The whole world should watch out for the miraculous recovery."
+
+LSM_ITA_defeat.1.a: "A New Future!"
+
+LSM_ITA_defeat_1_tt:0 "$ITA_modify_ricostruzione_industriale_dynamic_modifier_ns_intro$ \n$modifier_production_speed_arms_factory_factor$: §G+25.00%§! \n$modifier_production_speed_industrial_complex_factor$: §G+25.00%§! \n\n$ITA_modify_military_industry_dynamic_modifier_ns_intro$ \n$MODIFIER_PRODUCTION_LACK_OF_RESOURCE_PENALTY_FACTOR$: §G-25.00%§! \n\n"
+
+
+LSM_ITA_defeat.2.t: "An Effort Paid-off"
+
+LSM_ITA_defeat.2.d: "The management of Ansaldo has proven fruitful as our industry and our military may now fully align with one another. New engines are being designed, new war machines are in production, with many future projects being examined and put into reality. With the will of the state and the backing of the workers, it is only a matter of time before we emerge as an Italy stronger than ever."
+
+LSM_ITA_defeat.2.a: "Everything for the state"
+
+LSM_ITA_defeat_2_tt:0 "$ITA_modify_military_industry_dynamic_modifier_ns_intro$ \n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: §G+25.00%§! \n$MODIFIER_PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR$: §G+25.00%§! \n\n"
+
+
+LSM_ITA_defeat.3.t: "The Bitterness of Defeat"
+
+LSM_ITA_defeat.3.d: "The war where we were recently defeated in has never been a war between civilizations - there was only us, and them, and towards the end, the outcome could not be any more evident that we have suffered a defeat. The army has taken responsibility for this defeat, but we all know our problems were rooted far deeper than that. In order to emerge strong and firm, Italy must look into its own existence."
+
+LSM_ITA_defeat.3.a: "Another meeting at the high table..."
+
+
+LSM_ITA_defeat.4.t: "Who is to blame?"
+
+LSM_ITA_defeat.4.d: "We have examined our tools, we have examined our battles, but there is one place we have not yet looked at - the leadership of the nation. [ITA.GetLeader] knows everybody seeks anything to pin their blame on, whether or not it is true, for they would do the same to another if they could have done as much. However, in time like this, perhaps only honesty would suffice."
+
+LSM_ITA_defeat.4.a: "[ITA.GetLeader] takes responsibility"
+
+LSM_ITA_defeat.4.b: "The Grand Council was at fault"
+
+
+LSM_ITA_defeat.5.t: "Better than ever!"
+
+LSM_ITA_defeat.5.d: "We have embarked on the longest road, through the longest night, and the harshest of days. And what we have found at the end of it were the pieces of ourselves and our nation that have fallen apart along the way. But only then did a miracle spark at last! Italy has recovered, Italy is now far greater, Italy is now far stronger!"
+
+LSM_ITA_defeat.5.a: "No more weakness"
+
+
+LSM_ITA_defeat.6.t: "Empower the Officers"
+
+LSM_ITA_defeat.6.d: "With the old and stubborn fools completely ridden of and the freedom of thought within the military now liberated, new and talented commanders begin to emerge from every corner of our strong nation. It is now our duty to lead them forward and prepare them for the rising tension around the world."
+
+LSM_ITA_defeat.6.a: "For a strong Italy"
+
+LSM_ITA_defeat_6_tt:0 "§G10§! new generals will emerge.\n\n$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$ \n$MODIFIER_ARMY_LEADER_COST_FACTOR$: §G-50.0%§! \n$MODIFIER_XP_GAIN_FACTOR$: §G+50.0%§! \n$MODIFIER_UNIT_LEADER_PROMOTE_COST_FACTOR$: §G-50.0%§! \n\n"
+
+
+LSM_ITA_defeat.7.t: "The Alpine Elites"
+
+LSM_ITA_defeat.7.d: "The Alpine divisions are amongst our best throughout the history of the nation, but there is always room for improvement. While many would argue the era of tanks has begun, only the mountaineers may truly win us the war should we ever be placed under the threat of an invasion on our homeland. After all, wherever these men were found in the battlefield in Ethiopia, there were only defeats that awaited our adversaries."
+
+LSM_ITA_defeat.7.a: "Elevate the mountains"
+
+LSM_ITA_defeat_7_tt:0 "The rigorous training will enable our officers to better adapt to the harsh terrain around the peninsula and the aplines.\n\n$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$ \n$MODIFIER_SPECIAL_FORCES_CAP$: §G+10.0%§! \n$MODIFIER_SPECIAL_FORCES_ATTACK_FACTOR$: §G+10.0%§! \n$MODIFIER_SPECIAL_FORCES_DEFENCE_FACTOR$: §G+10.0%§! \n$modifier_army_sub_unit_mountaineers_max_org_factor$: §G+10.0%§! \n\n"
+
+
+LSM_ITA_defeat.8.t: "Artillery Manufacturers Reviewed"
+
+LSM_ITA_defeat.8.d: "Our inspection of the major manufacturers of artillery pieces has found an increasing need of direct control over our military industry. Of course, now that we have acquired increased production power and centralization in development, we have to make it clear that our military industry requires a specific target and define this target for our manufacturing firms to follow."
+
+LSM_ITA_defeat.8.a: "Better munitions"
+
+LSM_ITA_defeat.8.b: "More production"
+
+
+LSM_ITA_defeat.9.t: "Armor Manufacturers Reorganised"
+
+LSM_ITA_defeat.9.d: "Our heavy armored vehicle designers and manufacturers, Fiat and Ansaldo, have today been reorganised into a better shape and form that previously managed under their own discretion. Our production lines have significantly improved, and we expect to hit a new milestone in production quantity within the next few months, though perhaps not without a decline in the reliability of the vehicles."
+
+LSM_ITA_defeat.9.a: "Catching up with the world"
+
+LSM_ITA_defeat.10.t: "Italy requests an exchange of prisoners for their own colonies"
+
+LSM_ITA_defeat.10.d: "This morning, [ITA.GetLeader] has requested a direct communication with [ETH.GetLeader], with the hope to secure an exchange of prisoners for the remaining holdings of Italy in East Africa. Of course, this would mark a significant development in our control over the region, but must Ethiopians accept such an offer, when those prisoners of war deserve only the harshest of sentences?"
+
+LSM_ITA_defeat.10.a: "Agree to the offer"
+
+LSM_ITA_defeat.10.b: "The trophies shall stay"
+
+LSM_ITA_defeat.11.t: "[ETH.GetNameDef] agrees"
+
+LSM_ITA_defeat.11.d: "The official stipulation, which was signed this morning at 0600, allowed Italy to continue using the ports to evacuate personnel, most of whom were former prisoners of war, others active in the army. Now with a mutual agreement, it is the responsibility of Italy to withdraw from the region as Ethiopian forces move in to secure new territories. Nonetheless, this has marked a new page in Italian history..."
+
+LSM_ITA_defeat.11.a: "Welcome home..."
+
+ITA_proclaim_the_italian_empire_b: "Proclaim a New Italian Empire"
+
+ITA_proclaim_the_italian_empire_b_desc: "The pessimistic conclusion of the Second Italo-Ethiopian War is now over, with its bitter aftertaste long gone, with our former enemies thriving in our defeat. The population of Italy needs a revival in spirit and in determination, fostered by a strong relationship between [ITA.GetNameDef] and another great nation of their own."
+
+ITA_italo_japan_pact: "Italo-Japan Pact"
+
+ITA_italo_japan_pact_desc: "The Japanese people are not quite so different from ourselves: They want a piece of those vile English and Frenchmen, so do we. Our nations shall grow closer as we aim to overtake those who have betrayed us in the last war."
+
+ITA_overture_to_asia: "Overture to Asia"
+
+ITA_overture_to_asia_desc: "The tattered Africa leaves little space for us now that we have lost our foothold in East Africa, but there is always a path forward elsewhere, and we must turn our effort into fruition before somebody else could."
+
+ITA_italo_german_pact: "Italo-German Pact"
+
+ITA_italo_german_pact_desc: "The German people are not quite so different from ourselves: Bitter, hungry, and full of contempt for the vile bastards in England and in France. Our nations shall grow closer as we aim to overtake those who have wronged us in the last war."
+
+ITA_german_cooperation_b: "Nationalism in Europe"
+
+ITA_german_cooperation_b_desc: "Whether or not Italy seeks to expand, it must always remember its roots in the continent of Europe, where its enemies remain weak and incompetent, having sit on the triumph of victory for the years since. Italy will force its path forward."
+
+ITA_proclaim_the_italian_empire_a: "The Grand Declaration"
+
+ITA_proclaim_the_italian_empire_a_desc: "Our Empire needs no recognition by those who despise us! Our Empire shall rise under eagle wings just like how ancestors once thrived. The Italian Empire is inevitable"

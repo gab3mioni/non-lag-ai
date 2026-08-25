@@ -1,0 +1,27 @@
+﻿l_english:
+
+ruthless_commander_trait: "Ruthless Commander\n(Genius)"
+
+character_promotion.1.t: "Ferdinand Schorner requests reassignment"
+
+character_promotion.1.d: "Following our change in military doctrine, one of our most devoted military commanders, Ferdinand Schorner, has approached the General Staff with a proposal with regards to the formation of an Artillery Division. Schorner, most well-known for his hard-hearted outlook and a ruthless tendency, believes it is within his ability to bring out the potential of our newly established doctrine."
+
+character_promotion.1.a: "Ruthless man, ruthless battle"
+
+character_promotion.1.b: "He shall stay where he is."
+
+character_promotion.2.t: "The End of Ruthlessness"
+
+character_promotion.2.d: "This morning, while inspecting the frontline, Ferdinand Schorner had reportedly been involved in an unfortunate accident, whereupon he passed away. The circumstance of the incident was unclear, and very little eye witness was provided regarding the timing of his demise."
+
+character_promotion.2.a: "Unfortunate outcome"
+
+character_promotion.3.t: "Triumphant Ideologue"
+
+character_promotion.3.d: "The shift in the political landscape in the former United States of America notwithstanding, the rhetorical and ideological revolution in the mind of the [USA.GetAdjective] people have culminated into a reborn [USA.GetNameDef], and the man behind our national revolution now stands as a forefather of the new America."
+
+character_promotion.3.a: "Triumph of the New World"
+
+USA_fascist_revolutionary: "Fascist Revolutionary"
+
+USA_syndicalist_vanguard: "Syndicalist Vanguard"

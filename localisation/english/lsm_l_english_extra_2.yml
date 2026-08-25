@@ -1,0 +1,349 @@
+﻿l_english:
+
+SOV_rebuild_the_home_of_santa: "The Home of Santa Claus"
+SOV_rebuild_the_home_of_santa_desc: "Rovaniemi, the home of Santa Claus, is finally integrated into [SOV.GetNameDef]. Consequently, as the new caretaker of this location, we must ensure the best conditions are always maintained."
+
+SOV_tourism: "Rovaniemi Tourism"
+SOV_tourism_tt: "§R This national spirit will be removed if the Five Year Plan is disrupted§!"
+
+AI_antitank_licensing_0: "Anti-tank Licensing"
+
+AI_antitank_licensing_1: "Anti-tank Licensing"
+
+AI_antitank_licensing_2: "Anti-tank Licensing"
+
+the_second_weltkrieg_decision_cat: "Deja vu"
+
+graveyard_of_empire: "The Graveyard of Empires"
+
+develop_moravia_oil_fields: "Extort the Oil Reserve"
+
+develop_tasmanian_tungsten: "Develop Tungsten Extraction in Tasmania"
+
+develop_home_island_tungsten: "Resource Extraction in Kanazawa"
+
+develop_congo_tungsten: "Develop Tungsten Extraction in Congo"
+
+develop_state_57_steel: "Expand Duisburg Steel Mill"
+
+develop_state_55_steel: "Expand Iron Ore Extraction in Heidelburg"
+
+develop_state_54_steel: "Open New Steel Mill in Franken"
+
+develop_state_50_steel: "Fund Steel Processing Companies in Baden-Wurttemberg"
+
+SOV_the_collectivization_process_b:0 "[GetCollectivizationName]"
+
+SOV_the_collectivization_process_b_default:0 "The Collectivization Process"
+
+SOV_the_collectivization_process_b_alt:0 "Wartime Collectivization Policies"
+
+SOV_the_collectivization_process_b_desc:0 "[GetCollectivizationDesc]"
+
+SOV_the_collectivization_process_b_desc_default:0 "While a lot of work remains to be done, and though it has been badly misshandled in some regions, the process of collectivizing the farms in the Soviet Union is almost complete, and will soon yield increased production from the agricultural sector."
+
+SOV_the_collectivization_process_b_desc_alt:0 "Our Collectivization Progress has been interrupted by the sudden outbreak of war. Of course, while there is so much work remains to be done, and while much has been mishandled in the process, our policy of change and of collectivization must now go forward with the aim to solve the most fundamental problem at hand - war!"
+
+SOV_the_collectivization_process_tooltip_1: "$SOV_modify_the_politburo_ns_intro$ \nConsumer Goods Factories: §Y-5.0%§! \nMax Factories in a State: §G+5%§! \nConstruction Speed: §G+5.00%§! \n\n"
+
+SOV_the_collectivization_process_c_ns_tt: "$SOV_modify_the_politburo_ns_intro$ \nConsumer Goods Factories: §Y-15.0%§! \nMax Factories in a State: §G+15%§! \nConstruction Speed: §G+15.00%§! \n\n"
+
+SOV_the_collectivization_process_tooltip_2: "\n§RPopulation will drop across the Soviet Union as a consequence of forced collectivization during wartime, effect scales with current stability§! \n\n§C[SOV.GetAdjective] economy will embark on a two-year endeavour to recover from the onset of war, gradually strengthening our production and centralization within the party§! \n\n"
+
+SOV_the_collectivization_process_ns_a_tt: "§RImmediate effect will be reduced if the Five Year Plan has been disrupted, the collectivization process will no longer yield any factories, and the population will grow extremely weary.§!"
+
+SOV_organization_centralization_discipline_b:0 "[GetCentralizationName]"
+
+SOV_organization_centralization_discipline_b_default:0 "Centralization and Discipline"
+
+SOV_organization_centralization_discipline_b_alt:0 "A Centralized Committee for Wartime Affairs"
+
+SOV_organization_centralization_discipline_b_desc:0 "[GetCentralizationDesc]"
+
+SOV_organization_centralization_discipline_b_desc_default:0 "In this time of uncertainty, the people look to the Politbureau for stability and guidance. We must ensure that this organ of decision making is not only supportive of, but united behind, the decisions of Comrade Stalin."
+
+SOV_organization_centralization_discipline_b_desc_alt:0 "In this time of uncertainty, only a firm and decisive hand may guide the Soviet Union towards stability and prosperity. The war ahead might prove trying and savage, but the Politbureau alone shall always follow one princinple - Quiet, Orderly, and Methodical."
+
+SOV_organization_centralization_discipline_b_ns_tt: "$SOV_modify_the_politburo_ns_intro$ \nMaximum Command Power Increase: §G+50§! \nMobilization speed: §G+5.00%§! \n\n"
+
+SOV_organization_centralization_discipline_c_ns_tt: "\nAdd §Y$SOV_planned_economy_dynamic_modifier$§!, which grants \nFactory Output: §G+10.00%§!, Lack of Resources Penalty: §G-10.00%§!, Factory Repair Speed: §G+10.00%§! \n\n"
+
+SOV_everything_for_the_state_idea: "Centralization and Discipline"
+
+SOV_war_economy_b:0 "[GetWarEconomyName]"
+
+SOV_war_economy_b_default:0 "War Economy"
+
+SOV_war_economy_b_alt:0 "A Collectivized War Economy"
+
+SOV_war_economy_b_desc:0 "[GetWarEconomyDesc]"
+
+SOV_war_economy_b_desc_default:0 "It is clear that the capitalist and reactionary nations on our borders are planning to strike in our moment of weakness. The sooner we shift our economy to a war footing, the better."
+
+SOV_war_economy_b_desc_alt:0 "It is clear that the survival of the motherland is being threatened from beyond our borders by horrific evils of unimaginable terror towards our kind. Our economy, which has only recently adopted the Collectivization Process, must now embark upon a great transition into a new economy more suitable for war."
+
+SOV_war_economy_b_ns_tt: "$SOV_modify_the_politburo_ns_intro$ \nMaximum Command Power Increase: §G+50§! \nMobilization speed: §G+5.00%§! \n\n"
+
+war_economy_b_ns_tt_extra: "§CThanks to our current economic model, our industry can suitably adapt to a collectivized war economy in a much short period of time, providing completion to the disrupted Five Year Plan§! \n\n"
+
+SOV_transitional_economy: "Transitional Economy"
+
+SOV_industrialization_boost: "Introduction of Collectivization-Industrialization Policies"
+
+SOV_industrialization_boost_2: "The Enactment of Collectivization-Industrialization Policies"
+
+SOV_industrialization_boost_2_desc: "§RPopulation will randomly drop during the process while the industrial base undergoes drastic improvement§!"
+
+SOV_industrialization_boost_3: "The Results of Collectivization-Industrialization Policies"
+
+SOV_transitional_economy_desc: "We are currently undergoing a significant change in our economic model to better fit ourselves into the ongoing conflict.§COnce the transition has been completed, our economic centralization will be greatly improved.§!"
+
+SOV_civilian_labor_in_defense_mod_a: "Civilian Labor in Defense"
+
+SOV_factory_worker_militias_raised_a: "Factory Worker Militia"
+
+SOV_defend_moscow_a: "Defend Moscow"
+
+SOV_santaism: "Protector of Children"
+
+
+
+SOV_north_poles_engineering: "North Pole's Engineering"
+
+SOV_north_poles_engineering_desc: "Hardship of the frozen north has driven the art of engineering that transcends the common knowledge available to our scientists. The utilization of these technologies will allow us to manufacture modern vehicles capable of greater operational range as well as functional consistency and reliability."
+
+SOV_santa_propaganda: "Christmarxist Propaganda"
+
+santa_propaganda: "Spreading Christmarxist Propaganda"
+
+SOV_neutrality_idea: "Christmasism in One Country"
+
+SOV_aggressive_idea: "Perpetual Christmarxist Revolution"
+
+SOV_universal_welfare: "Universal Welfare"
+
+SOV_elves_in_the_industry_1: "Introduction of Magic Elves into the Industry"
+
+SOV_elves_in_the_industry_2: "Integration of Magic Elves into the Workforce"
+
+SOV_elves_in_the_industry_3: "Reorganisation of Social Classes"
+
+SOV_elves_in_the_industry_4: "Rejuvenated [SOV.GetAdjective] Economy"
+
+SOV_no_more_hunger: "No Further Deprivation"
+
+SOV_population_growth: "Utmost Christmasism in Children Policies"
+
+SOV_winter_sleigh: "Magic of the Sleigh"
+
+SOV_finish_finland: "Magic of the Winter"
+
+SOV_reward_the_children: "Reward the Children"
+
+SOV_reward_the_administration: "Reward the Administration"
+
+SOV_reward_the_working_class: "Reward the Working Class"
+
+SOV_reward_the_military: "Reward the Military"
+
+
+SOV_santa_baltic_annexation_tt:0 "§8The Soviet Union gains core on all Baltic states controlled by itself or by Baltic countries"
+
+SOV_santa_5_tt:0 "$SOV_modify_fyp_ns_intro$ \nResource Gain Efficiency: §G+50%§!"
+
+SOV_santa_6_tt1:0 "§CThe integration of the Elven population into our society might face struggle at the beginning, but will allow different sectors in our society to be freed up from their current hardship, and might potentially fuel a latent growth for our economy§! \n\n"
+
+SOV_santa_6_tt2:0 "§RHowever, the elven population grows extremely slow in relation to human population, any rapid expansion of [SOV.GetNameDef] might put them on severe strains and potential exclusion.§! \n\n"
+
+SOV_santa_8_tt1:0 "§CThe Well of Magic flowing from the North Poles will reveal the secrets of the Earth and its abundant resources to [SOV.GetNameDef].§! \n\n"
+
+SOV_santa_8_tt2:0 "Gain §Y300§! units of Steel. \nGain §Y115§! units of Oil. \nGain §Y90§! units of Tungsten. \nGain §Y69§! units of Aluminium. \nGain §Y28§! units of Chromium. \nGain §Y71§! units of Rubber. \n\n"
+
+SOV_santa_11_army_tt:0 "$SOV_modify_the_red_army_ns_intro$ \nDivision Organization: §G+10.0%§! \nCavalry Attack: §G+10.0%§! \nTerrain Penalty Reduction: §G+10.0%§! \n\n"
+
+SOV_santa_11_air_tt:0 "$SOV_modify_airforce_ns_intro$ \nAir Accidents Chance: §G-25.0%§! \nNight Operations Penalty: §G-25.00%§! \nBad Weather Penalty: §G-25.00%§! \n\n"
+
+SOV_santa_12_tt1:0 "$SOV_modify_fyp_ns_intro$ \nConsumer Goods Factories: §Y-10.0%§! \nProduction Efficiency Base: §G+25.00%§! \n£prod_eff Production Efficiency growth: §G+25.00%§! \n\n"
+
+SOV_santa_12_tt2:0 "Every states in [SOV.GetNameDef] with less than 4 infrastructures will receive 1 additional level of infrastructure" 
+
+SOV_santa_14_tt:0 "Newly conquered states now start with §C20% compliance§!"
+
+SOV_universal_welfare:0 "Universal Welfare"
+
+SOV_universal_welfare_desc:0 "As a result of our welfare priority, our country has been regarded by many others as a safehaven regardless of the circumstance of war. \n\nNew conquered states will now start with §C25% compliance§!"
+
+SOV_universal_welfare_tooltip:2 "Field Hospital Trickleback: §G+30%§!\nExp. Loss Factor: §G-40%§!"
+
+SOV_santa_16_air_tt:0 "$SOV_modify_airforce_ns_intro$ \nGround support: §G+25.0%§! \nStrategic bombing visibility: §G-50.00%§! \nNight-time strategic bombing penalty: §G-50.00%§! \n\n"
+
+SOV_santa_17_tt:0 "§8Iosif Stalin will return to the Soviet Union as a Christmas present, far stronger and greater than before with a new, magical Tsarist body.§!"
+
+SOV_santa_18_trotsky_tt:0 "§8Lev Trotsky will return to the Soviet Union as a Christmas present; unfortunately, he has not adapted very well to his new body.§! \n\n"
+
+SOV_santa_18_main_tt:0 "§8Some characters who were previously purged or imprisoned by Iosif Stalin will also return as advisors.§!"
+
+SOV_santa_19_tt:0 "On yearly basis through Santa's New Year Plan, [SOV.GetNameDef] will be able to integrate newly conquered territories with more than §C50% Compliance§!, and the population of Magic Elves will grow slightly faster."
+
+SOV_santa_20_tt:0 "Immediately gain territorial claims on §Cevery states amongst the Western cultural sphere.§! \n\nOn yearly basis through Santa's New Year Plan, [SOV.GetNameDef] will be able to integrate claimed territories under its control with more than §C50% Compliance§!"
+
+
+SOV_santa_1:0 "Under the Star of a Christmas Tree"
+SOV_santa_1_desc:0 "The Soviet Union is no longer the same as before, a new leader has emerged, one with a beard just as majestic, a heart as magnanimous, but with a colour red far brighter. It is Christmas time."
+
+SOV_santa_2:0 "The Home of Santa Claus?"
+SOV_santa_2_desc:0 "There is a place in Finland which was told to be the home to Santa Claus, his very beginning, the place where he had remained for centuries untold."
+
+SOV_santa_3:0 "Redefining the Borders"
+SOV_santa_3_desc:0 "In order to export happiness around the world, we must first improve the flows of goods and the availability of large-scale transport hubs."
+
+SOV_santa_4:0 "Magic of the Sleigh"
+SOV_santa_4_desc: "There is a secret to Santa Claus: his sleigh. It is from this sleigh that presents were delivered, that global transportation of goods was enabled, that happiness was fostered. The application of this miraculous engineering on a national scale is prerequisite to a successful modernization of our society."
+
+SOV_santa_5:0 "Elves in the Mines"
+SOV_santa_5_desc:0 "The race of Elves that has helped Santa Claus for centuries seem eager to maintain their positions as supporters of Father Christmas, but little else has the Father disclosed of his relationship with this elven race. Nonetheless, if they so wished to work, they should be provided with the necessary mining equipment."
+
+SOV_santa_6:0 "Elves in the Industry"
+SOV_santa_6_desc:0 "The race of Elves that has helped Santa Claus for centuries seem eager to maintain their positions as supporters of Father Christmas, but little else has the Father disclosed of his relationship with this elven race. Nonetheless, if they so wished to work, they should be provided with the necessary industrial training."
+
+SOV_santa_7:0 "North Poles Engineering"
+SOV_santa_7_desc:0 "The harsh north that we have neglected for centuries has turned out to be the origin of rewarding technologies that we previously thought to be inapplicable to our circumstances."
+
+SOV_santa_8:0 "Further Exploitation of the Earth"
+SOV_santa_8_desc:0 "In order to sustain the production of gifts and presents for not only every [SOV.GetAdjective] children but also children from around the globe, Santa Claus requires a rapid expansion in excavation projects and the mining industry."
+
+SOV_santa_9:0 "Improve the Living Standards"
+SOV_santa_9_desc:0 "The root to global happiness lies with a sustainable source of food. Our nation is vast, and while the harsh winter may deter agriculture, with the help of Santa Claus, crops and livestocks will be able to thrive across the vast grassland."
+
+SOV_santa_10:0 "For the Children of the World"
+SOV_santa_10_desc: "Every civilization and every society begin with children, for they hold the key to the future of any generations. Housing and development program should aim at the fundamental needs to help children grow into a world of happiness."
+
+SOV_santa_11:0 "State-sponsored Present Delivery Program"
+SOV_santa_11_desc:0 "There are nations around the world that have been causing death and destruction without any repercussion. Our nation needs to improve the militarization strategy in order to better match the threat from beyond our borders and in order to protect our society."
+
+SOV_santa_12:0 "Finalize Economic Transformation"
+SOV_santa_12_desc:0 "There cannot be a happy nation that does not have a strong and sustainable economy, and this process would require our industry to be more adaptable to the ever-changing need of the market, not only for military needs and consumption but also for the society as a whole."
+
+SOV_santa_13:0 "Redefine the Colour Red"
+SOV_santa_13_desc:0 "For years, the colour of red has been associated with a terror instilled by the power of the proletariats, even though the only necessity that they seek is more freedom over their own lives and thus an equality as human beings. However, that era is no longer - the colour of red is now the colour of Christmasism! It is now a symbol of equality and protection for childen and for those in needs! It is now a fundamental association with internationalism!"
+
+SOV_santa_14:0 "A Universal Welfare State"
+SOV_santa_14_desc:0 "Our focus on societal development has enabled the greatest civilization to be born in the annals of history, and has thus achieved the dream of Santa Claus - however, there is so much more than may be done to further strengthen the system that is already in place. [SOV.GetNameDef] shall embrace itself as a paradise on Earth!"
+
+SOV_santa_15:0 "Educate the Children"
+SOV_santa_15_desc:0 "Children are always the future of any generation, regardless of the hardship or the struggle at hand. Any countries that have failed to recognize this fundamental prerequisite to a functional society shall be engulfed in the barbaric flame of war and an endless sea of challenges."
+
+SOV_santa_16:0 "International Present Delivery Procedures"
+SOV_santa_16_desc:0 "Is imperative that our military is restructured to deliver the deserving presents not only in a timely manner but also to maximize the payloads. Christmas should always bring smile to every children in the world!"
+
+SOV_santa_17:0 "The Second Father Christmas"
+SOV_santa_17_desc:0 "Before Santa Claus, there was already Iosif Stalin. In a way, Stalin was always the predecessor, and we could only be grateful to Stalin that in his passing, he appointed Santa Claus as the new leader of the [SOV.GetAdjective] people. Of course, as the best friend of Stalin, Santa Claus believes it is just to bring about the return of his friend from the grip of Death!"
+
+SOV_santa_18:0 "A Reformer of the Concept of Socialism"
+SOV_santa_18_desc:0 "Before Santa Claus, there was Iosif Stalin. In a way, Stalin was always the predecessor, one whom Santa Claus believed would be able to answer his questions. However, unable to disturb the peaceful and permanent rest of his friend, Santa Claus turns to the other communist leaders who were no longer in this world, believing that it is just to convert them into Christmarxist ministers."
+
+SOV_santa_19:0 "Christmasism in One Country"
+SOV_santa_19_desc:0 "Why must Santa Claus look any further, when beyond the borders lay only the ruins of barbaric and savage kind? Our vast nation is the embodiment of the happiness brought forth by Father Christmas, and strengthening this union is thus the underlying principle to our operations."
+
+SOV_santa_20:0 "Perpetual Christmas Revolution"
+SOV_santa_20_desc: "The sad and miserable state of the Western cultural sphere has brought Santa to tear. We cannot allow this situation to persist. Christmasism must take up the initiative to quell the devils of the world in order to restore peace and balance."
+
+SOV_santa_21:0 "Santa Can Into Space"
+SOV_santa_21_desc:0 "The development of intellectual base has further strengthened the scientific pursuit of [SOV.GetNameDef], and will soon unlock the age of space exploration and space present delivery."
+
+SOV_santa_can_into_space: "Santa can into space"
+
+LSM_santa.1.t: "[?global.year|0] New Year Plan"
+
+LSM_santa.1.d: "It is time for Santa Claus to select a theme for [?global.year|0] New Year Plan to celebrate the effort of the people. Of course, it could not any further from the truth if anybody was to say that any particular group of human beings had fallen short in relation to another, but Santa Claus can only favor one at a time.\n\nHappy New Year!"
+
+LSM_santa.1.a: "Reward the Children"
+
+LSM_santa.1.b: "Praise the Administration"
+
+LSM_santa.1.c: "Recognise the Working Class"
+
+LSM_santa.1.e: "Bolster the Military"
+
+LSM_santa.2.t: "The Home of Santa Claus?"
+
+LSM_santa.2.d: "Santa Claus, the newly elected leader of the Soviet Union, has kindly requested a peaceful integration of our country into the Soviet Union as a Soviet Republic. Nonetheless, we have no obligation to necessitate such outcome, and Santa Claus has warranted that he fully respects any choice made by the [FIN.GetAdject] government."
+
+LSM_santa.2.a: "Accept the offer"
+
+LSM_santa.2.b: "Kindly reject"
+
+LSM_santa.3.t: "Santa Claus demands submission"
+
+LSM_santa.3.d: "Santa Claus, the newly elected leader of the Soviet Union, has demanded a full integration of our country into the Soviet Union as a Soviet Republic. While this action violates international order, Santa Claus himself does not appear to hold any personal grudge towards our country. Nonetheless, while it might perhaps be possible to avoid a full-scale war between the two nations, it is necessary that we give a response in due time."
+
+LSM_santa.3.a: "Accept the offer"
+
+LSM_santa.3.b: "Kindly reject"
+
+LSM_santa.4.t: "[FROM.GetNameDef] rejects our demand"
+
+LSM_santa.4.d: "The [FROM.GetAdjective] government has quickly responsed with heavy resistance to our demand. Unfortunately, the strategic importance of their country does not allow the Soviet Union to pass up this opportunity to further strengthen our Present Delivery procedures. Furthermore, as Santa Claus has previously expressed, it would be much better if countries around the world understand the necessity of liberty, peace, and cooperation. The Soviet Union has those atributes in abundance, it is only naturally that we shall export them to poorer nations around the world."
+
+LSM_santa.4.a: "The only path to peace is war"
+
+LSM_santa.4.b: "Respect their decision"
+
+LSM_ENG_churchill.800.t: "Australia proposes the Australasian Federation"
+
+LSM_ENG_churchill.800.d: "Shortly after the [AST.GetAdjective] government's proposal for the security in the West Pacific region, we have now received yet another proposal for the unification of all Pacific islands under one united government, transferring the responsibility from the Home Island to [AST.GetNameDef]. While the proposal itself has long since been of interest to [ENG.GetNameDef], it has not previously been suggested or requested by any party to either the [ENG.GetAdjective] parliament or the Supreme Court."
+
+LSM_ENG_churchill.801.d: "An envoy from the [ENG.GetAdjective] parliament and the [AST.GetAdjective] government has arrived today to discuss the new Pacific defense proposal with the [NZL.GetAdjective] government, hoping to reach an agreement from all parties to go forward with the unification of the continent and the formation of the Australasian Federation. Alongside [AST.GetLeader] is a detailed integration plan in which the imperial subjects, whether of [ENG.GetAdjective] born or of indigenious background, shall from now become 'Australasians'."
+
+LSM_ENG_churchill.800.a: "Confirm with the [NZL.GetAdjective] government"
+
+LSM_ENG_churchill.800.b: "Who do they think they are?"
+
+LSM_ENG_churchill.800.c: "We are fine where we are"
+
+LSM_ENG_churchill.800.e: "The people shall decide"
+
+AST_the_push_for_australasia: "An Australasian Identity"
+
+AST_the_push_for_australasia_desc: "The pacific region cannot be guarded from the far-away Home Island of the British Isles. Australia, the largest entity within the region, should therefore become the true beacon for the development and security of this region."
+
+LSM_ENG_churchill.802.a: "A Victory for the Pacific"
+
+LSM_ENG_churchill.802.t: "[NZL.GetNameDef] agrees to the Australasia proposal"
+
+LSM_ENG_churchill.802.d: "After several rounds of proceeding, related parties have drafted the final constitutions to formalize the integration of the Australasian Federation, marking a new step for the entire region. Whether or not this would improve for the better, the fact is that the future of the Pacific commonwealth now rests on the shoulders of [AST.GetNameDef]."
+
+LSM_ENG_churchill.803.t: "Australasian Federation proposal did not go ahead"
+
+LSM_ENG_churchill.803.d: "After several rounds of proceeding, related parties have concluded that the formation of the Australasian Federation may not go ahead, marking an definite end to the wave of Pacific unification of the imperial subjects."
+
+LSM_ENG_churchill.803.a: "It is what it is"
+
+LSM_ENG_churchill.803.b: "Our trust has been misplaced"
+
+AST_demand_islands: "Proposal Australasian Integration"
+
+AST_demand_islands_desc: "Our allies currently control Australasian territories. We should make a formal request for their holdings."
+
+lsm_news.1113.t: "The Formalization of Australasian Federation"
+
+lsm_news.1113.d: "Under the leadership of [AST.GetLeader], a plan was drafted for a new journey towards the unification of continental Oceania, which is now known as the continent of Australasia, which as at this morning had been passed through by the [ENG.GetAdjective] parliament and the [NZL.GetAdjective] government, thus formalizing the aspiring symbol of unity between the region.\n\nWhether or not this would improve for the better, the fact is that the future of the Pacific commonwealth now rests on the shoulders of [AST.GetNameDef]."
+
+lsm_news.1113.a: "For Freedom and Unity"
+
+lsm_news.1113.b: "A Weakness of a Declining Empire"
+
+LSM_ENG_churchill.804.t: "[From.GetNameDefCap] Requests Control of [Root.GetAdjective] Australasian Territories"
+
+LSM_ENG_churchill.804.d: "[From.GetNameDefCap] has issued a diplomatic request to [Root.GetNameDef] requesting control of their Australasian holdings. Citing their government’s new Pacific strategies, ministers from [From.GetNameDef] claim that they have an understanding and deep personal relationship with Australasian peoples that will give them a sense of belonging and encourage them to fight for the [From.GetFactionName] cause."
+
+LSM_ENG_churchill.804.a: "A reasonable request"
+
+LSM_ENG_churchill.804.b: "These islands are too valuable"
+
+LSM_ENG_churchill.805.t:0 "[From.GetNameDefCap] Accepts!"
+LSM_ENG_churchill.805.d:0 "Our reasonable request to control Australasian states occupied by [From.GetNameDefCap] has been accepted and we are now in control of a number of new island territories."
+LSM_ENG_churchill.805.a:0 "Excellent."
+LSM_ENG_churchill.806.t:0 "[From.GetNameDefCap] Rejects"
+LSM_ENG_churchill.806.d:0 "The [Root.GetAdjective] delegation to [From.GetNameDefCap] has returned with the disappointing news that [Root.GetNameDefCap] shall not be receiving any of [From.GetNameDefCap]’s Australasian territories."
+LSM_ENG_churchill.806.a:0 "Damnation!"

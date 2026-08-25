@@ -1,0 +1,19 @@
+﻿l_english:
+
+setting_decision: "Setting Menu"
+
+sino_japanese_war_balance_sp: "Sino-Japanese Balance"
+
+LSM_equipment.31.t: "Sino-Japanese Balance"
+
+LSM_equipment.31.d: "The balance of Sino-Japanese War may be decided here."
+
+LSM_equipment.31.a: "Strengthened China"
+
+LSM_equipment.31.b: "Greatly Strengthened China"
+
+LSM_equipment.31.c: "Nothing for Japan yet"
+
+LSM_setting_tt_CHI_1: "China will receive basic infantry equipment every month"
+
+LSM_setting_tt_CHI_2: "(XP farm I guess) China will receive basic infantry equipment and infantry equipment I every month, a free pure infantry division, and 3 infantry divisions with support artillery every time they lose a new state"

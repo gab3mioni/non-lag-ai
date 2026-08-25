@@ -1,0 +1,22 @@
+﻿l_english:
+
+CAN_anti_imperialist_revolutionary: "Anti-Imperialist Revolutionary"
+CAN_beacon_of_liberty: "Beacon of Liberty"
+CAN_fascism_ideologue: "Militarist Ideologue"
+
+
+CAN_state_of_emergency: "State of Emergency"
+CAN_state_of_emergency_desc: "Canada is under the threat of invasion. Every able person must either be enlisted in the army or working in the factory. The time of reckoning is upon us."
+CAN_mobilise_the_university: "Mobilise the Students"
+CAN_mobilise_the_university_desc: "Despite our superior fighting spirit, our humble army cannot resist the invaders on their own. We must start mobilising the university students if we are to survive this tortuous ordeal."
+CAN_a_call_for_help: "A Call for Help"
+CAN_a_call_for_help_desc: "The enemies are relentless, and our populace is going to suffer a prolonged war. The nation of Canada has to embark upon a diplomatic quest to secure the support of the international community"
+CAN_mobilised_the_university: "Mobilised Youth"
+
+CAN_canadian_destiny: "Canadian Destiny"
+CAN_canadian_destiny_desc: "A new dawn is upon the people of Canada. The time is ripe to make our own steps beyond mere plans laid by the crown."
+CAN_treaty_of_kinship: "Treaty of Kinship"
+CAN_treaty_of_kinship_desc: "The people of [CAN.GetNameDef] and the people of [ENG.GetNameDef] share a common root. Our nations shall therefore foster a cooperative relationship as equals."
+CAN_no_longer_home: "No Longer Our Home"
+CAN_no_longer_home_desc: "The Isle of Britain and our Canadian nation in the New World have taken different paths and different journeys. Only time may tell if our people shall ever reconcile, but as it stands, our nations are going to collide in the near future."
+CAN_true_revolution_effect_tt: "A wave of immigration will hit Canada from every non-communist countries around the world."
