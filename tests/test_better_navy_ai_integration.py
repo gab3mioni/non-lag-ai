@@ -24,7 +24,6 @@ OVERWRITTEN_PATHS = {
 ADDED_STATIC_PATHS = {
     "common/defines/zz_bna_defines.lua",
     "common/modifiers/bna_static_modifiers.txt",
-    "common/national_focus/usa.txt",
     "common/special_projects/projects/naval_projects.txt",
     "common/units/battlecruiser.txt",
     "common/units/battleship.txt",
@@ -161,7 +160,7 @@ class BetterNavyAIIntegrationTest(unittest.TestCase):
         self.assertEqual(15, len(ai_navy_files))
         self.assertEqual(4, len(strategy_files))
         self.assertEqual(37, len(STATE_IDS))
-        self.assertEqual(86, len(integrated_paths()))
+        self.assertEqual(85, len(integrated_paths()))
 
         missing = [path for path in integrated_paths() if not path.is_file()]
         self.assertEqual([], missing)

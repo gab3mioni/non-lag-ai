@@ -5,4 +5,4 @@ tags={
 	"Fixes"
 }
 name="Non Lag AI"
-supported_version="1.17.3.0"
+supported_version="1.19.2.0"

@@ -12,9 +12,11 @@ The repository baseline matches the Sheep's Mod manifest above after line-ending
 normalization, excluding its Workshop metadata (`descriptor.mod`,
 `mod_version_log.txt`, and `thumbnail.png`).
 
-The BetterNavyAI integration imports its 86 functional files, normalizing line
-endings and non-semantic trailing whitespace. Its
-`descriptor.mod` and `Thumbnail.png` are intentionally excluded so this project
-keeps its own identity. `common/defines/bna_defines.lua` is imported as
+The BetterNavyAI integration imports 85 of its functional files, normalizing line
+endings and non-semantic trailing whitespace. Its `descriptor.mod`,
+`Thumbnail.png`, and `common/national_focus/usa.txt` are intentionally excluded
+so this project keeps its own identity and does not override national focus trees.
+The Sheep's Mod national focus trees are excluded for the same compatibility
+reason. `common/defines/bna_defines.lua` is imported as
 `common/defines/zz_bna_defines.lua` so BetterNavyAI overrides are evaluated
 after `common/defines/lsm_defines.lua` in ASCII filename order.

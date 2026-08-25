@@ -16,7 +16,7 @@ class WorkshopToolingTest(unittest.TestCase):
 
         self.assertIn('version="0.1.0"', descriptor)
         self.assertIn('name="Non Lag AI"', descriptor)
-        self.assertIn('supported_version="1.17.3.0"', descriptor)
+        self.assertIn('supported_version="1.19.2.0"', descriptor)
         self.assertIn('"Balance"', descriptor)
         self.assertEqual(f"publishedfileid={WORKSHOP_ID}", item)
         self.assertIn(f'"publishedfileid"\t"{WORKSHOP_ID}"', template)
@@ -71,6 +71,7 @@ class WorkshopToolingTest(unittest.TestCase):
             self.assertTrue((build / "descriptor.mod").is_file())
             self.assertTrue((build / "Thumbnail.png").is_file())
             self.assertTrue((build / "common").is_dir())
+            self.assertFalse((build / "common/national_focus").exists())
             self.assertFalse((build / ".git").exists())
             self.assertFalse((build / "docs").exists())
             self.assertFalse((build / "tests").exists())
