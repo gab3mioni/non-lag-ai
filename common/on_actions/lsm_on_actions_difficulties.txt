@@ -2,10 +2,9 @@ on_actions = {
 	on_startup = {
 		effect = {
 			if = {
-				limit = { 
+				limit = {
 					is_historical_focus_on = yes
 					difficulty > 1
-					difficulty < 3
 					date < 1937.1.1
 					CHI = { is_ai = yes }
 					JAP = { is_ai = yes }
@@ -37,85 +36,38 @@ on_actions = {
 		}
 		effect = {
 			if = {
-				limit = { 
-					difficulty > 3
-					date < 1937.1.1
-				}
-				set_global_flag = random_difficulty
-				if = {
-					limit = { 
-						FRA = { is_ai = yes } 
-					}
-					FRA = { country_event = { id = LSM_startup.81 } }
-				}
-				if = {
-					limit = { 
-						SOV = { is_ai = yes } 
-					}
-					SOV = { country_event = { id = LSM_startup.82 } }
-					SOV = { country_event = { id = LSM_startup.83 } }
-				}
-				if = {
-					limit = { 
-						GER = { is_ai = yes } 
-					}
-					GER = { country_event = { id = LSM_startup.10 } }
-				}
-				if = {
-					limit = { 
-						USA = { is_ai = yes } 
-					}
-					USA = { country_event = { id = LSM_startup.84 } }
-				}
-				if = {
-					limit = { 
-						ITA = { is_ai = yes } 
-					}
-					ITA = { country_event = { id = LSM_startup.85 } }
-				}
-			}
-			if = {
-				limit = { 
+				limit = {
 					difficulty > 2
-					difficulty < 4
 					date < 1937.1.1
 				}
 				set_global_flag = mp_difficulty
 				set_global_flag = mp_selected
-				if = {
-					limit = { 
-						SOV = { is_ai = yes } 
-					}
-					SOV = { country_event = { id = LSM_startup.1 } }
-					SOV = { country_event = { id = LSM_startup.83 } }
-				}
-				if = {
-					limit = { 
-						GER = { is_ai = yes } 
-					}
-					GER = { country_event = { id = LSM_startup.10 } }
-				}
-				if = {
-					limit = { 
-						FRA = { is_ai = yes }  
-						GER = { is_ai = no } 
-					}
-					GER = { country_event = { id = LSM_startup.76 } }
-				}
 			}
 		}
 		effect = {
 			if = {
-				limit = { 
-					difficulty < 3
+				limit = {
 					date < 1937.1.1
+					SOV = { is_ai = yes }
 				}
-				every_country = {
-					limit = {
-						tag = SOV
-						is_ai = yes
-					}
-					SOV = { country_event = { id = LSM_startup.83 } }
+				if = {
+					limit = { difficulty < 1 }
+					SOV = { LSM_apply_sov_very_easy_preset = yes }
+				}
+				else_if = {
+					limit = { difficulty < 2 }
+					SOV = { LSM_apply_sov_easy_preset = yes }
+				}
+				else_if = {
+					limit = { difficulty < 3 }
+					SOV = { LSM_apply_sov_normal_preset = yes }
+				}
+				else_if = {
+					limit = { difficulty < 4 }
+					SOV = { LSM_apply_sov_hard_preset = yes }
+				}
+				else = {
+					SOV = { LSM_apply_sov_very_hard_preset = yes }
 				}
 			}
 		}

@@ -1,0 +1,158 @@
+LSM_apply_sov_very_easy_preset = {
+	set_grand_doctrine = superior_firepower
+	set_country_flag = superior_firepower_low
+	set_country_flag = civ_3
+
+	division_template = {
+		name = "Infantry template 7"
+		division_names_group = SOV_INF_01
+		is_locked = no
+		priority = 1
+
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+		}
+		support = {
+			artillery = { x = 0 y = 0 }
+			anti_air = { x = 0 y = 1 }
+			anti_tank = { x = 0 y = 2 }
+			engineer = { x = 0 y = 3 }
+		}
+	}
+}
+
+LSM_apply_sov_easy_preset = {
+	set_grand_doctrine = superior_firepower
+	set_country_flag = superior_firepower_high
+	set_country_flag = civ_2
+}
+
+LSM_apply_sov_normal_preset = {
+	set_grand_doctrine = mass_assault
+	set_country_flag = mass_assault_standard
+	set_country_flag = civ_1
+
+	division_template = {
+		name = "Infantry template 2"
+		division_names_group = SOV_INF_01
+		is_locked = no
+		priority = 1
+
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			infantry = { x = 3 y = 0 }
+			infantry = { x = 3 y = 1 }
+			anti_air_brigade = { x = 4 y = 0 }
+			anti_tank_brigade = { x = 4 y = 1 }
+		}
+		support = {
+			engineer = { x = 0 y = 0 }
+			artillery = { x = 0 y = 1 }
+		}
+	}
+}
+
+LSM_apply_sov_hard_preset = {
+	set_grand_doctrine = mass_assault
+	set_country_flag = mass_assault_meatwall
+	set_country_flag = mil_1
+
+	division_template = {
+		name = "Infantry template 2"
+		division_names_group = SOV_INF_01
+		is_locked = no
+		priority = 1
+
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 2 y = 0 }
+			anti_tank_brigade = { x = 3 y = 0 }
+		}
+		support = {
+			engineer = { x = 0 y = 0 }
+			artillery = { x = 0 y = 1 }
+			anti_air = { x = 0 y = 2 }
+		}
+	}
+}
+
+LSM_apply_sov_very_hard_preset = {
+	set_grand_doctrine = mass_assault
+	set_country_flag = spacemarine
+	set_country_flag = mil_1
+
+	division_template = {
+		name = "Infantry template 3"
+		division_names_group = SOV_INF_01
+		is_locked = no
+		priority = 1
+
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 0 y = 3 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+		}
+		support = {
+			engineer = { x = 0 y = 0 }
+		}
+	}
+
+	division_template = {
+		name = "Infantry template 4"
+		division_names_group = SOV_INF_01
+		is_locked = no
+		priority = 1
+
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			heavy_tank_destroyer_brigade = { x = 3 y = 0 }
+		}
+		support = {
+			engineer = { x = 0 y = 0 }
+			anti_air = { x = 0 y = 1 }
+			anti_tank = { x = 0 y = 2 }
+			artillery = { x = 0 y = 3 }
+		}
+	}
+
+	division_template = {
+		name = "Infantry template 5"
+		division_names_group = SOV_INF_01
+		is_locked = no
+		priority = 1
+
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			light_tank_destroyer_brigade = { x = 2 y = 0 }
+			light_tank_destroyer_brigade = { x = 3 y = 0 }
+			light_tank_destroyer_brigade = { x = 3 y = 1 }
+			heavy_tank_destroyer_brigade = { x = 4 y = 0 }
+		}
+		support = {
+			engineer = { x = 0 y = 0 }
+			anti_air = { x = 0 y = 1 }
+		}
+	}
+}
