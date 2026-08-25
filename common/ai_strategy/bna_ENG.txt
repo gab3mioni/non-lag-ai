@@ -1,0 +1,1177 @@
+ENG_unit_production = {
+
+	allowed = {	original_tag = ENG }
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 7
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 70
+	}
+
+# Naval unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 20 #원래 20
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = carrier
+		value = 20 #원래 10
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 5
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 100 #원래 55
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 20 #원래 100
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 10
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 45
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 10
+	}
+}
+
+#추가
+ENG_convoy_hungry = {
+	enable = {
+		date > 1940.1.1
+		has_equipment = {
+				convoy < 500
+			}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 80
+	}
+}
+
+ENG_naval_role_ratios_historical = {
+	allowed = {
+		has_dlc = "Man the Guns"
+		original_tag = ENG
+	}
+	enable = { always = yes }
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_bb
+		value = 30 #원래 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_shbb
+		value = 20
+	}
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 20  #aim for a 2-1 ratio on naval factories
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_bc
+		value = 10 #원래 -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier
+		value = 40 #원래 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier_light
+		value = 100 #원래 15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_submarine
+		value = -150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen
+		value = 150 #원래 250
+	}
+
+	#ai_strategy = {
+	#	type = role_ratio
+	#	id = naval_escort
+	#	value = 10
+	#}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_light
+		value = 60
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_heavy
+		value = 30 #원래 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_sweeper
+		value = 1 #원래 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_layer
+		value = 1 #원래 10
+	}
+}
+
+ENG_naval_role_ratios_anti_submarines = {
+	allowed = {
+		has_dlc = "Man the Guns"
+		original_tag = ENG
+	}
+	enable = {
+		anti_submarine_strategy_required_trigger = yes
+	}
+	abort = {
+		not = { anti_submarine_strategy_required_trigger = yes }
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_bb
+		value = 10
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 20  #aim for a 2-1 ratio on naval factories
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_bc
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier
+		value = 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier_light
+		value = -25
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_submarine
+		value = -150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen
+		value = 200 #원래 -70
+	}
+
+	#ai_strategy = {
+	#	type = role_ratio
+	#	id = naval_escort
+	#	value = 50
+	#}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_light
+		value = -25
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_heavy
+		value = -10
+	}
+}
+
+#추가
+ENG_naval_role_ratios_produce_screen = {
+	allowed = {
+		has_dlc = "Man the Guns"
+		original_tag = ENG
+	}
+	enable = {
+		has_navy_size = {
+				unit = destroyer
+				size < 200
+			}
+		has_war = yes
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen
+		value = 300 #원래 -20
+	}
+
+		ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_light
+		value = 80
+	}
+
+	#ai_strategy = {
+	#	type = role_ratio
+	#	id = naval_escort
+	#	value = 0
+	#}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_sweeper
+		value = 0 #원래 15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_layer
+		value = 0 #원래 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 1		 #1 to 2(원래 1)
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 999		 #1 to 2 #원래 100
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = carrier
+		value = 1		 #1 to 2
+	}
+}
+
+ENG_protect_the_channel_from_invasion = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 18
+					size > 1 #원래 14
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 18
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 18
+					size > 6 #원래 23
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 18
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_mission_threshold
+		id = MISSION_PATROL
+		value = -100
+	}
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 18
+		value = 250
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 18 #북대서양 해령
+		value = 100
+	}
+}
+
+#추가
+ENG_protect_the_north_sea_from_invasion = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 18
+					size > 1 #원래 14
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 18
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 18
+					size > 6 #원래 23
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 18
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 16
+		value = 250
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 16 #북해
+		value = 100
+	}
+}
+
+ENG_protect_your_convoy_1 = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 49
+					size > 7
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 49
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 49
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 49
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 49 #북대서양 해령
+		value = 190
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 49 #북대서양 해령
+		value = 85
+	}
+}
+
+ENG_protect_your_convoy_2 = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 47
+					size > 7
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 47
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 47
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 47
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 47 #이베리아 해안
+		value = 190
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 47 #이베리아 해안
+		value = 85
+	}
+}
+
+ENG_protect_your_convoy_3 = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 51
+					size > 7
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 51
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 51
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 51
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 51 #대서양 중부 간극
+		value = 190
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 51 #대서양 중부 간극
+		value = 85
+	}
+}
+
+ENG_protect_your_convoy_4 = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 44
+					size > 7
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 44
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 44
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 44
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 44 #덴마크 해협
+		value = 180
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 44 #덴마크 해협
+		value = 80
+	}
+
+}
+
+ENG_protect_your_convoy_5 = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 56
+					size > 7
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 56
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 56
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 56
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 56 #대서양 중부
+		value = 190
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 56 #대서양 중부
+		value = 85
+	}
+
+}
+
+ENG_protect_your_convoy_6 = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 42
+					size > 7
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 42
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 42
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 42
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 42 #비스케이만
+		value = 190
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 42 #비스케이만
+		value = 85
+	}
+
+}
+
+ENG_protect_your_convoy_7 = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 45
+					size > 7
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 45
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 45
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 45
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 45 #노르웨이해
+		value = 180
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 45 #노르웨이해
+		value = 80
+	}
+
+}
+
+ENG_protect_your_convoy_8 = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 48
+					size > 7
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 48
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 48
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 48
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 48 #아프리카 해안
+		value = 150
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 48 #아프리카 해안
+		value = 70
+	}
+
+}
+
+ENG_find_italian_fleet = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 68
+					size > 10
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 68
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 68
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 68
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 68 #지중해 서부
+		value = 190
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 68 #지중해 서부
+		value = 85
+	}
+
+}
+
+ENG_find_italian_fleet_2 = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 29
+					size > 10
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 29
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 29
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 29
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 29 #지중해 중부
+		value = 190
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 29 #지중해 중부
+		value = 85
+	}
+
+}
+
+ENG_find_italian_fleet_3 = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 69
+					size > 10
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 69
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 69
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 69
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 69 #지중해 동부
+		value = 190
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 69 #지중해 동부
+		value = 85
+	}
+
+}
+
+ENG_find_italian_fleet_4 = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 202
+					size > 10
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 202
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 202
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 202
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 202 #에게해
+		value = 180
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 202 #에게해
+		value = 80
+	}
+
+}
+
+ENG_find_italian_fleet_5 = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 169
+					size > 10
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 169
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 169
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 169
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 169 #티레니아해
+		value = 190
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 169 #티레니아해
+		value = 85
+	}
+
+}
+
+ENG_find_italian_fleet_6 = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 168
+					size > 10
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 168
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 168
+					size > 3
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 168
+					size > 1
+				}
+			}
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 168 #아드리아해
+		value = 180
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 168 #아드리아해
+		value = 80
+	}
+
+}
+
+ENG_the_best_arrangements_are_made = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		date > 1940.1.1
+		has_war_with = GER
+		num_of_military_factories > 150
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = added_military_to_civilian_factory_ratio
+		value = 50 #원래 20
+	}
+}
+
+#추가
+ENG_we_need_more_navy = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_war = yes
+		date > 1940.1.1
+		num_of_naval_factories < 85
+		num_of_military_factories > 150
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 85
+	}
+}

@@ -1,0 +1,957 @@
+jap_building_boats_is_great = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		num_of_civilian_factories_available_for_projects > 15
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 40  #aim for a 2-1 ratio on naval factories
+	}
+
+	#추가
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 45
+	}
+
+}
+
+JAP_naval_role_ratios_historical = {
+	allowed = {
+		has_dlc = "Man the Guns"
+		original_tag = JAP
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		num_of_naval_factories > 50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_bb
+		value =10 #원래 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_shbb
+		value = 10 #원래 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier_light
+		value = 30 #원래 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier
+		value = 15 #원래 15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_submarine
+		value = 50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen
+		value = 110
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_escort
+		value = 40
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_light
+		value = 35
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_heavy
+		value = 10 #원래 -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_sweeper
+		value = 2 #원래 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_layer
+		value = 2 #원래 5
+	}
+	# general building directives
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 10 #원래 5
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = carrier
+		value = 10 #원래 10
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 5
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 50 #원래 45
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 15 #원래 20
+	}
+}
+
+JAP_naval_role_ratios_historical_late = {
+	allowed = {
+		original_tag = JAP
+		has_dlc = "Man the Guns"
+	}
+	enable = {
+		num_of_naval_factories > 50
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_bb
+		value = 10 #원래 -120
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_shbb
+		value = 15 #원래 1
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier_light
+		value = 60 #원래 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier
+		value = 20 #원래 15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_submarine
+		value = 50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen
+		value = 130
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_escort
+		value = 1 #원래 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_heavy
+		value = 15 #원래 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_sweeper
+		value = 1 #원래 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_layer
+		value = 1 #원래 5
+	}
+	# general building directives
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 10 #원래 3
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = carrier
+		value = 20 #원래 4
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 5
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 50 #원래 60
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 20 #원래 20
+	}
+}
+
+#추가
+JAP_dora_dora_dora = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_war_with = USA
+		date < 1942.6.1
+
+		has_navy_size = {
+			size > 100
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 78 # 필리핀해
+	value = 99
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 84 #비스마르크해
+	value = 99
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 75 #남중국해
+	value = 99
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 80 # 셀레베스해
+	value = 99
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 93 # 자와해
+	value = 99
+	}
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 78
+		value = 250
+	}
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 84
+		value = 250
+	}
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 75
+		value = 250
+	}
+
+	ai_strategy = {
+	type = strike_force_home_base
+	id = 80
+	value = 250
+	}
+
+	ai_strategy = {
+	type = strike_force_home_base
+	id = 93
+	value = 250
+	}
+}
+
+#추가
+JAP_strike_west = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_war_with = USA
+		date > 1942.6.1
+
+		has_navy_size = {
+			size > 100
+		}
+
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 97 # 미크로네시아 동부
+		value = 99
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 83 # 솔로몬해
+		value = 99
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 81 # 산호해
+		value = 99
+	}
+
+	ai_strategy = {
+		type = naval_dominance
+		id = 95 # 서엠페러 해저산열
+		value = 99
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 180 #미크로네시아 간극
+	value = 99
+	}
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 97
+		value = 200
+	}
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 83
+		value = 200
+	}
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 81
+		value = 200
+	}
+
+	ai_strategy = {
+	type = strike_force_home_base
+	id = 95
+	value = 200
+	}
+
+	ai_strategy = {
+	type = strike_force_home_base
+	id = 180
+	value = 200
+	}
+
+
+}
+
+#추가
+JAP_defend_emperor = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		#has_war_with = USA
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 90
+					size > 12
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 90
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 90
+					size > 12
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 90
+					size > 1
+				}
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 90 #일본 해안
+		value = 250
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 90
+	value = 100
+	}
+}
+
+#추가
+JAP_defend_emperor_2 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		#has_war_with = USA
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 76
+					size > 12
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 76
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 76
+					size > 12
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 76
+					size > 1
+				}
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 76 #동중국해
+		value = 250
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 76
+	value = 100
+	}
+}
+
+#추가
+JAP_defend_emperor_3 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		#has_war_with = USA
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 79
+					size > 12
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 79
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 79
+					size > 12
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 79
+					size > 1
+				}
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 79 #동해
+		value = 250
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 79
+	value = 100
+	}
+}
+
+#추가
+JAP_defend_emperor_4 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		#has_war_with = USA
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 87
+					size > 12
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 87
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 87
+					size > 12
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 87
+					size > 1
+				}
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 87 #오호츠크해
+		value = 250
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 87
+	value = 100
+	}
+}
+
+#추가
+JAP_defend_emperor_5 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		#has_war_with = USA
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 177
+					size > 12
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 177
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 177
+					size > 12
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 177
+					size > 1
+				}
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 177 #북태평양 서부
+		value = 250
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 177
+	value = 100
+	}
+}
+
+#추가
+JAP_attack_usa_fleet = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_war_with = USA
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 78
+					size > 24
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 78
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 78
+					size > 24
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 78
+					size > 1
+				}
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 78 #필리핀해
+		value = 200
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 78
+	value = 99
+	}
+}
+
+#추가
+JAP_attack_usa_fleet_2 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_war_with = USA
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 84
+					size > 24
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 84
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 84
+					size > 24
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 84
+					size > 1
+				}
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 84 #비스마르크해
+		value = 200
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 84
+	value = 99
+	}
+}
+
+#추가
+JAP_attack_usa_fleet_3 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_war_with = USA
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 80
+					size > 24
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 80
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 80
+					size > 24
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 80
+					size > 1
+				}
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 80 #셀레베스해
+		value = 200
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 80
+	value = 99
+	}
+}
+
+#추가
+JAP_attack_usa_fleet_4 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_war_with = USA
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 75
+					size > 24
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 75
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 75
+					size > 24
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 75
+					size > 1
+				}
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 75 #남중국해
+		value = 200
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 75
+	value = 99
+	}
+}
+
+
+#추가
+JAP_attack_usa_fleet_5 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_war_with = USA
+
+		any_enemy_country = {
+			OR = {
+				ships_in_area = {
+					type = screen_ship
+					area = 75
+					size > 24
+				}
+
+				ships_in_area = {
+					type = capital_ship
+					area = 75
+					size > 1
+				}
+
+				ships_in_area = {
+					type = submarine
+					area = 75
+					size > 24
+				}
+
+				ships_in_area = {
+					type = carrier
+					area = 75
+					size > 1
+				}
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 94 #마리아나 해역
+		value = 200
+	}
+
+	ai_strategy = {
+	type = naval_dominance
+	id = 94
+	value = 99
+	}
+}
+
+#추가
+JAP_build_civ = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		num_of_civilian_factories < 45
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 45
+	}
+}
+
+#추가
+JAP_build_mil = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		num_of_civilian_factories > 45
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 40
+	}
+}
+
+#추가
+JAP_build_ultimate_navy = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_war_with = USA
+		num_of_naval_factories < 65
+		num_of_military_factories > 80
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 65
+	}
+}

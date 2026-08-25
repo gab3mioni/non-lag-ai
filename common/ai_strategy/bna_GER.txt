@@ -1,0 +1,664 @@
+GER_unit_production = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 15 #4
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 1
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 1 #because doctrine this = 1 #원래1
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = anti_armor
+		value = 1
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mechanized
+		value = 1 #because doctrine this = 0 #원래 -3
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 10 #because doctrine this = 13 원래 -7
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 75 #88 to 70
+	}
+
+	# Naval unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 1 #원래 15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 2 #원래 20
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 20
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 50
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = naval_bomber
+		value = -50
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = anti_tank
+		value = 20
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = anti_air
+		value = 25
+	}
+
+	#추가
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 2 #원래 -10
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 100 #20 to 40
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories_archetype #Build these up over time, don't stall
+		id = anti_air_equipment
+		value = 2
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories_archetype
+		id = artillery_equipment
+		value = 4
+	}
+
+	ai_strategy = { #Germany struggles with manual management of this in an endless loop
+		type = equipment_production_min_factories_archetype
+		id = motorized_equipment
+		value = 1
+	}
+
+	ai_strategy = { #added to railway gun define (set to 0 by default, increased in default strategies)
+		type = railway_gun_divisions_ratio
+		value = 1
+	}
+}
+
+#Germany loves subs!
+GER_submarine_ratio = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		OR = {
+			has_completed_focus = GER_trade_interdiction
+			AND = {
+				is_historical_focus_on = yes
+				date > 1940.1.1
+				OR = {
+					has_war_with = ENG
+					has_war_with = USA
+				}
+			}
+		}
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 50 #because doctrine this = 60 원래 -10
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = submarine
+		value = 5
+	}
+}
+
+#Germany love subs so much they need even moar!
+GER_increase_submarine_ratio = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		OR = {
+			AND = {
+				NOT = {
+					has_completed_focus = GER_plan_z
+				}
+				has_completed_focus = GER_trade_interdiction
+			}
+			AND = {
+				is_historical_focus_on = yes
+				date > 1940.1.1
+				OR = {
+					has_war_with = ENG
+					has_war_with = USA
+				}
+			}
+		}
+	}
+	abort = {
+		has_completed_focus = GER_plan_z
+		num_of_naval_factories < 30
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 100  #원래 25
+	}
+
+		ai_strategy = {
+		type = equipment_production_min_factories
+		id = submarine
+		value = 20
+	}
+}
+
+GER_increase_submarine_ratio_2 = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		OR = {
+			AND = {
+				NOT = {
+					has_completed_focus = GER_plan_z
+				}
+				has_completed_focus = GER_trade_interdiction
+			}
+			AND = {
+				is_historical_focus_on = yes
+				date > 1940.6.1
+				OR = {
+					has_war_with = ENG
+					has_war_with = USA
+				}
+			}
+			AND = {
+				num_of_naval_factories > 30
+			}
+		}
+	}
+	abort = {
+		has_completed_focus = GER_plan_z
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 200  #원래 25
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = submarine
+		value = 30
+	}
+}
+
+GER_armored_production = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		date > 1938.3.1
+		ai_wants_divisions > 10 #Decreasing the amount of tanks the AI wants
+	}
+	abort = {
+		OR = {
+			ai_wants_divisions < 10 #Decreasing the amount of tanks the AI wants
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 10 #원래 2
+	}
+}
+
+GER_halt_light_armor_production_in_transitioning = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		has_template_majority_unit = medium_armor
+		OR = {
+			has_equipment = { light_tank_chassis > 600 }
+			date > 1938.1.1
+		}
+	}
+	abort = {
+		always = no  # once we start we never go back to light armor
+	}
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = light_tank_chassis
+		value = -10 #원래 -100
+	}
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = light_tank_flame_chassis
+		value = 50
+	}
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = medium_tank_chassis
+		value = 50
+	}
+}
+
+GER_highered_armored_production = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		num_of_military_factories > 59
+	}
+	abort = {
+		num_of_military_factories < 60
+	}
+
+	ai_strategy = { #Germany struggles with manual management of this in an endless loop
+		type = equipment_production_min_factories_archetype
+		id = motorized_equipment
+		value = 1
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 15 #원래 2
+	}
+}
+
+GER_naval_role_ratios_historical = {
+	allowed = {
+		original_tag = GER
+		has_dlc = "Man the Guns"
+	}
+	enable = {
+		GER_naval_interest_trigger = no
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_bb
+		value = 5 #원래 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier
+		value = 10 #원래 -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_submarine
+		value = 200
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = submarine
+		value = 200
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen
+		value = 100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_light
+		value = 50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_heavy
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_sweeper
+		value = 1 #원래 15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_layer
+		value = 1 #원래 15
+	}
+}
+
+GER_naval_role_ratios_ahistorical = {
+	allowed = {
+		original_tag = GER
+		has_dlc = "Man the Guns"
+	}
+	enable = {
+		GER_naval_interest_trigger = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_bb
+		value = 25 #원래 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_bc
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier
+		value = 50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_submarine
+		value = 150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen
+		value = 120
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_light
+		value = 35
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_heavy
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_sweeper
+		value = 1 #원래 15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_layer
+		value = 1 #원래 10
+	}
+}
+
+GER_naval_role_ratios_maximum_kaiser = {
+	allowed = {
+		original_tag = GER
+		has_dlc = "Man the Guns"
+	}
+	enable = {
+		OR = {
+			has_completed_focus = GER_rebuild_the_high_seas_fleet_ww
+			has_completed_focus = GER_rebuild_the_high_seas_fleet
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_bb
+		value = 30 #원래 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital_bc
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier
+		value = 25
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_submarine
+		value = 40 #원래 50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen
+		value = 120
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_light
+		value = 75
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_heavy
+		value = 30 #원래 50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_sweeper
+		value = 1 #원래 15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_layer
+		value = 1 #원래 15
+	}
+}
+
+#추가
+GER_wants_civ = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		has_government = fascism
+		date < 1938.6.15 #1937.9.15
+		has_war = no
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 75
+	}
+}
+
+#추가
+GER_wants_mil = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		has_government = fascism
+		date > 1939.12.15 #1937.9.15
+		has_war = yes
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 200
+	}
+}
+
+#추가
+GER_wants_synth_2 = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		has_government = fascism
+		date > 1943.6.1
+		synthetic_refinery < 14
+		has_war = yes
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = synthetic_refinery
+		value = 14
+	}
+}
+
+#추가
+GER_build_ultimate_navy = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		date > 1943.6.1
+		NOT = {
+			has_war_with = SOV
+		}
+		has_war_with = USA
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 100
+	}
+
+	# Naval unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 25
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = carrier
+		value = 20		 #1 to 2
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 0 #because doctrine this = 100
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 70
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 20
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = submarine
+		value = 10
+	}
+
+}
